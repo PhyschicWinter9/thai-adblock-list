@@ -17,10 +17,7 @@ To utilize the Thai Adblock List, you can follow these steps:
 
 2. Enable the adblocker extension on your web browser.
 3. Visit the settings or options of your adblocker extension and locate the section for adding custom adblock lists.
-4. Add the following URL as a custom adblock list:
-
-[URL of the Thai Adblock List]
-
+4. Add the following URL as a custom adblock list: [Thai Adblock List RAW](https://raw.githubusercontent.com/PhyschicWinter9/thai-adblock-list/main/thai-adblock-list.txt)
 5. Save the settings and reload the pages you visit to start enjoying an ad-free browsing experience
 
 ## Websites
