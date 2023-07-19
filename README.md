@@ -26,11 +26,11 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 
 | Website       | Support   | Last Update   |
 |:-----------:|:-----------:|:-----------:|
-| 037hdmovie  | &#10004;  | [17-07-2023] |
+| 037hdmovie  | &#10004;  | [19-07-2023] |
 | 123-hd      | &#10004;  | [17-07-2023] |
 | movie44     | &#10004;  | [17-07-2023] |
-| doomovie-hd ❌| &#10004;  | [17-07-2023] |
-| niceoppai   | &#10004;  | [17-07-2023] |
+| doomovie-hd | &#10004;  | [17-07-2023] |
+| niceoppai   | &#10004;  | [19-07-2023] |
 | anime-sugoi | &#10004;  | [17-07-2023] |
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
