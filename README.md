@@ -1,4 +1,4 @@
-# Thai Adblock List
+# Thai Adblock Lists
 
 ## Introduction
 This repository is designed for Thai people who surf the Internet and aims to provide an adblock list to enhance their browsing experience. The list is open for contributions from anyone who wants to contribute and improve it.
