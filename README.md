@@ -26,17 +26,26 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 
 | Website       | Support   | Last Update   |
 |:-----------:|:-----------:|:-----------:|
-| 037hdmovie  | &#10004;  | [19-07-2023] |
+| 037hdmovie  | &#10004;  | [22-07-2023] |
 | 123-hd      | &#10004;  | [17-07-2023] |
-| movie44     | &#10004;  | [17-07-2023] |
-| doomovie-hd | &#10004;  | [17-07-2023] |
-| niceoppai   | &#10004;  | [19-07-2023] |
+| movie44     | &#10004;  | [22-07-2023] |
+| doomovie-hd* | &#10004;  | [17-07-2023] |
+| niceoppai   | &#10004;  | [22-07-2023] |
 | anime-sugoi | &#10004;  | [17-07-2023] |
+| 24-hd       | &#10004;  | [22-07-2023] |
+| ดูหนัง.tv     | &#10004;  | [17-07-2023] |
+| oremanga    | &#10004;  | [22-07-2023] |
+| zerogameth  | &#10004;  | [22-07-2023] |
+| loadgame-pc | &#10004;  | [22-07-2023] |
+| mawtoload | &#10004;  | [22-07-2023] |
+| esgameservers | &#10004;  | [22-07-2023] |
+| i-moviehd | &#10004;  | [22-07-2023] |
+| movie2uhd | &#10004;  | [22-07-2023] |
+
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
 
-
-
+Remove `doomovie-hd` from the list because it is no longer available.
 
 ## Contributing
 Contributions to the Thai Adblock List are highly encouraged and appreciated. To contribute, follow these steps:
@@ -59,3 +68,11 @@ The Thai Adblock List is released under the [MIT License](https://opensource.org
 
 ## Disclaimer
 The Thai Adblock List is a community-driven effort, and while the goal is to provide an effective adblock list, there is no guarantee that all ads or unwanted content will be blocked. The effectiveness of the list may vary over time as websites evolve their ad serving methods. Users are encouraged to supplement the adblock list with their own custom rules as needed.
+
+Please note that the Thai Adblock List is not affiliated with or endorsed by the websites mentioned, such as 037hdmove and 123hd.com. It is an independent project created by individuals to improve the browsing experience for Thai users.
+
+**Disclaimer: The Thai Adblock List does not support or condone the use of pirate sites or any illegal activities. The list is intended to block ads and unwanted content on legitimate websites only. Users are responsible for using the list in compliance with applicable laws and regulations.**
+
+
+
+[![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2FPhyschicWinter9%2Fthai-adblock-list&labelColor=%232ccce4&countColor=%23263759&labelStyle=upper)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FPhyschicWinter9%2Fthai-adblock-list)
