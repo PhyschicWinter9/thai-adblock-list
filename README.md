@@ -33,7 +33,7 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |  037hdmovie   | &#10004; | [28-07-2023] |
 |    123-hd     | &#10004; | [17-07-2023] |
 |    movie44    | &#10004; | [28-07-2023] |
-| doomovie-hd\* | &#10004; | [17-07-2023] |
+| doomovie-hd\* | ❌ | [17-07-2023] |
 |   niceoppai   | &#10004; | [28-07-2023] |
 |  anime-sugoi  | &#10004; | [17-07-2023] |
 |     24-hd     | &#10004; | [28-07-2023] |
@@ -48,7 +48,7 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
 
-Remove `doomovie-hd` from the list because it is no longer available.
+Remove `doomovie-hd` from the list because it is using a [uBlock Origin](https://ublockorigin.com/) anti-adblock bypass script.
 
 ## Contributing
 
