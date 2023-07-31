@@ -1,7 +1,7 @@
 [Adblock Plus 3.18]
-! Version: 1.2-28072023
+! Version: 1.2-31072023
 ! Title: THAIADBLOCK LISTS
-! Last modified: 28-07-2023
+! Last modified: 31-07-2023
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
@@ -458,3 +458,18 @@ data:image/gif;base64,R0lGODlheAB8Aff/ACuXKP/3AOrQ0Pt2QwFVBKqQaKRtVtu5ryqWFAG1Lv
 ||movie2uhd.com/wp-content/uploads/2023/07/london-200x290-1.gif
 ||movie2uhd.com/wp-content/uploads/2023/07/lotto77-200x290-1.gif
 ||movie2uhd.com/wp-content/uploads/2023/07/ufanance-200x290-1.gif
+||mawtoload.com/wp-content/uploads/2022/03/betflikuk.webp
+||mawtoload.com/wp-content/uploads/2022/03/BETFLIKUSA.webp
+||mawtoload.com/wp-content/uploads/2022/03/BETFLIKINW.webp
+||mawtoload.com/wp-content/uploads/2022/03/GAME168CLUB-728x200-1.webp
+||mawtoload.com/wp-content/uploads/2022/10/BETFLIK.webp
+||mawtoload.com/wp-content/uploads/2022/04/betflikslots-728x200-1.webp
+||mawtoload.com/wp-content/uploads/2022/04/betflixinw.com_.webp
+||mawtoload.com/wp-content/uploads/2022/08/SLOTUSA.webp
+||037hdmovie.com/wp-content/uploads/2023/07/ufathai24-270x540-1.gif
+||037hdmovie.com/wp-content/uploads/2023/07/uafeazy9998.gif
+||movie44.com/wp-content/uploads/2023/07/bannerGIF_ver2_casino_pgslotfish_300x300.gif
+||niceoppai.net/wp-content/uploads/2022/12/0700d17151df4a80f1844519cab7d8d6dfb0c11.gif
+||anime-sugoi.com/pic/dafabetaff.gif?v=2
+||anime-sugoi.com/pic/dafabet.gif?v=2
+||movie2uhd.com/wp-content/uploads/2023/07/%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87gg.gif

@@ -30,12 +30,12 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 
 |    Website    | Support  | Last Update  |
 | :-----------: | :------: | :----------: |
-|  037hdmovie   | &#10004; | [28-07-2023] |
+|  037hdmovie   | &#10004; | [31-07-2023] |
 |    123-hd     | &#10004; | [17-07-2023] |
-|    movie44    | &#10004; | [28-07-2023] |
+|    movie44    | &#10004; | [31-07-2023] |
 | doomovie-hd\* | ❌ | [17-07-2023] |
-|   niceoppai   | &#10004; | [28-07-2023] |
-|  anime-sugoi  | &#10004; | [17-07-2023] |
+|   niceoppai   | &#10004; | [31-07-2023] |
+|  anime-sugoi  | &#10004; | [31-07-2023] |
 |     24-hd     | &#10004; | [28-07-2023] |
 |   ดูหนัง.tv   | &#10004; | [17-07-2023] |
 |   oremanga    | &#10004; | [22-07-2023] |
@@ -44,7 +44,7 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |   mawtoload   | &#10004; | [28-07-2023] |
 | esgameservers | &#10004; | [28-07-2023] |
 |   i-moviehd   | &#10004; | [22-07-2023] |
-|   movie2uhd   | &#10004; | [28-07-2023] |
+|   movie2uhd   | &#10004; | [31-07-2023] |
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
 
