@@ -1,7 +1,7 @@
 [Adblock Plus 3.18]
-! Version: 1.2-31072023
+! Version: 1.3-08052023
 ! Title: THAIADBLOCK LISTS
-! Last modified: 31-07-2023
+! Last modified: 05-08-2023
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
@@ -473,3 +473,5 @@ data:image/gif;base64,R0lGODlheAB8Aff/ACuXKP/3AOrQ0Pt2QwFVBKqQaKRtVtu5ryqWFAG1Lv
 ||anime-sugoi.com/pic/dafabetaff.gif?v=2
 ||anime-sugoi.com/pic/dafabet.gif?v=2
 ||movie2uhd.com/wp-content/uploads/2023/07/%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87gg.gif
+||037hdmovie.com/wp-content/uploads/2023/08/sexybccarat-new.gif
+||037hdmovie.com/wp-content/uploads/2023/08/Ekings-03-08-66.gif
