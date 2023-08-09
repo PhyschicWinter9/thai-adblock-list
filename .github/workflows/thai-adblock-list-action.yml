@@ -13,6 +13,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          git_committer_name: ${{ secrets.NAME }}
+          git_committer_email: ${{ secrets.EMAIL }}
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
@@ -24,16 +34,6 @@ jobs:
       - name: Set timezone to Bangkok
         run: |
           sudo timedatectl set-timezone Asia/Bangkok
-
-      - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@v5
-        with:
-          git_committer_name: ${{ secrets.NAME }}
-          git_committer_email: ${{ secrets.EMAIL }}
-          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
-          passphrase: ${{ secrets.PASSPHRASE }}
-          git_user_signingkey: true
-          git_commit_gpgsign: true
 
       - name: Export GPG key
         run: |
