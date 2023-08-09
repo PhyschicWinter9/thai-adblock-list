@@ -1,0 +1,25 @@
+{
+  "name": "thai-adblock-list",
+  "version": "1.3.0",
+  "description": "Enhancing the browsing experience for Thai internet users by blocking advertisements and unwanted content on various websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhyschicWinter9/thai-adblock-list.git"
+  },
+  "keywords": [
+    "easylist-thai-ads"
+  ],
+  "author": "PhyschicWinter9",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhyschicWinter9/thai-adblock-list/issues"
+  },
+  "homepage": "https://github.com/PhyschicWinter9/thai-adblock-list#readme",
+  "dependencies": {
+    "date-and-time": "^3.0.2"
+  }
+}
