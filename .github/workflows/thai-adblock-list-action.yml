@@ -38,6 +38,9 @@ jobs:
       - name: List GPG Keys (Debug)
         run: gpg --list-keys
 
+      - name: Print Secret Key (Masked)
+        run: echo ${{ secrets.GPG_PRIVATE_KEY }}
+
       - name: Run update script
         run: node index.js
 
