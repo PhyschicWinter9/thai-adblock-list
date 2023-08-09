@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "adblock-filters-list/adblock-filters-list.txt"
+  workflow_dispatch: # This event allows manual triggering (optional)
 
 jobs:
   update-list:
