@@ -35,6 +35,9 @@ jobs:
           git_user_signingkey: true
           git_commit_gpgsign: true
 
+      - name: List GPG Keys (Debug)
+        run: gpg --list-keys
+
       - name: Run update script
         run: node index.js
 
