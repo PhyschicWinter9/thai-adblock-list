@@ -1,7 +1,7 @@
 [Adblock Plus 3.18] 
-! Version: 1.3-09082023
+! Version: 1.3-10082023
 ! Title: THAIADBLOCK LISTS
-! Last modified: 09-08-2023
+! Last modified: 10-08-2023
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
@@ -13,9 +13,6 @@
 ! Please report unblocked adservers or other issues here: https://github.com/PhyschicWinter9/thai-adblock-list/issues
 !
 !
-||upfastfile.com
-||1991482557.rsc.cdn77.org
-||cdend.com/
 ||037hdmovie.com/wp-content/uploads/2023/05/KING89.gif
 ||037hdmovie.com/wp-content/uploads/2023/03/728x180-FreeBet500_SLOTS.gif
 ||037hdmovie.com/wp-content/uploads/2023/05/123BOSS.gif
@@ -538,6 +535,9 @@ data:image/gif;base64,R0lGODlheAB8Aff/ACuXKP/3AOrQ0Pt2QwFVBKqQaKRtVtu5ryqWFAG1Lv
 ||nung2hdd.com/wp-content/uploads/2023/06/kdhunjlo728x180.gif
 ||nung2hdd.com/wp-content/uploads/2022/05/9nunghd.gif
 ||nung2hdd.com/wp-content/uploads/2022/05/dooseries4k.gif
+||cdend.com/
+||1991482557.rsc.cdn77.org
+||upfastfile.com
 ||dooseries4k.com/wp-content/uploads/2023/06/ufathai-270x540-1.gif
 ||dooseries4k.com/wp-content/uploads/2023/07/728x180-hydra.gif
 ||dooseries4k.com/wp-content/uploads/2023/07/728x180-kingdom.gif
@@ -550,3 +550,97 @@ data:image/gif;base64,R0lGODlheAB8Aff/ACuXKP/3AOrQ0Pt2QwFVBKqQaKRtVtu5ryqWFAG1Lv
 ||dooseries4k.com/wp-content/uploads/2023/07/sa1688.gif
 ||dooseries4k.com/wp-content/uploads/2023/07/sx1688.gif
 ||dooseries4k.com/wp-content/uploads/2023/04/FAFA178-728x180-1.gif
+||moviehdfree.net/wp-content/uploads/2023/08/fatufa.webp?x74946
+||moviehdfree.net/wp-content/uploads/2023/08/188bettopnew.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/05/came188.webp?x74946
+||moviehdfree.net/wp-content/uploads/2023/06/kingtop.webp?x74946
+||moviehdfree.net/wp-content/uploads/2023/05/lion123news.webp?x74946
+||moviehdfree.net/wp-content/uploads/2021/07/S__16867377.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/1-728x200-brazill.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/2-728x200-nance.gif?x74946
+||moviehdfree.net/wp-content/uploads/2021/07/S__16867378.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/3-728x200-2-lockdown.gif?x74946
+||moviehdfree.net/wp-content/uploads/2021/11/7.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/4-728x200-hydra.gif?x74946
+||moviehdfree.net/wp-content/uploads/2021/11/6.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/5-728x200-kingdom.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/06/slotnexobettop.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/05/Ufaeazy2023.webp?x74946
+||moviehdfree.net/wp-content/uploads/2023/04/bignew.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/ufazeed2.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/77lottos.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/16882sagame.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/10-sexy66-728x200-1.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/9-728x200-panama.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/7-728x200-sx1688.gif?x74946
+||moviehdfree.net/wp-content/uploads/2021/08/D12.jpg.webp
+||moviehdfree.net/wp-content/uploads/2022/01/vbl.gif?x74946
+||moviehdfree.net/wp-content/uploads/2022/01/vbr.gif?x74946
+||moviehdfree.net/wp-content/uploads/2022/01/11.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/03/L.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/07/sbottopv100.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/03/vjbetnew.gif?x74946
+||moviehdfree.net/wp-content/uploads/2022/01/10.gif?x74946
+||movie2uhd.com/wp-content/uploads/2023/06/Camel-1.gif
+||movie2uhd.com/wp-content/uploads/2023/06/Lion123-3.gif
+||movie2uhd.com/wp-content/uploads/2023/06/Cobra88-1.gif
+||movie2uhd.com/wp-content/uploads/2023/06/lion123.webp
+||movie2uhd.com/wp-content/uploads/2023/06/camel-2.gif
+||anime-masters.com/upload/120x380-kingdom.gif?v=44
+||anime-masters.com/upload/728x200-juad.gif?v=44
+||anime-masters.com/upload/728x200-zeed.gif?v=44
+||anime-masters.com/upload/728x200-newfat.gif?v=44
+||anime-masters.com/upload/728x200-hydra.gif?v=44
+||anime-masters.com/upload/728x200-ss66.gif?v=44
+||anime-masters.com/upload/728x200-vip168.gif?v=44
+||anime-masters.com/upload/728x200-brazill.gif?v=44
+||anime-masters.com/upload/728x200-lockdown.gif?v=44
+||anime-masters.com/upload/sagame350v3.gif?v=44
+||anime-masters.com/upload/luckysagaming.gif?v=44
+||anime-masters.com/upload/ufa350v3.gif?v=44
+||anime-masters.com/upload/928hdv2.gif?v=44
+||anime-masters.com/upload/ssgame350v3.gif?v=44
+||anime-masters.com/upload/r9bettingv5.gif?v=44
+||anime-masters.com/upload/meyou147.gif?v=44
+||anime-masters.com/upload/pgslot99.gif?v=44
+||anime-masters.com/upload/ufa77kingv2.gif?v=44
+||anime-masters.com/upload/betflixcasinov3.gif?v=44
+||anime-masters.com/upload/ekingsv4.gif?v=44
+||anime-masters.com/upload/betflixslotv3.gif?v=44
+||anime-masters.com/upload/spinix188v3.gif?v=44
+||anime-masters.com/upload/betflix2kv3.gif?v=44
+||anime-masters.com/upload/ufamax24v3.gif?v=44
+||anime-masters.com/upload/empire777thv3.gif?v=44
+||anime-masters.com/upload/teeouan.gif?v=44
+||anime-masters.com/upload/1688ufabetv3.gif?v=44
+||anime-masters.com/upload/ufabet191v2.gif?v=44
+||anime-masters.com/upload/sbfplay728x90v7.gif?v=44
+||anime-masters.com/upload/huc99728x90v3.gif?v=44
+||anime-masters.com/upload/bcr99th.gif?v=44
+||anime-masters.com/upload/99tded.gif?v=44
+||anime-masters.com/upload/pok10.gif?v=44
+||anime-masters.com/upload/qq288-728v4.gif?v=44
+||anime-masters.com/upload/slot1234v2.gif?v=44
+||anime-masters.com/upload/megabetv2.gif?v=44
+||anime-masters.com/upload/168galaxyv2.gif?v=44
+||anime-masters.com/upload/ufaclub.gif?v=44
+||anime-masters.com/upload/168kingdomv2.gif?v=44
+||anime-masters.com/upload/doujinh.gif?v=44
+||anime-masters.com/upload/slotxoth728x90.gif?v=44
+||anime-masters.com/upload/okdoujinv2.gif?v=44
+||anime-masters.com/upload/aoxx69v3.gif?v=44
+||anime-masters.com/upload/mangasuper.gif?v=44
+||anime-masters.com/upload/728x200-new191.gif?v=44
+||anime-masters.com/upload/728x200-uc4.gif?v=44
+||anime-masters.com/upload/lotto432v2foot.gif?v=44
+||anime-masters.com/upload/ufanancev2foot.gif?v=44
+||anime-masters.com/upload/120x380-panama.gif?v=44
+||anime-masters.com/upload/slotnexobetv2.gif?v=44
+||anime-masters.com/upload/lucky135.gif?v=44
+||anime-masters.com/upload/ufaeazyv6.gif?v=44
+||anime-masters.com/upload/kapook888v3.gif?v=44
+||anime-masters.com/upload/newvegas168.gif?v=44
+||anime-masters.com/upload/728x200-sa1688.gif?v=44
+||anime-masters.com/upload/728x200-sx1688.gif?v=44
+||anime-masters.com/upload/fun88x3.gif?v=44
+||anime-masters.com/upload/jbothailandv3.gif?v=44
