@@ -20,13 +20,21 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Set timezone to Bangkok
+        run: |
+          sudo timedatectl set-timezone Asia/Bangkok
+
       - name: Run update script
         run: node index.js
 
-      - name: Commit and push changes
+      - name: Configure Git
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          git config --global commit.gpgsign true
+
+      - name: Commit and push changes
+        run: |
           git add thai-adblock-list.txt domain.txt
-          git commit -m "Update $(date +'%d-%m-%Y')"
+          git commit -S -m "Update $(date +'%d-%m-%Y')"
           git push
