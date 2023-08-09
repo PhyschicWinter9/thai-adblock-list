@@ -1,0 +1,35 @@
+[Domain List]
+! Created: We-42-yyyy
+! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
+!
+! This list contains the unique domains from the EasyList rules.
+!
+!
+cdend.com
+037hdmovie.com
+googles.video
+1991482557.rsc.cdn77.org
+upfastfile.com
+123-hd.com
+movie44.com
+i0.wp.com
+niceoppai.net
+1.bp.blogspot.com
+image5.niceoppai.net
+i.imgur.com
+anime-sugoi.com
+blogger.googleusercontent.com
+24-hd.com
+xn--72czp5e5a8b.tv
+oremanga.net
+anime-masters.com
+lh3.googleusercontent.com
+plawarn-manga.net
+xn--42c8bzak3b1ab.cc
+mawtoload.com
+esgameservers.com
+i-moviehd.com
+movie2uhd.com
+seriesday.com
+nung2hdd.com
+dooseries4k.com
