@@ -49,6 +49,7 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |   nung2hdd    | &#10004; | [09-08-2023] |
 |  dooseries4k  | &#10004; | [09-08-2023] |
 |  moviehdfree  | &#10004; | [09-08-2023] |
+|  anime-masters  | &#10004; | [09-08-2023] |
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
 
