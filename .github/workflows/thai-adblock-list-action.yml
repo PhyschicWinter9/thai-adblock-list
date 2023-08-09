@@ -28,8 +28,8 @@ jobs:
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v5
         with:
-          git_committer_name: ${{ secrets.NAME || github.actor }}
-          git_committer_email: ${{ secrets.EMAIL || github.actor }}@users.noreply.github.com
+          git_committer_name: ${{ secrets.NAME}}
+          git_committer_email: ${{ secrets.EMAIL }}
           git_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           git_user_signingkey: true
