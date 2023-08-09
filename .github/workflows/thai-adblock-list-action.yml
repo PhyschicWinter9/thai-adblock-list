@@ -28,9 +28,12 @@ jobs:
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v5
         with:
+          git_committer_name: ${{ secrets.NAME }}
+          git_committer_email: ${{ secrets.EMAIL }}
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
-          fingerprint: "641E87BC88A86307672FA6324A3F806D1BDA70C4"
+          git_user_signingkey: true
+          git_commit_gpgsign: true
 
       - name: Run update script
         run: node index.js
