@@ -35,13 +35,6 @@ jobs:
         run: |
           sudo timedatectl set-timezone Asia/Bangkok
 
-      - name: Export GPG key
-        run: |
-          echo ${{ secrets.NAME }}
-          echo ${{ secrets.EMAIL }}
-          echo ${{ secrets.GPG_PRIVATE_KEY }}
-          echo ${{ secrets.PASSPHRASE }}
-
       - name: Run update script
         run: node index.js
 
