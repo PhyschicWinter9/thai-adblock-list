@@ -1,0 +1,49 @@
+name: Update Checksums
+
+on:
+  workflow_run:
+    workflows: ["Thai Adblock List Action (Update)"]
+    types:
+      - completed
+
+jobs:
+  update-checksums:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18.16.1
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Calculate checksums
+        id: checksums
+        run: |
+          sha1sum thai-adblock-list.txt > sha1.txt
+          md5sum thai-adblock-list.txt > md5.txt
+          sha1sum domain.txt >> sha1.txt
+          md5sum domain.txt >> md5.txt
+          echo "::set-output name=sha1::$(cat sha1.txt)"
+          echo "::set-output name=md5::$(cat md5.txt)"
+
+      - name: Update README
+        run: |
+          sed -i -E "s/SHA-1: .+/SHA-1: ${{ steps.checksums.outputs.sha1 }}/g" README.md
+          sed -i -E "s/MD5: .+/MD5: ${{ steps.checksums.outputs.md5 }}/g" README.md
+          git add README.md
+          git commit -m "Update SHA-1 and MD5 checksums" --author="GitHub Actions <actions@github.com>"
+          git push
