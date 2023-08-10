@@ -29,15 +29,15 @@ jobs:
           md5sum thai-adblock-list.txt > md5_actual.txt
           sha1sum domain.txt >> sha1_actual.txt
           md5sum domain.txt >> md5_actual.txt
-          echo "::set-output name=sha1_actual::$(cat sha1_actual.txt)"
-          echo "::set-output name=md5_actual::$(cat md5_actual.txt)"
+          echo "name=sha1_actual::$(cat sha1_actual.txt)" >> $GITHUB_OUTPUT
+          echo "name=md5_actual::$(cat md5_actual.txt)" >> $GITHUB_OUTPUT
 
       - name: Get expected checksums
         run: |
           grep "SHA-1: " README.md | cut -d' ' -f2 > sha1_expected.txt
           grep "MD5: " README.md | cut -d' ' -f2 > md5_expected.txt
-          echo "::set-output name=sha1_expected::$(cat sha1_expected.txt)"
-          echo "::set-output name=md5_expected::$(cat md5_expected.txt)"
+          echo "name=sha1_expected::$(cat sha1_expected.txt)" >> $GITHUB_OUTPUT
+          echo "name=md5_expected::$(cat md5_expected.txt)" >> $GITHUB_OUTPUT
 
       - name: Verify checksums
         run: |
