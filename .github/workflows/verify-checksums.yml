@@ -1,0 +1,45 @@
+name: Verify Checksums
+
+on:
+  workflow_run:
+    workflows: ["Update Checksums"]
+    types:
+      - completed
+
+jobs:
+  verify-checksums:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18.16.1
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Calculate checksums
+        id: checksums
+        run: |
+          sha1sum thai-adblock-list.txt > sha1_actual.txt
+          md5sum thai-adblock-list.txt > md5_actual.txt
+          sha1sum domain.txt >> sha1_actual.txt
+          md5sum domain.txt >> md5_actual.txt
+          echo "::set-output name=sha1_actual::$(cat sha1_actual.txt)"
+          echo "::set-output name=md5_actual::$(cat md5_actual.txt)"
+
+      - name: Get expected checksums
+        run: |
+          grep "SHA-1: " README.md | cut -d' ' -f2 > sha1_expected.txt
+          grep "MD5: " README.md | cut -d' ' -f2 > md5_expected.txt
+          echo "::set-output name=sha1_expected::$(cat sha1_expected.txt)"
+          echo "::set-output name=md5_expected::$(cat md5_expected.txt)"
+
+      - name: Verify checksums
+        run: |
+          diff -q sha1_actual.txt sha1_expected.txt && echo "SHA-1 OK" || echo "SHA-1 MISMATCH"
+          diff -q md5_actual.txt md5_expected.txt && echo "MD5 OK" || echo "MD5 MISMATCH"
