@@ -24,6 +24,19 @@ To utilize the Thai Adblock List, you can follow these steps:
 4. Add the following URL as a custom adblock list: [Thai Adblock List RAW](https://raw.githubusercontent.com/PhyschicWinter9/thai-adblock-list/main/thai-adblock-list.txt)
 5. Save the settings and reload the pages you visit to start enjoying an ad-free browsing experience
 
+## Requesting Websites
+If you would like to request the inclusion of a specific website in the Thai Adblock List, you can open an issue on the repository's issue tracker. Follow these steps:
+
+1. Go to the [Issues](https://github.com/PhyschicWinter9/thai-adblock-list/issues) section of this repository.
+
+2. Click on the "New Issue" button.
+
+3. Choose the "Website Request" template.
+
+4. Provide the name and URL of the website you want to request.
+
+5. Submit the issue, and the community will review it.
+
 ## Websites
 
 The Thai Adblock List provides ad-blocking support for the following websites:
@@ -51,6 +64,8 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |  moviehdfree  | &#10004; | [09-08-2023] |
 | anime-masters | &#10004; | [09-08-2023] |
 |  anime-suba   | &#10004; | [10-08-2023] |
+|  movie2fin  | &#10004; | [10-08-2023] |
+|  baan-series  | &#10004; | [10-08-2023] |
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
 
