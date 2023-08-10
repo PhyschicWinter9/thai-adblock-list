@@ -1,5 +1,5 @@
 [Domain List]
-! Created: Th-44-yyyy
+! Created: Th-49-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -35,3 +35,5 @@ nung2hdd.com
 dooseries4k.com
 moviehdfree.net
 anime-suba.com
+movie2fin.com
+image.baan-series.com
