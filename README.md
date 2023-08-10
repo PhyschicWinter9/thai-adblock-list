@@ -49,11 +49,21 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |   nung2hdd    | &#10004; | [09-08-2023] |
 |  dooseries4k  | &#10004; | [09-08-2023] |
 |  moviehdfree  | &#10004; | [09-08-2023] |
-|  anime-masters  | &#10004; | [09-08-2023] |
+| anime-masters | &#10004; | [09-08-2023] |
+|  anime-suba   | &#10004; | [10-08-2023] |
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
 
 Remove `doomovie-hd` from the list because it is using a [uBlock Origin](https://ublockorigin.com/) anti-adblock bypass script.
+
+## Checksums
+
+For your convenience, you can use these checksums to verify the integrity of the adblock list file:
+
+- SHA-1: [SHA-1 Checksum]
+- MD5: [MD5 Checksum]
+
+Please note that checksums are a way to verify file integrity and ensure that the file has not been tampered with.
 
 ## Contributing
 
