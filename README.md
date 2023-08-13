@@ -25,6 +25,7 @@ To utilize the Thai Adblock List, you can follow these steps:
 5. Save the settings and reload the pages you visit to start enjoying an ad-free browsing experience
 
 ## Requesting Websites
+
 If you would like to request the inclusion of a specific website in the Thai Adblock List, you can open an issue on the repository's issue tracker. Follow these steps:
 
 1. Go to the [Issues](https://github.com/PhyschicWinter9/thai-adblock-list/issues) section of this repository.
@@ -45,7 +46,7 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 | :-----------: | :------: | :----------: |
 |  037hdmovie   | &#10004; | [05-08-2023] |
 |    123-hd     | &#10004; | [17-07-2023] |
-|    movie44    | &#10004; | [09-08-2023] |
+|    movie44    | &#10004; | [13-08-2023] |
 | doomovie-hd\* |    ❌    | [17-07-2023] |
 |   niceoppai   | &#10004; | [09-08-2023] |
 |  anime-sugoi  | &#10004; | [31-07-2023] |
@@ -64,7 +65,7 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |  moviehdfree  | &#10004; | [09-08-2023] |
 | anime-masters | &#10004; | [09-08-2023] |
 |  anime-suba   | &#10004; | [10-08-2023] |
-|  movie2fin  | &#10004; | [10-08-2023] |
+|   movie2fin   | &#10004; | [10-08-2023] |
 |  baan-series  | &#10004; | [10-08-2023] |
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
@@ -75,8 +76,8 @@ Remove `doomovie-hd` from the list because it is using a [uBlock Origin](https:/
 
 For your convenience, you can use these checksums to verify the integrity of the adblock list file:
 
-- SHA-1: 795245cc949bf12425afd5545ab6bbf96fb6d310  thai-adblock-list.txt
-- MD5: 5a2de87dd5c162cde856c4bb04508ece  thai-adblock-list.txt
+- SHA-1: 795245cc949bf12425afd5545ab6bbf96fb6d310 thai-adblock-list.txt
+- MD5: 5a2de87dd5c162cde856c4bb04508ece thai-adblock-list.txt
 
 Please note that checksums are a way to verify file integrity and ensure that the file has not been tampered with.
 
