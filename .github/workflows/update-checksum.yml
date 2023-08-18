@@ -40,12 +40,18 @@ jobs:
           echo "::set-output name=sha1::$(cat sha1.txt)"
           echo "::set-output name=md5::$(cat md5.txt)"
 
+      - name: Update README-TH.md
+        run: |
+          sed -i -E "s/SHA-1: .+/SHA-1: ${{ steps.checksums.outputs.sha1 }}/g" README-TH.md
+          sed -i -E "s/MD5: .+/MD5: ${{ steps.checksums.outputs.md5 }}/g" README-TH.md
+          git add README-TH.md
+          git commit -m "Update SHA-1 and MD5 checksums" --author="GitHub Actions <actions@github.com>"
+          git push
+      
       - name: Update README
         run: |
           sed -i -E "s/SHA-1: .+/SHA-1: ${{ steps.checksums.outputs.sha1 }}/g" README.md
           sed -i -E "s/MD5: .+/MD5: ${{ steps.checksums.outputs.md5 }}/g" README.md
-          sed -i -E "s/SHA-1: .+/SHA-1: ${{ steps.checksums.outputs.sha1 }}/g" README-TH.md
-          sed -i -E "s/MD5: .+/MD5: ${{ steps.checksums.outputs.md5 }}/g" README-TH.md
           git add README.md
           git commit -m "Update SHA-1 and MD5 checksums" --author="GitHub Actions <actions@github.com>"
           git push
