@@ -1,7 +1,7 @@
 [Adblock Plus 3.18] 
-! Version: 1.3-18082023
+! Version: 1.3-25082023
 ! Title: THAIADBLOCK LISTS
-! Last modified: 18-08-2023
+! Last modified: 25-08-2023
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
@@ -911,3 +911,20 @@ data:image/gif;base64,R0lGODlheAB8Aff/ACuXKP/3AOrQ0Pt2QwFVBKqQaKRtVtu5ryqWFAG1Lv
 ||xn--168-1klyfn3i1b2j7c.com/wp-content/uploads/2023/06/140x250-zeed-1.gif
 ||xn--168-1klyfn3i1b2j7c.com/wp-content/uploads/2023/06/lockdown1681-1.gif
 ||xn--168-1klyfn3i1b2j7c.com/wp-content/uploads/2023/07/300x100-ss66-0.9-1.gif
+||037hdmovie.com/wp-content/uploads/2023/08/lotto123bet_728x180.gif
+||037hdmovie.com/wp-content/uploads/2023/08/happy9cat.gif
+||037hdmovie.com/wp-content/uploads/2023/08/zabbetclub08-66.gif
+||037hdmovie.com/wp-content/uploads/2023/08/ufazazy-728x180-1.gif
+||ufaeazy.com
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfJUH02m9g7saXwtZx9ynLMnt1fVIrnZEWVfXVcEtkM9y1Lk0OVMo-x1dvwCPU9OotFEq_-Co-iuut-fQtzfME5--bH6woCNbJR4ESLXY6c1qiMWrJ06E4JK6tvqiGXzZqn_8YzJVMtVo5Bl0tFsbUrl7vVeZrJ7myMRSera0CABsyEn_8hzdqaimmtQ/s1600/7536666.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaQ9jqiKFKrAR_0Oy_RKKZld8e7ptupXHjgBYEyh2xUbRQ9e69Y8vUO1vFAfgEHr2p_256vP0LH6WIGbk1szSOP2SKNEqfjlO_zaxmftv5C_LwIQJaqEJ6XYyV3Cj7caP512cyxDOYvhHsjQDuyFqdOiEVRb18S630AIsCEiSrpvLR4yBb6MZQyx2NgQ/s1600/15376020534445.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg253zF8FlP3p_A31QMFGdF8aGKRDdVRIyRPwltI-ppeu5wjkLN2epaAklijtz4aYk4-dhJ3mzyTrEYyp3Z7-bfQytvvGUD4f84yQzXgnsGV1ab4su6Lf16HkJ7w4PpOJbK30G7xKhD2ZOa5Z7AoOz2murRCQIobhnd8UaQqISMVPtrhuKuIpqyvKc2_A/s1600/11495959595.gif
+||movie2uhd.com/wp-content/uploads/2023/08/%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%A22u.gif
+||movie2uhd.com/wp-content/uploads/2023/08/772x130.gif
+||seriesday.com/wp-content/uploads/2023/08/hilobett.gif
+||nung2hdd.com/wp-content/uploads/2023/08/S__2850821.gif
+||nung2hdd.com/wp-content/uploads/2023/08/zlott728x180.gif
+||dooseries4k.com/wp-content/uploads/2023/08/lotto123bet_728x180.gif
+||dooseries4k.com/wp-content/uploads/2023/08/GANS-728x180-1.gif
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/gclub.jpg
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/img06/lucy555.gif
