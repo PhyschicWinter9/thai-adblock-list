@@ -1,5 +1,5 @@
 [Domain List]
-! Created: Fr-44-yyyy
+! Created: Sa-08-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -7,7 +7,6 @@
 !
 037hdmovie.com
 googles.video
-cdend.com
 1991482557.rsc.cdn77.org
 upfastfile.com
 123-hd.com
@@ -16,9 +15,7 @@ i0.wp.com
 niceoppai.net
 1.bp.blogspot.com
 image5.niceoppai.net
-i.imgur.com
 anime-sugoi.com
-blogger.googleusercontent.com
 24-hd.com
 xn--72czp5e5a8b.tv
 oremanga.net
@@ -34,13 +31,16 @@ seriesday.com
 nung2hdd.com
 dooseries4k.com
 moviehdfree.net
-anime-suba.com
 movie2fin.com
 image.baan-series.com
-images2.imgbox.com
 xn--12cmb2cha4rsb7e.com
 yedlove.com
 leahee.com
 xn--42c6au3bb9azd9a.com
 xn--12cl2bca0a9jsa8a7e1dc3gd.tv
 xn--168-1klyfn3i1b2j7c.com
+blogger.googleusercontent.com
+i.imgur.com
+sub-thai.com
+anime-suba.com
+www.anime-suba.com
