@@ -1,7 +1,7 @@
 [Adblock Plus 3.18] 
-! Version: 1.3-02092023
+! Version: 1.3-03092023
 ! Title: THAIADBLOCK LISTS
-! Last modified: 02-09-2023
+! Last modified: 03-09-2023
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
@@ -13,30 +13,6 @@
 ! Please report unblocked adservers or other issues here: https://github.com/PhyschicWinter9/thai-adblock-list/issues
 !
 !
-baan-series.co##[href="https://ufafat.com/"]
-baan-series.co##[href="https://brazil999.co"]
-baan-series.co##[href="https://lotto432s.co"]
-baan-series.co##[href="https://juad8883.com/"]
-baan-series.co##[href="https://ssgame6662.com"]
-baan-series.co##[href="https://lotto77s.co"]
-baan-series.co##[href="https://kingdom662.com"]
-baan-series.co##[href="https://lockdown1682.com"]
-baan-series.co##[href="https://ufanance.co"]
-baan-series.co##[href="https://vip168sa2.com"]
-baan-series.co##[href="https://ufazeed2.com"]
-baan-series.co##[href="https://panama888.cc/"]
-1112hd.com##[href="https://lotto432s.co/"]
-1112hd.com##[href="https://brazil999.co/"]
-1112hd.com##[href="https://lockdown1682.com"]
-1112hd.com##[href="https://panama888.cc/"]
-1112hd.com##[href="https://ufac42.com"]
-1112hd.com##[href="https://bl88gold.com/"]
-1112hd.com##[href="https://bit.ly/ufasexygame-ufabet-ufa-fifa55-1112"]
-1112hd.com##[href="https://bit.ly/sexygame992-sa-sa1688-pgslot-992"]
-1112hd.com###tc-18 > [href="https://1112hd.com/"]
-1112hd.com##[href="https://bit.ly/newvegas168-1112hd"]
-1112hd.com##[href="https://www.sexygame1688s.co/"]
-1112hd.com##[href="https://16882sagame.com/"]
 ||037hdmovie.com/wp-content/uploads/2023/05/KING89.gif
 ||037hdmovie.com/wp-content/uploads/2023/03/728x180-FreeBet500_SLOTS.gif
 ||037hdmovie.com/wp-content/uploads/2023/05/123BOSS.gif
@@ -969,3 +945,43 @@ www.anime-suba.com##[href="https://seolrea.net/rg6w5"]
 www.anime-suba.com##[href^="https://www.jbo95.com/th/"]
 www.anime-suba.com##[href="https://bit.ly/3PCSonG"]
 www.anime-suba.com##[href="https://bit.ly/3D5R7xP"]
+1112hd.com##[href="https://lotto432s.co/"]
+1112hd.com##[href="https://brazil999.co/"]
+1112hd.com##[href="https://lockdown1682.com"]
+1112hd.com##[href="https://panama888.cc/"]
+1112hd.com##[href="https://ufac42.com"]
+1112hd.com##[href="https://bl88gold.com/"]
+1112hd.com##[href="https://bit.ly/ufasexygame-ufabet-ufa-fifa55-1112"]
+1112hd.com##[href="https://bit.ly/sexygame992-sa-sa1688-pgslot-992"]
+1112hd.com###tc-18 > [href="https://1112hd.com/"]
+1112hd.com##[href="https://bit.ly/newvegas168-1112hd"]
+1112hd.com##[href="https://www.sexygame1688s.co/"]
+1112hd.com##[href="https://16882sagame.com/"]
+baan-series.co##[href="https://ufafat.com/"]
+baan-series.co##[href="https://brazil999.co"]
+baan-series.co##[href="https://lotto432s.co"]
+baan-series.co##[href="https://juad8883.com/"]
+baan-series.co##[href="https://ssgame6662.com"]
+baan-series.co##[href="https://lotto77s.co"]
+baan-series.co##[href="https://kingdom662.com"]
+baan-series.co##[href="https://lockdown1682.com"]
+baan-series.co##[href="https://ufanance.co"]
+baan-series.co##[href="https://vip168sa2.com"]
+baan-series.co##[href="https://ufazeed2.com"]
+baan-series.co##[href="https://panama888.cc/"]
+||cdend.com
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2022/03/betflikuk.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2022/03/BETFLIKUSA.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2022/03/BETFLIKINW.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2022/03/GAME168CLUB-728x200-1.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2022/10/BETFLIK.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2022/04/betflikslots-728x200-1.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2022/04/betflixinw.com_.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2022/08/SLOTUSA.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2023/03/BN-ufaball88.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2023/04/OKBACCARAT_728x200.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2023/07/%E0%B8%AB%E0%B8%A7%E0%B8%A2%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C-%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%A12.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2023/03/4x4PGOK-728x200-1.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2023/07/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B8%B5-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%A1%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%84%E0%B8%87-728x200-1.webp?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2023/06/NOVA88-GIF-720x200-1.gif?w=1200&ssl=1
+||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2023/07/%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B8%94%E0%B8%B1%E0%B8%9A-1-google-728x200-1.webp?w=1200&ssl=1
