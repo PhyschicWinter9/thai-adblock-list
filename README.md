@@ -68,6 +68,8 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |   movie2fin   | &#10004; | [10-08-2023] |
 |  baan-series  | &#10004; | [02-09-2023] |
 |  1112hd | &#10004; | [02-09-2023] |
+|  1337x | &#10004; | [04-09-2023] |
+| kurokami | &#10004; | [04-09-2023] |
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
 
