@@ -55,7 +55,7 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |   oremanga    | &#10004; | [18-08-2023] |
 |  zerogameth   | &#10004; | [02-09-2023] |
 |  loadgame-pc  | &#10004; | [02-09-2023] |
-|   mawtoload   | &#10004; | [02-09-2023] |
+|   mawtoload   | &#10004; | [03-09-2023] |
 | esgameservers | &#10004; | [02-09-2023] |
 |   i-moviehd   | &#10004; | [18-08-2023] |
 |   movie2uhd   | &#10004; | [02-09-2023] |
