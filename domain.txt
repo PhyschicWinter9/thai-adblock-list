@@ -1,10 +1,11 @@
 [Domain List]
-! Created: Su-07-yyyy
+! Created: Mo-22-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
 !
 !
+img.shirokami.me
 037hdmovie.com
 googles.video
 1991482557.rsc.cdn77.org
@@ -44,3 +45,8 @@ i.imgur.com
 sub-thai.com
 anime-suba.com
 www.anime-suba.com
+images.vfl.ru
+thegfporn.com
+cdn.gamlore.com
+javxhub.com
+thaihubx.tv
