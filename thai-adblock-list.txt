@@ -1,7 +1,7 @@
 [Adblock Plus 3.18] 
-! Version: 1.3-16092023
+! Version: 1.3-01102023
 ! Title: THAIADBLOCK LISTS
-! Last modified: 16-09-2023
+! Last modified: 01-10-2023
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
@@ -13,14 +13,6 @@
 ! Please report unblocked adservers or other issues here: https://github.com/PhyschicWinter9/thai-adblock-list/issues
 !
 !
-||betx6.co^
-||hydra8882.com^
-||hydra888.world^
-||joker123th.com^
-||joker123.cool^
-||joker123.co.com^
-||joker123.nemoslot.com^
-||hydra888z.com^
 ||037hdmovie.com/wp-content/uploads/2023/05/KING89.gif
 ||037hdmovie.com/wp-content/uploads/2023/03/728x180-FreeBet500_SLOTS.gif
 ||037hdmovie.com/wp-content/uploads/2023/05/123BOSS.gif
@@ -1234,3 +1226,61 @@ spankbang.com###interstitial_div_v3
 ||xn--12cl7cj4aa9dd5cp5ona1eya.com/wp-content/uploads/2023/07/800x300-hydra.gif
 ||xn--12cl7cj4aa9dd5cp5ona1eya.com/wp-content/uploads/2023/07/600x200-zeed.gif
 ||xn--12cl7cj4aa9dd5cp5ona1eya.com/wp-content/uploads/2023/06/600x200-lottooo.gif
+||hydra888z.com^
+||hydra8882.com^
+||hydra888.world^
+||joker123th.com^
+||joker123.cool^
+||joker123.co.com^
+||joker123.nemoslot.com^
+||betx6.co^
+||037hdmovie.com/wp-content/uploads/2023/09/IMG_8273.gif
+||037hdmovie.com/wp-content/uploads/2023/09/LionTH-270x540-1.gif
+||037hdmovie.com/wp-content/uploads/2023/09/ufa405-page.gif
+||037hdmovie.com/wp-content/uploads/2023/09/FUN88.gif
+||037hdmovie.com/wp-content/uploads/2023/09/ufa405.gif
+||037hdmovie.com/wp-content/uploads/2023/09/iphone15-728x180-1.gif
+||037hdmovie.com/wp-content/uploads/2023/09/easy365x2.gif
+||037hdmovie.com/wp-content/uploads/2023/09/LOTTO432-728x200-1.gif
+||123-hd.com/wp-content/uploads/2023/09/ufafat-728x200-1.gif
+||123-hd.com/wp-content/uploads/2023/09/1688sexy728x90.gif
+||movie44.com/wp-content/uploads/2023/09/77jili-728x200-1.webp
+||image5.niceoppai.net/d8/db/Upload-setto2-LZ6PI-By-Niceoppai.jpg
+||niceoppai.net/wp-content/uploads/2022/06/%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95.gif
+||24-hd.com/wp-content/uploads/2023/09/pvp888v2.jpg
+||24-hd.com/wp-content/uploads/2023/09/boss45rl.gif
+||24-hd.com/wp-content/uploads/2023/09/boss45m.gif
+||24-hd.com/wp-content/uploads/2023/09/LionTH-200x580_Orange2.gif
+||oremanga.net/wp-content/uploads/2023/09/boston-728x200.gif
+||oremanga.net/wp-content/uploads/2023/09/ufafat.gif
+||oremanga.net/wp-content/uploads/2023/09/baccarat728-90.gif
+||images2.imgbox.com/bb/99/rQHu3FvG_o.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-c7zLfziWE5VgbvVcU1rn3zMe6-g9GPg5IWTbUXkImGmEKFI--CuFCfaPbQJg3HM2U49ekdSPfaO0GKksQP32_VF8c9iW-zfck1lebqFdHv9nGVRqmupk8lzh3xjB6KgStdFSqqfsSjwyPo2YgZevRUq8sFUYRJ_MBhFYZMMC-Jp6A1JA5q9XLQJyEaE/s16000/4%20GIF.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_BEXodVt7XviXOx_sv5vfilfwEY91lKyqXB3_rPEv5oPSZfcnIeMe60xuGefAm01tXyw0UpS0ctGFAqC4wAq34m-u20ILuXJ9cW8NmNBU375urZCFUqsLIEZGldS2NRXA4za4-eew00wXupoN4u_ndTDUnYvRUPPjzK_A-KfIxrBXpaF0F9pLbCIPDKfr/s16000/NEW2023-Ufabet8889-728x200.gif
+||i-moviehd.com/wp-content/uploads/2023/09/ufazeed-728x200-1.gif
+||i-moviehd.com/wp-content/uploads/2023/09/vip168sa-728X200.gif
+||movie2uhd.com/wp-content/uploads/2023/10/Gif-Lion-590x265-1.webp
+||movie2uhd.com/wp-content/uploads/2023/09/LionTH-200x580_Orange.gif
+||movie2uhd.com/wp-content/uploads/2023/09/772x130-1.gif
+||movie2uhd.com/wp-content/uploads/2023/09/LionTH-772x272-1.gif
+||movie2uhd.com/wp-content/uploads/2023/09/772x130.gif
+||movie2uhd.com/wp-content/uploads/2023/09/733x130.gif
+||movie2uhd.com/wp-content/uploads/2023/09/SBO888_772x130px00.gif
+||seriesday.com/wp-content/uploads/2023/09/easy45cca.gif
+||seriesday.com/wp-content/uploads/2023/09/LionTH-772x272-2.gif
+||nung2hdd.com/wp-content/uploads/2023/09/433379df.gif
+||nung2hdd.com/wp-content/uploads/2023/09/256933458712565hkf25gh728x180.gif
+||nung2hdd.com/wp-content/uploads/2023/09/boss45_728x180.gif
+||moviehdfree.net/wp-content/uploads/2023/09/uaffatnew.gif?x74946
+||anime-masters.com/upload/ole77v3.gif?v=44
+||anime-masters.com/upload/slotxoth728x90v2.gif?v=44
+||anime-masters.com/upload/168galaxyv3.gif?v=44
+||anime-masters.com/upload/168kingdomv3.gif?v=44
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/boston777.gif
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/FAFA365.gif
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/FAFA666.gif
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/img06/168-kingdom.gif
+||image.baan-series.com/uploads/20230926/815962a2b3aa97333d235877bcd8d2a5d8e8f65e.webp
+||v8movie-hd.com/wp-content/uploads/2023/09/BRAZIL999-728x200-1.gif
+||v8movie-hd.com/wp-content/uploads/2023/09/UFAZEED-728x200-1.gif
+||v8movie-hd.com/wp-content/uploads/2023/09/UFAEAZY-728x180-1.gif

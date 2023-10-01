@@ -1,5 +1,5 @@
 [Domain List]
-! Created: Sa-56-yyyy
+! Created: Su-21-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -59,3 +59,4 @@ xn--72ca2bsl7gxbd4m7c.com
 xn--b3c6azcg6b.com
 xn--l3ca5bk3a3ftczc.com
 xn--12cl7cj4aa9dd5cp5ona1eya.com
+images2.imgbox.com
