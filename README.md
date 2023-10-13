@@ -84,8 +84,8 @@ Remove `doomovie-hd` from the list because it is using a [uBlock Origin](https:/
 
 For your convenience, you can use these checksums to verify the integrity of the adblock list file:
 
-- SHA-1: 9f4f8beaf8184c9a45c050c826d7007e9d293226  thai-adblock-list.txt
-- MD5: 29d436e886e107d269b4f85ed20246c5  thai-adblock-list.txt
+- SHA-1: eeb38455020bec1a04be9fb0e1c7662552a7f7c9  thai-adblock-list.txt
+- MD5: 910d6052bb8a265dea6afaafaa71d4e2  thai-adblock-list.txt
 
 Please note that checksums are a way to verify file integrity and ensure that the file has not been tampered with.
 
