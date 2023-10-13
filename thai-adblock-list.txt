@@ -1,7 +1,7 @@
 [Adblock Plus 3.18] 
-! Version: 1.3-01102023
+! Version: 1.3-13102023
 ! Title: THAIADBLOCK LISTS
-! Last modified: 01-10-2023
+! Last modified: 13-10-2023
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
@@ -1284,3 +1284,30 @@ spankbang.com###interstitial_div_v3
 ||v8movie-hd.com/wp-content/uploads/2023/09/BRAZIL999-728x200-1.gif
 ||v8movie-hd.com/wp-content/uploads/2023/09/UFAZEED-728x200-1.gif
 ||v8movie-hd.com/wp-content/uploads/2023/09/UFAEAZY-728x180-1.gif
+||037hdmovie.com/wp-content/uploads/2023/10/EKINGS-728x200-1.gif
+||037hdmovie.com/wp-content/uploads/2023/10/W88-728x180-1.gif
+||xn--72czp5e5a8b.tv/wp-content/uploads/2023/10/ezgif-2-f5a2e9f58b.webp
+||oremanga.net/wp-content/uploads/2023/04/180223776152023.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiss8kOGS3F5yWK7M0YdZY3dXvx011qfUXkkqRY1LrfhpKl7VkFnruSlmd_vWFMyULOf9ERWkstzKHzNc3gmnaJed-w7oiUEg2jTJ6tT5L-axZakyh0293LW6K2B4uJjdVOVTOGnSSZuDdWCQQZjGpnvfMspE_RmzrkGvMhoBJ1M8Cn4VL_PbackRnGArk/w640-h158/UFABALL88%20728-180%20PX.gif
+||movie2uhd.com/wp-content/uploads/2023/10/%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87.gif
+||movie2uhd.com/wp-content/uploads/2023/10/GIF-sbet567-DR7.gif
+||moviehdfree.net/wp-content/uploads/2023/10/olcuky.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/09/cm88.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/09/ufanana.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/09/pgslotfish.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/09/sexybaccarat.gif?x74946
+||moviehdfree.net/wp-content/uploads/2023/09/bzail.gif?x74946
+||anime-masters.com/upload/ca88.gif?v=44
+||anime-masters.com/upload/superg888.gif?v=44
+||anime-masters.com/upload/spx888.gif?v=44
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/SpeedX.gif
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/jonny.gif
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/pdy888.gif
+||img.shirokami.me/images/2023/10/04/1b3490b32f6f4ff21ae9eb5e918f8d11.gif
+||img.shirokami.me/images/2023/09/22/f546fff5eb58ff6f966594bf0bba5a1f.gif
+||img.shirokami.me/images/2023/07/09/35bdf41c3c2218d0c8a250d23e1bb21e.gif
+||img.shirokami.me/images/2023/09/19/8377291288462c77b717d6d4f41a77ff.gif
+||img.shirokami.me/images/2023/09/19/39a923f4d3b8705a291ce37a44585cb3.gif
+||img.shirokami.me/images/2023/09/19/14c9f73d1bc6c2a6ec22b61449aa83f9.gif
+||928hd.com/wp-content/uploads/banner147-730x348-1.gif
+||v8movie-hd.com/wp-content/uploads/2023/10/OLD777-728x180-1.gif
