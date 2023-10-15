@@ -67,25 +67,31 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |  anime-suba   | &#10004; | [13-10-2023] |
 |   movie2fin   | &#10004; | [01-10-2023] |
 |  baan-series  | &#10004; | [01-10-2023] |
-|  1112hd | &#10004; | [16-09-2023] |
-|  1337x | &#10004; | [04-09-2023] |
-| kurokami | &#10004; | [13-10-2023] |
-|  928hd | &#10004; | [13-10-2023] |
-| v8movie-hd | &#10004; | [13-10-2023] |
-| 9nunghd | &#10004; | [16-09-2023] |
+|    1112hd     | &#10004; | [16-09-2023] |
+|     1337x     | &#10004; | [04-09-2023] |
+|   kurokami    | &#10004; | [13-10-2023] |
+|     928hd     | &#10004; | [13-10-2023] |
+|  v8movie-hd   | &#10004; | [13-10-2023] |
+|    9nunghd    | &#10004; | [16-09-2023] |
+|   anime-hit   | &#10004; | [15-10-2023] |
+|  anime-mojii  | &#10004; | [15-10-2023] |
+| animehdzeroo  | &#10004; | [15-10-2023] |
+|  mee-series   | &#10004; | [15-10-2023] |
+|   manga-za    | &#10004; | [15-10-2023] |
+|   manga168    | &#10004; | [15-10-2023] |
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
 
 Remove `doomovie-hd` from the list because it is using a [uBlock Origin](https://ublockorigin.com/) anti-adblock bypass script.
 
-*Porn sites will not show in the list of websites but our thai adblock list support and block ads.
+\*Porn sites will not show in the list of websites but our thai adblock list support and block ads.
 
 ## Checksums
 
 For your convenience, you can use these checksums to verify the integrity of the adblock list file:
 
-- SHA-1: eeb38455020bec1a04be9fb0e1c7662552a7f7c9  thai-adblock-list.txt
-- MD5: 910d6052bb8a265dea6afaafaa71d4e2  thai-adblock-list.txt
+- SHA-1: eeb38455020bec1a04be9fb0e1c7662552a7f7c9 thai-adblock-list.txt
+- MD5: 910d6052bb8a265dea6afaafaa71d4e2 thai-adblock-list.txt
 
 Please note that checksums are a way to verify file integrity and ensure that the file has not been tampered with.
 
