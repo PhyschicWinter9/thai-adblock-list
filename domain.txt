@@ -1,5 +1,5 @@
 [Domain List]
-! Created: Fr-46-yyyy
+! Created: Tu-08-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -60,3 +60,23 @@ xn--b3c6azcg6b.com
 xn--l3ca5bk3a3ftczc.com
 xn--12cl7cj4aa9dd5cp5ona1eya.com
 images2.imgbox.com
+anime-mojii.com
+images.shirokami.me
+manga-za.net
+69.xn--s3cx7a.com
+cdn.xn--s3cx7a.com
+manga168.com
+amz-cdn.manga168.com
+amz-cdn3.manga168.com
+amz-cdn2.manga168.com
+image.webtoon168.com
+sp-ao.shortpixel.ai
+anime-hit.com
+lion321.b-cdn.net
+xn--72c9aha4c5a2bbd5ood.com
+pic69.me
+1688porn.tv
+xn--12c3bn1nma.net
+files.cameron-srva.com
+xn--2-zwfi5czan3iwbf1f5e6cya.com
+onlyfree.fan
