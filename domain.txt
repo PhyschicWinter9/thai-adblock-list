@@ -1,5 +1,5 @@
 [Domain List]
-! Created: We-40-yyyy
+! Created: Sa-16-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -80,3 +80,5 @@ xn--12c3bn1nma.net
 files.cameron-srva.com
 xn--2-zwfi5czan3iwbf1f5e6cya.com
 onlyfree.fan
+moviehdfree.com
+media.discordapp.net
