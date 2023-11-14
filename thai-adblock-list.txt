@@ -1,7 +1,7 @@
 [Adblock Plus 3.18] 
-! Version: 1.3-04112023
+! Version: 1.3-15112023
 ! Title: THAIADBLOCK LISTS
-! Last modified: 04-11-2023
+! Last modified: 15-11-2023
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
@@ -1792,3 +1792,6 @@ moviehdfree.com##.ad
 ||javxhub.com/wp-content/uploads/2023/09/free-spin-delayed.gif
 ||javxhub.com/wp-content/uploads/2023/10/hydra888-728x200-1.gif
 ||javxhub.com/wp-content/uploads/2023/08/1688sagame.gif
+||037hdmovie.com/wp-content/uploads/2023/11/sexybaccarat-728x180-1.gif
+||037hdmovie.com/wp-content/uploads/2023/11/9xslot-728x180-1.gif
+||037hdmovie.com/wp-content/uploads/2023/11/OLD777-728x200-1.gif
