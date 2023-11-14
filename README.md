@@ -44,7 +44,7 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 
 |    Website    | Support  | Last Update  |
 | :-----------: | :------: | :----------: |
-|  037hdmovie   | &#10004; | [04-11-2023] |
+|  037hdmovie   | &#10004; | [15-11-2023] |
 |    123-hd     | &#10004; | [24-10-2023] |
 |    movie44    | &#10004; | [24-10-2023] |
 | doomovie-hd\* | &#10004; | [24-10-2023] |
