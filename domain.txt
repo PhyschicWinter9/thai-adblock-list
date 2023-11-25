@@ -1,5 +1,5 @@
 [Domain List]
-! Created: We-51-yyyy
+! Created: Su-06-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -82,3 +82,9 @@ xn--2-zwfi5czan3iwbf1f5e6cya.com
 onlyfree.fan
 moviehdfree.com
 media.discordapp.net
+animekimi.com
+xxxsexygirlz.com
+doujin212.com
+avpockiehd.com
+javtu.com
+javcub.com
