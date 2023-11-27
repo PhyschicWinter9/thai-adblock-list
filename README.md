@@ -51,7 +51,7 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |   niceoppai   | &#10004; | [17-11-2023] |
 |  anime-sugoi  | &#10004; | [25-11-2023] |
 |     24-hd     | &#10004; | [25-11-2023] |
-|   ดูหนัง.tv   | &#10004; | [25-11-2023] |
+|   ดูหนัง.tv    | &#10004; | [25-11-2023] |
 |   oremanga    | &#10004; | [13-10-2023] |
 |  zerogameth   | &#10004; | [01-10-2023] |
 |  loadgame-pc  | &#10004; | [13-10-2023] |
@@ -80,6 +80,7 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 |   manga-za    | &#10004; | [25-11-2023] |
 |   manga168    | &#10004; | [25-11-2023] |
 |   animekimi   | &#10004; | [25-10-2023] |
+|  nanamovies   | &#10004; | [27-11-2023] |
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
 
