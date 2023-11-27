@@ -92,8 +92,8 @@ Please note that the ad-blocking support for these websites is subject to update
 
 For your convenience, you can use these checksums to verify the integrity of the adblock list file:
 
-- SHA-1: 6c958a6c10d5a1bdeee52748f29b2bdec7fbf48e  thai-adblock-list.txt
-- MD5: 9248f8f8a65dcd17d282b5532c082564  thai-adblock-list.txt
+- SHA-1: efeef6e2f29157778f3b703aa3ce7657e49ca4fd  thai-adblock-list.txt
+- MD5: 29b16e4560bda22f7b40c7c49161efbd  thai-adblock-list.txt
 
 Please note that checksums are a way to verify file integrity and ensure that the file has not been tampered with.
 
