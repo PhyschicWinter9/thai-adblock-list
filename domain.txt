@@ -1,5 +1,5 @@
 [Domain List]
-! Created: Su-06-yyyy
+! Created: Mo-14-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -88,3 +88,4 @@ doujin212.com
 avpockiehd.com
 javtu.com
 javcub.com
+2.bp.blogspot.com
