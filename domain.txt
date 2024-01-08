@@ -1,5 +1,5 @@
 [Domain List]
-! Created: Th-24-yyyy
+! Created: Mo-45-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -93,3 +93,7 @@ javcub.com
 movie-what.com
 animehayai.net
 go.xn--16-ftitt.com
+www.037hdmovie.com
+www.seriesday.com
+www.moviehdfree.net
+www.anime-masters.com
