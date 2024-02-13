@@ -1,5 +1,5 @@
 [Domain List]
-! Created: We-37-yyyy
+! Created: Tu-26-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -95,3 +95,10 @@ animehayai.net
 go.xn--16-ftitt.com
 fwiptv.tv
 serie-day.com
+ad2.oneplayer.online
+static.cracked.io
+i.ibb.co
+i.postimg.cc
+dolphin-anty.com
+cdn.patched.to
+leaked.wiki
