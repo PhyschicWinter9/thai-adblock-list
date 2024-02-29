@@ -1,5 +1,5 @@
 [Domain List]
-! Created: Tu-26-yyyy
+! Created: Fr-46-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -102,3 +102,9 @@ i.postimg.cc
 dolphin-anty.com
 cdn.patched.to
 leaked.wiki
+anifume.com
+img5.pic.in.th
+img2.pic.in.th
+yedlove2.com
+xn--q3c1ala0bp.com
+inwporn.com
