@@ -1,5 +1,5 @@
 [Domain List]
-! Created: Fr-25-yyyy
+! Created: We-30-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -98,3 +98,8 @@ www.seriesday.com
 www.moviehdfree.net
 www.anime-masters.com
 fwiptv.tv
+anifume.com
+img2.pic.in.th
+img5.pic.in.th
+serie-day.com
+facebook.com
