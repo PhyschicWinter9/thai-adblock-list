@@ -1,5 +1,5 @@
 [Domain List]
-! Created: We-30-yyyy
+! Created: We-18-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -103,3 +103,11 @@ img2.pic.in.th
 img5.pic.in.th
 serie-day.com
 facebook.com
+img03.xyz
+img02.xyz
+img05.xyz
+img04.xyz
+img01.xyz
+via.placeholder.com
+928-hd.com
+up-manga.com
