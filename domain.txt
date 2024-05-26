@@ -1,10 +1,11 @@
 [Domain List]
-! Created: Su-46-yyyy
+! Created: Su-42-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
 !
 !
+fundingchoicesmessages.google.com
 037hdmovie.com
 googles.video
 1991482557.rsc.cdn77.org
@@ -111,3 +112,5 @@ img01.xyz
 via.placeholder.com
 928-hd.com
 up-manga.com
+mojianime.com
+s10.histats.com
