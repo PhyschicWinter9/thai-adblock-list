@@ -44,46 +44,46 @@ The Thai Adblock List provides ad-blocking support for the following websites:
 
 |       Website        | Support  | Last Update  |
 | :------------------: | :------: | :----------: |
-|      037hdmovie      | &#10004; | [26-05-2024] |
-|        123-hd        | &#10004; | [05-05-2024] |
-|       movie44        | &#10004; | [26-05-2024] |
-|    doomovie-hd\*     | &#10004; | [01-05-2024] |
-|      niceoppai       | &#10004; | [26-05-2024] |
-|     anime-sugoi      | &#10004; | [07-12-2023] |
-|        24-hd         | &#10004; | [27-03-2024] |
-|      ดูหนัง.tv       | &#10004; | [27-03-2024] |
-|       oremanga       | &#10004; | [13-10-2023] |
-|      zerogameth      | &#10004; | [26-05-2023] |
-|     loadgame-pc      | &#10004; | [27-03-2024] |
-|      mawtoload       | &#10004; | [27-03-2024] |
-|    esgameservers     | &#10004; | [26-05-2024] |
-|      i-moviehd       | &#10004; | [26-05-2024] |
-|      movie2uhd       | &#10004; | [26-05-2024] |
-|    seriesday.com     | &#10004; | [26-05-2024] |
-|       nung2hdd       | &#10004; | [26-05-2024] |
-|     dooseries4k      | &#10004; | [01-05-2024] |
-|     moviehdfree      | &#10004; | [26-05-2024] |
-|    anime-masters     | &#10004; | [26-05-2024] |
-|      anime-suba      | &#10004; | [26-05-2024] |
-|      movie2fin       | &#10004; | [21-12-2023] |
-|     baan-series      | &#10004; | [27-03-2023] |
-|        1112hd        | &#10004; | [01-05-2024] |
-|        1337x         | &#10004; | [04-09-2023] |
-|       kurokami       | &#10004; | [01-05-2024] |
-|        928hd         | &#10004; | [01-05-2024] |
-|      v8movie-hd      | &#10004; | [26-05-2024] |
-|       9nunghd        | &#10004; | [26-05-2024] |
-|      anime-hit       | &#10004; | [26-05-2024] |
-|     anime-mojii      | &#10004; | [26-05-2024] |
-|     animehdzeroo     | &#10004; | [26-01-2024] |
-|      mee-series      | &#10004; | [26-05-2024] |
-|       manga-za       | &#10004; | [27-03-2024] |
-|       manga168       | &#10004; | [27-03-2024] |
-| animeyuzu(animekimi) | &#10004; | [21-12-2023] |
-|      nanamovies      | &#10004; | [26-05-2024] |
-|     series-indy      | &#10004; | [27-03-2024] |
-|       upgamepc       | &#10004; | [26-05-2023] |
-|       up-manga       | &#10004; | [26-05-2024] |
+|      037hdmovie      | &#10004; | [02-07-2024] |
+|        123-hd        | &#10004; | [02-07-2024] |
+|       movie44        | &#10004; | [02-07-2024] |
+|    doomovie-hd\*     | &#10004; | [02-07-2024] |
+|      niceoppai       | &#10004; | [02-07-2024] |
+|     anime-sugoi      | &#10004; | [02-07-2024] |
+|        24-hd         | &#10004; | [02-07-2024] |
+|      ดูหนัง.tv       | &#10004; | [02-07-2024] |
+|       oremanga       | &#10004; | [02-07-2024] |
+|      zerogameth      | &#10004; | [02-07-2024] |
+|     loadgame-pc      | &#10004; | [02-07-2024] |
+|      mawtoload       | &#10004; | [02-07-2024] |
+|    esgameservers     | &#10004; | [02-07-2024] |
+|      i-moviehd       | &#10004; | [02-07-2024] |
+|      movie2uhd       | &#10004; | [02-07-2024] |
+|    seriesday.com     | &#10004; | [02-07-2024] |
+|       nung2hdd       | &#10004; | [02-07-2024] |
+|     dooseries4k      | &#10004; | [02-07-2024] |
+|     moviehdfree      | &#10004; | [02-07-2024] |
+|    anime-masters     | &#10004; | [02-07-2024] |
+|      anime-suba      | &#10004; | [02-07-2024] |
+|      movie2fin       | &#10004; | [02-07-2024] |
+|     baan-series      | &#10004; | [02-07-2024] |
+|        1112hd        | &#10004; | [02-07-2024] |
+|        1337x         | &#10004; | [02-07-2024] |
+|       kurokami       | &#10004; | [02-07-2024] |
+|        928hd         | &#10004; | [02-07-2024] |
+|      v8movie-hd      | &#10004; | [02-07-2024] |
+|       9nunghd        | &#10004; | [02-07-2024] |
+|      anime-hit       | &#10004; | [02-07-2024] |
+|     anime-mojii      | &#10004; | [02-07-2024] |
+|     animehdzeroo     | &#10004; | [02-07-2024] |
+|      mee-series      | &#10004; | [02-07-2024] |
+|       manga-za       | &#10004; | [02-07-2024] |
+|       manga168       | &#10004; | [02-07-2024] |
+| animeyuzu(animekimi) | &#10004; | [02-07-2024] |
+|      nanamovies      | &#10004; | [02-07-2024] |
+|     series-indy      | &#10004; | [02-07-2024] |
+|       upgamepc       | &#10004; | [02-07-2024] |
+|       up-manga       | &#10004; | [02-07-2024] |
 
 Please note that the ad-blocking support for these websites is subject to updates and changes. Contributions are welcome to improve the ad-blocking effectiveness on these websites. ❌ = Website is no longer available
 
@@ -95,8 +95,8 @@ Please note that the ad-blocking support for these websites is subject to update
 
 For your convenience, you can use these checksums to verify the integrity of the adblock list file:
 
-- SHA-1: cc4b5b65c995971d93a3bd1b3cdcb4a098919b96  thai-adblock-list.txt
-- MD5: 64455041a51f31944e0e37b4cb67ff04  thai-adblock-list.txt
+- SHA-1: cc4b5b65c995971d93a3bd1b3cdcb4a098919b96 thai-adblock-list.txt
+- MD5: 64455041a51f31944e0e37b4cb67ff04 thai-adblock-list.txt
 
 Please note that checksums are a way to verify file integrity and ensure that the file has not been tampered with.
 
