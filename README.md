@@ -14,8 +14,8 @@ To utilize the Thai Adblock List, you can follow these steps:
 
 1. Install an adblocker extension on your web browser. Popular options include:
 
+   - uBlock Origin (Recommended)
    - Adblock Plus
-   - uBlock Origin
    - AdGuard
    - Brave Browser (built-in adblocker)
 
