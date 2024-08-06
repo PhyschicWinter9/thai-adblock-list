@@ -1,7 +1,7 @@
 [Adblock Plus 3.18] 
-! Version: 1.3-27032024
+! Version: 1.3-02072024
 ! Title: THAIADBLOCK LISTS
-! Last modified: 27-03-2024
+! Last modified: 02-07-2024
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
@@ -13,6 +13,11 @@
 ! Please report unblocked adservers or other issues here: https://github.com/PhyschicWinter9/thai-adblock-list/issues
 !
 !
+||fundingchoicesmessages.google.com
+||fundingchoicesmessages.google.com/f/AGSKWxVGLjeUQcQPTbwJOl0r3o38oS_cle33mAV_yIn7kNWELjGGyxGsLRE3vnk1PzXwU67TKD1Xu7Qu5v2qYheE12keQhwnwVrBS5zi-KNuBkpZMOCBHsFp4JV8qZHlGSC-ZqFs1XJy0A==?fccs=*
+||fundingchoicesmessages.google.com/f/AGSKWxVqwRT-P1kkmoc6qw3lQarVhQf0j50AwFP9DU5mi9D686K3SbBLR_94TDMPXPAG7Wjslzy9hP8Sk4XL-p-RjNg6vGH6l6wsQy0KHff0F0KHwllk5SqwTbqRYEHD_4pCumJSH8EbjA==?fccs=*
+||fundingchoicesmessages.google.com/f/AGSKWxXeE_XoE45GFCvHDDyrC-1bqFDD4SXfS7lji19rGuWUVq_iRKH6FJmNcMWqm1rNpxlgExwMLnBPLUoOsQDZe3Bc6GrloRkvVvHkkvuhFKYxgwY8hhajIFybPIobjOHzLI5VCWbfuA==?fccs=*
+||fundingchoicesmessages.google.com/i/pub-3974289244117203?ers=1
 ||037hdmovie.com/wp-content/uploads/2023/05/KING89.gif
 ||037hdmovie.com/wp-content/uploads/2023/03/728x180-FreeBet500_SLOTS.gif
 ||037hdmovie.com/wp-content/uploads/2023/05/123BOSS.gif
@@ -155,7 +160,6 @@
 ||movie44.com/wp-content/uploads/2023/07/sexy1_728x400.gif
 ||movie44.com/wp-content/uploads/2023/06/ole777_300x300.gif
 ||movie44.com/wp-content/uploads/2023/02/300x300-new-sexygame992-sagaming-sagame.gif
-movie44.com##.ad-overlay-click
 ||i0.wp.com/niceoppai.net/wp-content/uploads/2021/12/15339219599621.gif
 ||niceoppai.net/wp-content/uploads/2022/03/15794340153388.gif
 ||niceoppai.net/wp-content/uploads/2022/09/16790868375807.gif
@@ -842,7 +846,6 @@ movie44.com##.ad-overlay-click
 ||nung2hdd.com/wp-content/uploads/2023/08/zlott728x180.gif
 ||dooseries4k.com/wp-content/uploads/2023/08/lotto123bet_728x180.gif
 ||dooseries4k.com/wp-content/uploads/2023/08/GANS-728x180-1.gif
-doomovie-hd.com##IMG[src^="data:image/gif;"]
 ||037hdmovie.com/wp-content/uploads/2023/08/pgslot.in08-728x180-Gif-1.gif
 ||movie44.com/wp-content/uploads/2023/08/77jili-new-728x200-1.webp
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLGy4hBYwyWH0-CPC5PBxkxS8hIxdwLFVLA039g23qyUOMPMclnrHUqeFUs2KdIvG2NDAEs2O8GEmy99-Yr3knXD8X2C6k6WYIWtr4yQ0EnX9QCbhiFNiU7RJrJdPz0iN1nPIIo_uff5HTTznqYGxb6yvoYJFBjJ4mmHbbePPglBpX89bj4xqMqOju9g/s1600/ufafat-300x250.gif
@@ -899,76 +902,9 @@ doomovie-hd.com##IMG[src^="data:image/gif;"]
 ||moviehdfree.net/wp-content/uploads/2023/08/sexygame992.gif?x74946
 ||anime-masters.com/upload/ufaeazyv8.gif?v=44
 ||sub-thai.com/stream/ads_video/teenoi168.mp4
-##[href="https://lockdown1682.com/"]
 ||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/img03/sagame1688.gif
 ||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/fat.gif
-##[href="https://ufanance.co/"]
-##[href="https://hydra888z.com/"]
-##[href="https://kingdom662.com/"]
-##[href="https://juad8883.com"]
-##div.LazyLoad.Anadvertisement0 > [href^="https://www.188league.com/th-th"]
-##[href="https://bit.ly/3eQUrEn"]
-www.anime-suba.com##[href^="https://www.sbfplay99.com/"]
-www.anime-suba.com##[href^="https://www.huc33.com/"]
-www.anime-suba.com##[href="https://bit.ly/3J1akmo"]
-www.anime-suba.com##[href="https://lkk135.com/sa-gaming/"]
-www.anime-suba.com##[href="https://928hd.com/"]
-www.anime-suba.com##[href="https://bit.ly/3DiJ7Ka"]
 ||www.anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/FAFA678.gif$image
-www.anime-suba.com##[href="https://www.millenniumvillages.org"]
-www.anime-suba.com##[href^="https://www.xn--m3cd7amyt0n2a.com/"]
-www.anime-suba.com##[href="https://www.hapilabs.com/"]
-www.anime-suba.com##[href="https://clstest.fdot.gov/"]
-www.anime-suba.com##[href="https://u2tbcg.com"]
-www.anime-suba.com##[href^="https://www.kpth168.com/th"]
-www.anime-suba.com##[href="https://www.pgslot9999.co"]
-www.anime-suba.com##[href^="https://play.sexybaccarat.com"]
-www.anime-suba.com##[href="http://juterslot.ramdajs.com/"]
-www.anime-suba.com##[href="https://javaslot.azurefd.net/"]
-www.anime-suba.com##[href^="https://www.gclub-casino.com/daily-reload-bonus5/"]
-www.anime-suba.com##[href="https://brazil999.co/"]
-www.anime-suba.com##[href="https://bit.ly/pgjoker69-anime-suba"]
-www.anime-suba.com##[href="https://bit.ly/sexygame992-anime-suba"]
-www.anime-suba.com##[href="https://ufac42.com/"]
-www.anime-suba.com##[href="https://ufa1913.com/"]
-www.anime-suba.com##[href="https://sagame6661.co/"]
-www.anime-suba.com##[href="https://vip168sa2.com/"]
-www.anime-suba.com##[href="https://sexygame1688s.co/"]
-www.anime-suba.com##[href="https://ssgame6662.com/"]
-www.anime-suba.com##[href^="https://record.mytopaff.com/_1X6kEFMk88QlkhzSQlkHu2Nd7ZgqdRLk/1/"]
-www.anime-suba.com##[href^="https://www.aoxx69.vip/"]
-www.anime-suba.com##.img > [href^="https://www.188league.com/th-th"]
-www.anime-suba.com##[href="https://slotnexobet.com/"]
-www.anime-suba.com##[href="https://bit.ly/Pg-slot-online"]
-www.anime-suba.com##[href^="https://www.lucy555.com/register"]
-www.anime-suba.com##[href="https://seolrea.net/rg6w5"]
-www.anime-suba.com##[href^="https://www.jbo95.com/th/"]
-www.anime-suba.com##[href="https://bit.ly/3PCSonG"]
-www.anime-suba.com##[href="https://bit.ly/3D5R7xP"]
-1112hd.com##[href="https://lotto432s.co/"]
-1112hd.com##[href="https://brazil999.co/"]
-1112hd.com##[href="https://lockdown1682.com"]
-1112hd.com##[href="https://panama888.cc/"]
-1112hd.com##[href="https://ufac42.com"]
-1112hd.com##[href="https://bl88gold.com/"]
-1112hd.com##[href="https://bit.ly/ufasexygame-ufabet-ufa-fifa55-1112"]
-1112hd.com##[href="https://bit.ly/sexygame992-sa-sa1688-pgslot-992"]
-1112hd.com###tc-18 > [href="https://1112hd.com/"]
-1112hd.com##[href="https://bit.ly/newvegas168-1112hd"]
-1112hd.com##[href="https://www.sexygame1688s.co/"]
-1112hd.com##[href="https://16882sagame.com/"]
-baan-series.co##[href="https://ufafat.com/"]
-baan-series.co##[href="https://brazil999.co"]
-baan-series.co##[href="https://lotto432s.co"]
-baan-series.co##[href="https://juad8883.com/"]
-baan-series.co##[href="https://ssgame6662.com"]
-baan-series.co##[href="https://lotto77s.co"]
-baan-series.co##[href="https://kingdom662.com"]
-baan-series.co##[href="https://lockdown1682.com"]
-baan-series.co##[href="https://ufanance.co"]
-baan-series.co##[href="https://vip168sa2.com"]
-baan-series.co##[href="https://ufazeed2.com"]
-baan-series.co##[href="https://panama888.cc/"]
 ||cdend.com
 ||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2022/03/betflikuk.webp?w=1200&ssl=1
 ||i0.wp.com/axu.da9.myftpupload.com/wp-content/uploads/2022/03/BETFLIKUSA.webp?w=1200&ssl=1
@@ -1024,53 +960,13 @@ baan-series.co##[href="https://panama888.cc/"]
 ||thaihubx.tv/wp-content/uploads/2023/07/140x250-lotto77.gif
 ||thaihubx.tv/wp-content/uploads/2023/07/300x100-ss66-0.9.gif
 ||thaihubx.tv/wp-content/uploads/2023/07/140x250-lockdown.gif
-neko-miku.com###ku960
-neko-miku.com###ku607
-neko-miku.com###ne285
-neko-miku.com###ne805
-neko-miku.com###
-neko-miku.com###ko
-neko-miku.com###ne756
-neko-miku.com###ne
-neko-miku.com###mi832
 ||img.shirokami.me/images/2022/08/28/1976c7f8b266e82318fd24150b8ceeae.gif
 ||img.shirokami.me/images/2023/08/12/967aee43b6a4bb99e0528821eba81e39.gif
 ||img.shirokami.me/images/2022/08/28/8b2a0037813cc66dec81cf6bba13e1a9.gif
-www.kurokami.me##[href="https://csbet88.com/"]
-www.kurokami.me##[href="https://goatbet88.com/"]
-www.kurokami.me##[href="https://ggband.gg/referral/shirogg"]
-www.kurokami.me##[href="https://goatbet888.com/"]
-www.kurokami.me##[href="https://ufabet1688.us/"]
-www.kurokami.me##[href="https://www.jinda888.vip"]
-www.kurokami.me##[href="https://sbobet888.win/sport"]
 ||img.shirokami.me/images/2023/05/16/0c001b75eccf9e1f4b29ea143f4c3049.gif$image
-www.kurokami.me##[href="https://scrt888.com"]
-www.kurokami.me##[href="https://psth888.com"]
-www.kurokami.me##[href="https://www.millenniumvillages.org"]
-www.kurokami.me##[href="https://www.hapilabs.com/"]
-www.kurokami.me##div.banner728x200-div.col-6 > [href="https://e15initiative.org/"]
-www.kurokami.me##[href="//ohiovaxamillion.com/"]
-www.kurokami.me##[href="https://ufamax24.com/"]
-www.kurokami.me##[href="https://spinix188.com/"]
-www.kurokami.me##[href="https://betflix2k.com/"]
 ||img.shirokami.me/images/2023/04/18/3602ea63479c727de05728099b94ab6e.gif$image
-www.kurokami.me##div.banner728x200-div.col-6:nth-of-type(17)
-www.kurokami.me##[href="https://betflixcasino.io/"]
-www.kurokami.me##[href="https://betflix-slot.com/"]
-www.kurokami.me##[href="https://pg888t.com/"]
 ||img.shirokami.me/images/2023/03/08/2f801cbdab89cbbca222a889b3feca45.gif$image
-www.kurokami.me##[href="https://lcbet88.com/"]
-www.kurokami.me##[href="https://spnx888.com/"]
-www.kurokami.me##[href="https://betplay569.com/"]
-www.kurokami.me##[href="https://lcbetasia.com/"]
 ||img.shirokami.me/images/2023/03/08/59576b1dad85296408fdfe71a838a748.gif$image
-www.kurokami.me##[href="https://pgs88asia.com/"]
-www.kurokami.me##[href="https://pg999st.com/"]
-www.kurokami.me##[href="https://lcbet24hr.com/"]
-www.kurokami.me##[href="https://whanmhoo569.com/"]
-www.kurokami.me##[href="https://www.ufabet168.info"]
-www.kurokami.me##[href="https://www.pgslot9999.co"]
-www.kurokami.me##[href="https://www.ufabet168.bet"]
 ||037hdmovie.com/wp-content/uploads/2023/09/123BOSS-728x180-1.gif
 ||037hdmovie.com/wp-content/uploads/2023/09/slotgamenet.gif
 ||037hdmovie.com/wp-content/uploads/2023/09/OLE777-728x180-1.gif
@@ -1199,7 +1095,6 @@ www.kurokami.me##[href="https://www.ufabet168.bet"]
 ||xn--72ca2bsl7gxbd4m7c.com/wp-content/uploads/2023/06/600x200-1-sa1688-1.gif
 ||xn--72ca2bsl7gxbd4m7c.com/wp-content/uploads/2023/05/heng999.jpg
 ||xn--72ca2bsl7gxbd4m7c.com/wp-content/uploads/2021/04/thay-1.gif
-spankbang.com###interstitial_div_v3
 ||xn--168-1klyfn3i1b2j7c.com/wp-content/uploads/2023/09/sbonew-0-71.gif
 ||yedlove.com/wp-content/uploads/2023/09/ufafat728x200.gif
 ||yedlove.com/wp-content/uploads/2023/09/boston777.gif
@@ -1504,16 +1399,6 @@ spankbang.com###interstitial_div_v3
 ||1688porn.tv/wp-content/uploads/2023/10/140x250-brazil999-0.9.gif
 ||1688porn.tv/wp-content/uploads/2023/10/140x250-ufazeed-0.9-1.gif
 ||1688porn.tv/wp-content/uploads/2023/10/300x100-ssgame666-0.9.gif
-www.doomovie-hd.live##div.header-banana_small_tall > div
-www.doomovie-hd.live##div.group_a.floating-banana > div
-www.doomovie-hd.live##div.header-banana_big_tall > div
-www.doomovie-hd.live##.header-banana_container > .header-banana_big_short > div
-www.doomovie-hd.live##div.header-banana_small_short > div
-www.doomovie-hd.live##div.group_a.floating-banana:nth-of-type(2)
-www.doomovie-hd.live##.default-horizontal-bananax2 > div
-www.doomovie-hd.live##div.default-horizontal-banana > div
-www.doomovie-hd.live##div.left-floating-banana > div
-www.doomovie-hd.live##div.right-floating-banana > div
 ||1688porn.tv/wp-content/uploads/2023/10/panama-0.9.gif
 ||1688porn.tv/wp-content/uploads/2023/10/800x300-ufanance-0.9.gif
 ||1688porn.tv/wp-content/uploads/2023/02/SA-lucky135-800x300-1-1-1.gif
@@ -1625,7 +1510,6 @@ www.doomovie-hd.live##div.right-floating-banana > div
 ||oremanga.net/wp-content/uploads/2023/10/728x200_UFAFAT.gif
 ||oremanga.net/wp-content/uploads/2023/10/728x200_UFAC4.gif
 ||oremanga.net/wp-content/uploads/2023/10/728x200_brazil999.gif
-oremanga.net##.header-ads-section
 ||i0.wp.com/mawtoload.com/wp-content/uploads/2023/10/%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95999.webp?w=1200&ssl=1
 ||i0.wp.com/mawtoload.com/wp-content/uploads/2023/10/%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95%E0%B8%97%E0%B8%94%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B8%9F%E0%B8%A3%E0%B8%B5%E0%B8%96%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%94%E0%B9%89.webp?w=1200&ssl=1
 ||i0.wp.com/mawtoload.com/wp-content/uploads/2023/10/%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95.webp?w=1200&ssl=1
@@ -1676,7 +1560,6 @@ oremanga.net##.header-ads-section
 ||moviehdfree.com/wp-content/uploads/2022/07/C06.jpg
 ||moviehdfree.com/wp-content/uploads/2022/07/R04.jpg
 ||moviehdfree.com/wp-content/uploads/2022/07/R02.jpg
-moviehdfree.com##.ad
 ||moviehdfree.com/wp-content/uploads/2022/07/N01.jpg
 ||moviehdfree.com/wp-content/uploads/2022/07/N02.jpg
 ||moviehdfree.com/wp-content/uploads/2022/07/N03.jpg
@@ -2103,26 +1986,8 @@ moviehdfree.com##.ad
 ||24-hd.tv/wp-content/uploads/2023/12/c4.jpg
 ||24-hd.tv/wp-content/uploads/2023/12/C5.jpg
 ||24-hd.tv/wp-content/uploads/2023/10/120x380-ufazeed-1.gif$image
-24-hd.tv##.banner-fast
 ||24-hd.tv/wp-content/uploads/2023/1*.gif$image
-24-hd.tv##[href="https://www.ufazeed2.com/"]
-24-hd.tv##[href="https://sexygame6662.com/"]
-24-hd.tv##[href="https://ufafat.com/"]
-24-hd.tv##[href="https://brazil999.co/"]
-24-hd.tv##[href="https://lotto432s.co/"]
-24-hd.tv##[href="https://ufapig.com/"]
-24-hd.tv##[href="https://ufac44.com/"]
 ||24-hd.tv/wp-content/uploads/2023/10/728x200-Ufac4.gif$image
-24-hd.tv##[href="https://sagame66s.com/"]
-24-hd.tv##[href="https://www.sexygame1688s.co/"]
-24-hd.tv##[href="https://16883sagame.com/"]
-24-hd.tv##[href="https://bit.ly/i777win"]
-24-hd.tv##[href="https://ufajaz.com/"]
-24-hd.tv##div.banner-fix > div > a[href="https://line.me/R/ti/p/@528sycoa"]
-24-hd.tv##a[href="https://line.me/R/ti/p/@528sycoa"]:nth-of-type(2)
-24-hd.tv##a[href="https://line.me/R/ti/p/@528sycoa"]:nth-of-type(3)
-24-hd.tv##a[href="https://line.me/R/ti/p/@528sycoa"]:nth-of-type(4)
-24-hd.tv##a[href="https://line.me/R/ti/p/@528sycoa"]:nth-of-type(1)
 ||esgameservers.com/wp-content/uploads/2022/08/fun88-new-banner-1-768x210.jpg
 ||esgameservers.com/wp-content/uploads/2022/08/w88-casino-768x181.jpg
 ||moviehdfree.net/wp-content/uploads/2023/11/joy168_TOP.gif?x74946
@@ -2167,13 +2032,6 @@ moviehdfree.com##.ad
 ||24-hd.tv/wp-content/uploads/2023/10/728x200-lockdown168-1.gif
 ||24-hd.tv/wp-content/uploads/2023/10/728x200-kingdom66.gif
 ||24-hd.tv/wp-content/uploads/2023/12/Gif-Cb-x180x600.gif
-24-hd.tv##[href="https://sagame66z.com"]
-24-hd.tv##[href="https://lockdown168z.com/"] > .banner_large
-24-hd.tv##[href="https://kingdom66z.com/"] > .banner_large
-24-hd.tv##[href="https://brazil999.cc/"] > .side-fix-banner
-24-hd.tv##[href="https://sexygame666s.com/"] > .side-fix-banner
-24-hd.tv##[href="https://ufafat.bet"] > .bottom-fix-banner
-24-hd.tv##[href="https://cobra88.live/%e0%b8%aa%e0%b8%a5%e0%b9%87%e0%b8%ad%e0%b8%95%e0%b9%80%e0%b8%a7%e0%b9%87%e0%b8%9a%e0%b8%95%e0%b8%a3%e0%b8%87/"]
 ||movie-what.com/wp-content/uploads/2023/11/5zC6wF-BpPV9uVqlOMagGW56eNVzJjxXV1eLC5bBrCq7v4jVxMjIogcMVYPPnfymmHLRttlF4RqY1tnTNu_xCAeZ723nZcilXdZJnv6NzEn7kJVh_2RgSJOLN_4UpoQ-r6fRbKROf4YksHppMo5QDQ.jpg
 ||movie-what.com/wp-content/uploads/2023/11/1882283.gif
 ||xn--72czp5e5a8b.tv/wp-content/uploads/2023/12/hydra8.gif
@@ -2194,7 +2052,6 @@ moviehdfree.com##.ad
 ||blogger.googleusercontent.com/img/a/AVvXsEim0Gdqx-EQPW94O-vVMVVePsW3TdCKAQiv8QGSAI0fae_elxTQw_QYZNSs82SzeQu6n9EIisv54WOPXwQPoTm1ndI6Vy0nGnWkTCqUg5LhaKo2vEQrs9ygKqtjfzy4trd70uPsvyTKVAvtq0nJDrilV5coSEWWDKQ0sdlHi_jldV2eNQAblLQQPLGTVVQ
 ||blogger.googleusercontent.com/img/a/AVvXsEgEZ9MA_ClKwcNjjRMNVNRSAM01SgSwAh58EQLMqM7B9O6ttwV96mrRQWD6njPAYM0IA_2KMelaca3tdgd-7zLOPSTJRhmIIRbX3g0mViqYm3dQ7mjV-H0_v1p2boDWSdnJ-E1bxeaifvu3y11QzCDeyoOuTgSpUJvImBP_6IfmQ85mXmSq_vLE04ZNZhU
 ||esgameservers.com/wp-content/uploads/2022/08/bitkub-sponsored-scaled-1-768x142.jpg
-esgameservers.com##.elementor-button-wrapper
 ||i-moviehd.com/wp-content/uploads/2023/12/728x200-ufazeed.gif
 ||i-moviehd.com/wp-content/uploads/2023/12/728x200-lotto432.gif
 ||movie2uhd.com/wp-content/uploads/2023/12/400x180px-updated.gif
@@ -2290,25 +2147,11 @@ esgameservers.com##.elementor-button-wrapper
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7v8KIwlXq-K0HqhUGx7msNzYIGjiwnopRSdsn36QOXBlFwIni89dyaeHCV1z6F7C7wnXRX1Ki7HusyjIVX4CENepbQidOtqoQU1ylEOFYYq-oVLN1VJmkR_Kh55hwE4vmtJkhheQHuoCEI9rNDY7V_kHqNzZOzZh9AEaDnpivFU-JL9JWOw7AEbir5oGs/s16000-rw/jili-slots.gif
 ||037hdmovie.com/wp-content/uploads/2023/12/UFAX9-728x180-1.gif
 ||www.037hdmovie.com/wp-content/uploads/202*-728x*0-1.gif$image
-www.037hdmovie.com###ads-single
 ||037hdmovie.com/wp-content/uploads/2024/02/EASY45-728x180-1.gif
-www.037hdmovie.com###ads-bottom-player
-www.niceoppai.net##[href="https://sexybaccarat.asia"]
-www.niceoppai.net##[href^="https://www.boss45.co/"]
-www.niceoppai.net##[href="https://pretty168.net"]
 ||movie2uhd.com/wp-content/uploads/202*/772x*.gif$image
 ||movie2uhd.com/wp-content/uploads/2023/12/YP-ADS-%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%95%E0%B8%A3%E0%B8%87%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%A2%E0%B9%88%E0%B8%99%E0%B8%95%E0%B9%8C-1-Gif-2.gif$image
-movie2uhd.com##.adcen > div.adt > [href^="https://movie2uhd.com/link-to.php"]
 ||www.seriesday.com/wp-content/uploads/2024/01/Pynbet_770x130.gif$image
 ||www.seriesday.com/wp-content/uploads/2024/01/Cobra88_770x130.gif$image
-www.nung2hdd.com##[href="https://aff.boss45.cc/aff/hhs8y63kq9"]
-www.nung2hdd.com##[href^="https://m.w88ok.com/"]
-www.nung2hdd.com##[href="https://sexybaccarat.asia"]
-www.dooseries4k.com##[href^="https://www.dooseries4k.com/ads/go.php"]
-www.moviehdfree.net##a[href^="https://www.moviehdfree.net/linknext.php"]:nth-of-type(6)
-www.moviehdfree.net##.side-menu > [href^="https://www.moviehdfree.net/linknext.php"]
-www.moviehdfree.net##.side_nav-type > [href^="https://www.moviehdfree.net/linknext.php"]
-www.moviehdfree.net##a[href^="https://www.moviehdfree.net/linknext.php"]:nth-of-type(7)
 ||www.moviehdfree.net/wp-content/uploads/2023/12/gb3.gif?x74946$image
 ||www.moviehdfree.net/wp-content/uploads/2023/12/gb4.gif?x74946$image
 ||www.moviehdfree.net/wp-content/uploads/2023/12/*.gif?x74946$image
@@ -2316,24 +2159,10 @@ www.moviehdfree.net##a[href^="https://www.moviehdfree.net/linknext.php"]:nth-of-
 ||www.anime-masters.com/upload/fhn.gif?v=44$image
 ||www.anime-masters.com/upload/empire777.gif?v=44$image
 ||www.anime-masters.com/upload/ufaeazyv11.gif?v=44$image
-anime-suba.com##[href="https://ufanance.co"]
-anime-suba.com##[href="https://madhattersdemo.com"]
-anime-suba.com##[href="https://rivademo.com/"]
 ||1112hd.com/wp-content/uploads/2023/12/320-ban.gif$image
 ||1112hd.com/wp-content/uploads/2023/12/320.gif$image
-www.kurokami.me###myTabContent > .row
-www.kurokami.me##div.col-12 > .row
 ||img.shirokami.me/images/2023/12/15/333c206eec1a96a115e87511e4b66801.gif$image
-www.v8movie-hd.com##[href="https://aff.boss45.cc/aff/mpt7ard7hv"]
-www.9nunghd.com##div > [href="https://ufathai24.cc/"]
-www.animehdzeroo.com##.col-lg-12
-www.mee-series.com##[href="https://pg999slot.bet/"]
-www.mee-series.com##[href="https://pg888st.com/"]
 ||img.shirokami.me/images/2024/01/08/*.gif$image
-manga168.com##.dessert-frame > center
-manga168.com##[href="https://huaylike.live/"]
-manga-za.net##[href="https://coinbet999.com/lotto/"]
-www.nanamovies.me##[href="https://coinbet999.com/lotto/"]
 ||037hdmovie.com/wp-content/uploads/2023/12/ufathai24-270x540-1.gif
 ||037hdmovie.com/wp-content/uploads/2024/01/UFAJAZ-270x540-2.gif
 ||123-hd.com/wp-content/uploads/2024/01/lalikabet168230167.gif
@@ -2371,7 +2200,6 @@ www.nanamovies.me##[href="https://coinbet999.com/lotto/"]
 ||movie2uhd.com/wp-content/uploads/2024/01/X2.jpg
 ||movie2uhd.com/wp-content/uploads/2024/01/X2-NEW.jpg
 ||seriesday.com/wp-content/uploads/2024/01/pgk44240167-200x544-1.gif
-seriesday.com##p[style="height:260px;max-height:260px;margin: 0 0 13px;"]
 ||nung2hdd.com/wp-content/uploads/2024/01/728x200-uffat.gif
 ||nung2hdd.com/wp-content/uploads/2024/01/BPK01728x180.gif
 ||nung2hdd.com/wp-content/uploads/2024/01/ggs728x180-02.gif
@@ -2479,8 +2307,6 @@ seriesday.com##p[style="height:260px;max-height:260px;margin: 0 0 13px;"]
 ||i0.wp.com/series-indy.com/wp-content/uploads/2024/01/pgslot99-728x200-1000-ezgif.com-gif-to-webp-converter.webp?ssl=1
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyYXroQf-OStDkzNfEOMutIFZPF3p8nmF8DFRLzsamiuTg0-c-ok-HShs18-nVlytxkaBv67UEMeXtg4nlKrpxONzLJlykWFqOTwH1ZRWCFamAZ6h1ySFutzKy0yCGCNN6hpKYsJac9fA-P1h_Zi8O_1ZOxb-SFpx7yOGLC33oUUZ4eGEYHiAYdzyKnaA-/s16000-rw/BANNER_%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95666.gif
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4FHsW_hvLLP6ExjYBCh4CYaW047HVfl1gIM4WZ-QEbn_qo6gK114WdE2EOYd_ubOQ2qKis7bS0pt2eiL42u6MZtoYPtLThQqKC3t3VWFW8nSPC0ZjRyfMgw6_SmE5A6y_-2nHGU2Qe4E98SrpSb_b9D0RQ2iwedJTGeuV5q7QW2TYtfOoBxs0_v60uMhE/s16000-rw/BANNER_PGSLOT.gif
-up-manga.com##a[href^="/link_to.php"]:nth-of-type(1)
-up-manga.com##a[href^="/link_to.php"]:nth-of-type(2)
 ||037hdmovie.com/wp-content/uploads/2024/02/HYDRA888-270x540-1.gif
 ||037hdmovie.com/wp-content/uploads/2024/02/UFAFC24-270x540-2.gif
 ||037hdmovie.com/wp-content/uploads/2024/02/VIP168SA-270x540-1.gif
@@ -2502,14 +2328,6 @@ up-manga.com##a[href^="/link_to.php"]:nth-of-type(2)
 ||24-hd.com/wp-content/uploads/2024/02/ufafat120267.gif
 ||24-hd.com/wp-content/uploads/2024/02/lockdown1681202672-1.gif
 ||24-hd.com/wp-content/uploads/2024/02/200x272-hydra888120267.gif
-24-hd.com##p[style="height:260px;max-height:260px;margin: 0 0 25px;"]
-24-hd.com##.adcen
-24-hd.com##.ad
-24-hd.com##.adl
-24-hd.com##.adhl
-24-hd.com##.mcommanr
-xn--72czp5e5a8b.tv##.adt
-xn--72czp5e5a8b.tv##.adb
 ||blogger.googleusercontent.com/img/a/AVvXsEiQMnmshUNzz0emtrLC2jZRWYUo2Pqx4Xo7X0wfrQRXJjn7PmxxPa7fQNKCAbzHtP6QGld9OuGYjaJG3JL6rC2JYScePAKcyfLWFnJrt8Hf5geSocNGRNOcH3j1Cv9USIvayIE4nhaR9_M9iU8xJSUy354kfodgTG7NkWrJa0HwAi9Koxsjav7VWKpLwck
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5020ChOAQImyy1oRHFuIptMMIP9uPQe18A7Cvh4swGxiTN2YolcQyzmsnYLn5noL_A9rijZ-qPxVeE6a119jprTBgkKUup4_7koP_UlbZmk0AK-l0m9OSQ-N7kts3FDNIQe3Icpn_jhHV_wXe3A27fQlEJiednThZIYRbyW2E0s-W3KPpN7BqkQ2arcU/s16000/slot888-728x200-pok8.gif
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxDcHMXr7HPe-JdA-FsoghOJ38IJ5QcslIfeVFAynpmYAWNJheNJYZw6mcShMQtMHmBtt_ySfSeOdlicW1ZHgdOAWGR7t5TsMPb420pLKuZ6P7aWQYFUzWzwngeM1bQOH9pq_w55e96QUFS2V3u4uyQs9UuuCNYo9qhtqp3utpACgsq0Bz6fAuGq_torY/s16000/Slot_POK9-728x200_ver2.gif
@@ -2550,10 +2368,6 @@ xn--72czp5e5a8b.tv##.adb
 ||serie-day.com/wp-content/uploads/2023/05/772x130-newvegas168-pgslot-sa.gif
 ||serie-day.com/wp-content/uploads/2024/01/pgk44240167-200x544-1.gif
 ||serie-day.com/wp-content/uploads/2023/08/sbobet.gif
-serie-day.com##p[style="height:260px;max-height:260px;margin: 0 0 13px;"]
-serie-day.com##p[style="height:130px;max-height:130px;margin: 0 0 12px;"]
-serie-day.com##.adcen
-serie-day.com##.ad
 ||serie-day.com/wp-content/uploads/2024/02/200x272-hydra888120267.gif
 ||serie-day.com/wp-content/uploads/2023/10/ufazeed-v3.gif
 ||serie-day.com/wp-content/uploads/2023/10/panama-200x272-v3.gif
@@ -2562,10 +2376,8 @@ serie-day.com##.ad
 ||serie-day.com/wp-content/uploads/2023/11/ufac4v4.gif
 ||serie-day.com/wp-content/uploads/2023/10/sexy1688-200x272-v3.gif
 ||serie-day.com/wp-content/uploads/2023/10/ufa191-v3.gif
-serie-day.com##.adhl
 ||serie-day.com/wp-content/uploads/2023/11/lotto432v4.gif
 ||serie-day.com/wp-content/uploads/2023/11/brazil999v4.gif
-serie-day.com##.adl
 ||facebook.com/v14.0/plugins/comments.php?app_id=1574096012810602&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dff5bc5e09f31dd70a%26domain%3Dwww.serie-day.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.serie-day.com%252Ff6b145aae7306713b%26relation%3Dparent.parent&color_scheme=light&container_width=780&height=100&href=https%3A%2F%2Fwww.serie-day.com%2Fclose-friend-3-soju-bomb%2F&locale=th_TH&numposts=5&sdk=joey&version=v14.0&width=
 ||nung2hdd.com/wp-content/uploads/2024/03/Reno-5.gif
 ||nung2hdd.com/wp-content/uploads/2024/03/bsc12728x200.gif
@@ -2627,7 +2439,6 @@ serie-day.com##.adl
 ||anime-masters.com/upload/bts55v2.gif?v=11
 ||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/ufanance.gif
 ||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/democraft360.gif
-anime-suba.com##.Anadvertisement0.LazyLoad
 ||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/img05/AMB%20SLOT.gif
 ||image.baan-series.com/uploads/20240315/e603d1a539d4fda127ce68c8d2473457126b3c29.webp
 ||1112hd.com/wp-content/uploads/2023/11/730x150-6.gif
@@ -2646,3 +2457,548 @@ anime-suba.com##.Anadvertisement0.LazyLoad
 ||amz-cdn.manga168.com/img/7dd9800e186d0ff5bab3e05b99107937.jpg
 ||i0.wp.com/series-indy.com/wp-content/uploads/2024/03/PGK44-728x180-1-.webp?ssl=1
 ||i0.wp.com/series-indy.com/wp-content/uploads/2024/03/1709441743640.gif?ssl=1
+||037hdmovie.com/wp-content/uploads/2024/04/EASY45-270x540-2.gif
+||movie44.com/wp-content/uploads/2024/03/THlive_728x200.gif
+||movie44.com/wp-content/uploads/2024/02/cobra88_728x200.gif
+||movie44.com/wp-content/uploads/2024/03/tbet45_728x200-new.gif
+||movie44.com/wp-content/uploads/2024/04/baccarat888th_300x300_2.gif
+||movie44.com/wp-content/uploads/2024/04/baccarat888th_300x300_1.gif
+||img03.xyz/assets/img/banner-new/L-2-120x380-brazil999-4.gif
+||img02.xyz/assets/img/banner-new/L-1-120x380-77lotto-4.gif
+||img05.xyz/assets/img/banner-new/R-2-120x380-ufazeed-5.gif
+||img04.xyz/assets/img/banner-new/R-1-120x380-sagame1688-4.gif
+||img01.xyz/assets/img/banner-new/MV1-P-1456x360-pgjoker69.gif
+||img02.xyz/assets/img/banner-new/MV2-P-1456x360-newvegas168-2.gif
+||img04.xyz/assets/img/banner-new/F5-F6-tangtem_728x180-7.gif
+||img03.xyz/assets/img/banner-new/MV2-P-1456x360-newvegas168-2.gif
+||img04.xyz/assets/img/banner-new/MV2-1456x360-sexyauto168-2.gif
+||via.placeholder.com/1456x360?text=1456x360-MV3
+||via.placeholder.com/1456x360?text=1456x360-MV4
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJo9WK390sGtMdo7eBerbpNQUrmP0dbyeaiGKh_Ny6KKFndTpizkpN0fSNjEAJSJ6lA_96aIG5u7yyVTwTVfLcmY-KxU1MPCuLnd26X7Q1fOHjz8V7dcTFJVKUQqet-uhBUD7_7kbxpX3jiuNtLRnG87TFOQDK7BEN6L0WDUr-BBFKPQWfZ2Attbwo_g/s1600/10.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib3ejpXIIdGhrPy4rutxEsZb7DzP2K1ID7qWD3-xzlncnTXx7lpNKqtaeNDnN8O-cu6pqJa61YlLfnmfy2IFPfj_ga0jhnKlEdWt6VeC7gCZybUFissRZfgMSG7snSHVzGaWyUgK8oVhWQRmZwNTR1mqy79WUODFtJWLYKAEGNfo9ISawtuPKF4ZM1qA/s1600/56565595.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAgVe4MKVlygXXCFs8OKzf1MdjwQ981kVGIJWiBF6JAmSg3WMAVRD6aPAElGomdqBocDAUNbpo0leLxQMH8r5wF1sKRv1Brk0hVb-GZjOlisx9-xhJtVuxpveCbaIE2ol2SQajDiu_34uMRDcgK8eZ_tO0IX-7s_c2FRVCmpBqbba3672ARNXLgA_hwg/s16000/595956262.png
+||esgameservers.com/wp-content/uploads/2022/08/ads.gif
+||esgameservers.com/wp-content/uploads/2022/08/432957577_281918394947835_1151812532287676493_n.gif
+||esgameservers.com/wp-content/uploads/2022/08/widget.gif
+||movie2uhd.com/wp-content/uploads/2024/04/movie2hd.gif
+||movie2uhd.com/wp-content/uploads/2020/10/A3.jpg
+||movie2uhd.com/wp-content/uploads/2020/10/A4.jpg
+||movie2uhd.com/wp-content/uploads/2024/04/K1_version2_movie_giff_848_148.gif
+||movie2uhd.com/wp-content/uploads/2024/04/1714049408093.gif
+||movie2uhd.com/wp-content/uploads/2024/04/806.gif
+||movie2uhd.com/wp-content/uploads/2024/03/DL6-Movie2uhd-123maxxx_Banner_200x290.gif
+||movie2uhd.com/wp-content/uploads/2021/09/DL7.jpg
+||movie2uhd.com/wp-content/uploads/2020/10/D9.jpg
+||movie2uhd.com/wp-content/uploads/2022/03/X03.jpg
+||movie2uhd.com/wp-content/uploads/2022/03/X04.jpg
+||movie2uhd.com/wp-content/uploads/2021/01/J1.jpg
+||nung2hdd.com/wp-content/uploads/2024/04/gif-theme-nung2hdd-980x200-1.gif
+||nung2hdd.com/wp-content/uploads/2024/04/thai24728x180v2.gif
+||dooseries4k.com/wp-content/uploads/2024/04/UFA-THAI-205x45.gif
+||dooseries4k.com/wp-content/uploads/2024/04/fc24-205x450-1.gif
+||dooseries4k.com/wp-content/uploads/2024/04/CM88-Doosereis4k-205x450-1.gif
+||anime-masters.com/upload/728x200-Juad888v3.gif?v=11
+||anime-masters.com/upload/728x200-ufafatv3.gif?v=11
+||anime-masters.com/upload/728x200-ufazeedv3.gif?v=11
+||anime-masters.com/upload/728x200-UFA191v3.gif?v=11
+||anime-masters.com/upload/ole777v9.gif?v=11
+||anime-masters.com/upload/728x200-UFAC4v3.gif?v=11
+||anime-masters.com/upload/betflix168v8.gif?v=11
+||anime-masters.com/upload/empire777v2.gif?v=11
+||anime-masters.com/upload/hit999.gif?v=11
+||anime-masters.com/upload/pigspinv8.gif?v=11
+||anime-masters.com/upload/genozz.gif?v=11
+||anime-masters.com/upload/locklek.gif?v=11
+||anime-masters.com/upload/fafa666.gif?v=11
+||anime-masters.com/upload/728x200-Hydra888v3.gif?v=11
+||anime-masters.com/upload/728x200-vip168sav3.gif?v=11
+||anime-masters.com/upload/728x200-SSGAME66v3.gif?v=11
+||anime-masters.com/upload/728x200-Lockdown168v3.gif?v=11
+||anime-masters.com/upload/728x200-brazil999v3.gif?v=11
+||anime-masters.com/upload/728x200_newgen_v1.jpg?v=11
+||anime-masters.com/upload/naga-356.gif?v=11
+||anime-masters.com/upload/sbfplay728x90v9.gif?v=11
+||anime-masters.com/upload/tegen03.gif?v=11
+||anime-masters.com/upload/BTS2.gif?v=11
+||anime-masters.com/upload/leo88video.gif?v=11
+||anime-masters.com/upload/728x200-SA1688v3.gif?v=11
+||anime-masters.com/upload/728x200-sexygame1688v3.gif?v=11
+||1112hd.com/wp-content/uploads/2024/04/728x180-ufanance.gif
+||1112hd.com/wp-content/uploads/2024/04/728x180-Hydra888.gif
+||1112hd.com/wp-content/uploads/2024/04/728x180-LOTTO432.gif
+||1112hd.com/wp-content/uploads/2024/04/728X180-brazil999.gif
+||1112hd.com/wp-content/uploads/2024/04/728x180-Lockdown168.gif
+||1112hd.com/wp-content/uploads/2024/04/728x180-panama888.gif
+||1112hd.com/wp-content/uploads/2024/04/728x180-UFA191.gif
+||1112hd.com/wp-content/uploads/2024/04/728x180-kingdom66.gif
+||1112hd.com/wp-content/uploads/2024/04/728x180-UFAC4.gif
+||1112hd.com/wp-content/uploads/2024/04/728x180-ufazeed.gif
+||1112hd.com/wp-content/uploads/2024/04/728x180-sexygame1688-1.gif
+||1112hd.com/wp-content/uploads/2024/04/728x180-SA1688.gif
+||img.shirokami.me/images/2024/04/15/92d63f5f663d7b41225ed81e4e3dcc2d.gif
+||v8movie-hd.com/wp-content/uploads/2024/04/EASY45-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/03/KING89-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/03/ufa45-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/03/728x160_SLOTS-FreeBet500.gif
+||v8movie-hd.com/wp-content/uploads/2024/04/TBET45-728x180-2.gif
+||9nunghd.com/wp-content/uploads/2024/04/ufathai24-728x180-2.gif
+||9nunghd.com/wp-content/uploads/2024/04/fc24-800x180-1.gif
+||9nunghd.com/wp-content/uploads/2024/04/hit9999-728x180-1.gif
+||9nunghd.com/wp-content/uploads/2024/04/UFA-THAI-205x450GIF.gif
+||9nunghd.com/wp-content/uploads/2024/04/fc24-205x450-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/04/fc24-800x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/04/OLE777-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/03/IMBA-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/04/SAgaming-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/04/ufathai24-728x180-2.gif
+||v8movie-hd.com/wp-content/uploads/2024/02/UFAFC24-728x180-1.gif
+||928-hd.com/wp-content/uploads/H928ufa.gif
+||928-hd.com/wp-content/uploads/ufa800-730x358-1.gif
+||928-hd.com/wp-content/uploads/ufa888-730x358-1.gif
+||928-hd.com/wp-content/uploads/b164852.gif
+||928-hd.com/wp-content/uploads/ufa911-730x358-1.gif
+||928-hd.com/wp-content/uploads/ufa800-730x365-1.gif
+||928-hd.com/wp-content/uploads/ufa365-730x174-1.gif
+||928-hd.com/wp-content/uploads/ufawin-730x183-1.gif
+||928-hd.com/wp-content/uploads/ufa365-730x174-2.gif
+||928-hd.com/wp-content/uploads/ball-ufa168-730x179-1.gif
+||928-hd.com/wp-content/uploads/banner-sa-lk.gif
+||928-hd.com/wp-content/uploads/ufa747-730x358-1.gif
+||928-hd.com/wp-content/uploads/pt168-730x179-1.gif
+||928-hd.com/wp-content/uploads/ballufa168-730x179-1.gif
+||928-hd.com/wp-content/uploads/ufa123-730x183-1.gif
+||928-hd.com/wp-content/uploads/lotto-ufa168-730x179-1.gif
+||928-hd.com/wp-content/uploads/ufs88s-730x358-1.gif
+||928-hd.com/wp-content/uploads/sexy-lucky135-730x365-1.gif
+||928-hd.com/wp-content/uploads/lotto-ufa168-730x365-1.gif
+||928-hd.com/wp-content/uploads/ufa345-730x358-1.gif
+||928-hd.com/wp-content/uploads/ufa356-730x183-1.gif
+||928-hd.com/wp-content/uploads/ufa007-730x183-1.gif
+||928-hd.com/wp-content/uploads/ufa147-730x183-1.gif
+||928-hd.com/wp-content/uploads/ufa345-730x134-1.gif
+||928-hd.com/wp-content/uploads/ufa345-730x183-1.gif
+||928-hd.com/wp-content/uploads/lotto-ufa168-730x365-2.gif
+||928-hd.com/wp-content/uploads/ufa169-730x183-1.gif
+||928-hd.com/wp-content/uploads/ball-ufa800-730x358-1.gif
+||928-hd.com/wp-content/uploads/mkvip-300x300-1.gif
+||928-hd.com/wp-content/uploads/pokdeng-ufa168-730x348-1.gif
+||928-hd.com/wp-content/uploads/banner147-730x348-1.gif
+||i0.wp.com/anime-hit.com/wp-content/uploads/2024/04/Pep-CPD-728x200-1.gif?fit=728%2C200&ssl=1
+||img.shirokami.me/images/2024/04/23/d76e00b0eca141272f08171c20da48ed.jpg
+||img5.pic.in.th/file/secure-sv1/ufakicks.gif
+||img2.pic.in.th/pic/baccarat888.gif
+||img2.pic.in.th/pic/9slot.gif
+||img5.pic.in.th/file/secure-sv1/Dafabet-690.gif
+||img2.pic.in.th/pic/Coinbet999.gif
+||img2.pic.in.th/pic/300x300.jpeg
+||img2.pic.in.th/pic/Dafabet-1000.gif
+||img5.pic.in.th/file/secure-sv1/1000x130.jpeg
+||up-manga.com/wp-content/uploads/2023/12/slotxo24hr.gif
+||up-manga.com/wp-content/uploads/2024/04/leo88728x90.gif
+||123-hd.com/wp-content/uploads/2024/05/728x200-lalikabet88-020567.gif
+||123-hd.com/wp-content/uploads/2024/05/728x200-lalikabet168-020567.gif
+||123-hd.com/wp-content/uploads/2024/05/728x200-Juad888-020567.gif
+||123-hd.com/wp-content/uploads/2024/05/728x200-ufafat-020567.gif
+||123-hd.com/wp-content/uploads/2024/05/728x200-vip168sa-020567.gif
+||037hdmovie.com/wp-content/uploads/2024/05/THUNDER95-240x570-1.gif
+||037hdmovie.com/wp-content/uploads/2024/05/ufathai24-270x540-1.gif
+||037hdmovie.com/wp-content/uploads/2024/05/UFAFC24-270x540-2.gif
+||movie44.com/wp-content/uploads/2024/05/%E0%B8%9A%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%B2.gif
+||movie44.com/wp-content/uploads/2024/05/%E0%B8%97%E0%B8%94%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95.gif
+||movie44.com/wp-content/uploads/2024/05/SLOT.gif
+||img02.xyz/assets/img/banner-new/L-2-120x380-brazil999-4.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUqmKuJYPHvFOc7eDqxuE4RCWxrbN2tubO9wgBw5DhadQcVdA6yXA6j-Ys7CO-x2PITCuXZEN5B1YanfESh_VvZFN2Vsb-duE9kjE6-dtkQjWxts5wFC4vf5Mdp-azdpLayfcWDrPduBDN8b6R5WO76iMRiAfl6Sd0xnX2WR8UY2aHUSnJTqaus5JOjA/s1600/5956561323.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyJh9m42_sQZjgo8Zkk_Yb4uem2XKCJLCnvvI6LB-ozkoyPHn0qIbpQm6QXhRvNLRWfmfcmwyuAesUVK_CZuVOhbwnArNgIo9OxhxcF4kw5bq6aQhWHb-TykSygVhhgwx-ei1daImw3mTTamBeqaDuhKiSr03DDWcAP0FOY_rsO8F65Ywh71LIwoiaKQ/s1600/5956565662323.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdVuYxQeEQ2xdVbNvspunZ0Ei-pRxZztAprE6YStQEgbp5YCKL2M97ZdsEaXVf7beKzJinpwSkeIdE7I86u3KJvD1B5Jokq5pWYm-Xv0jg2bWeNkgBG2URLSJI4crd4IToPqAJZCqOU5U2XRxF21JSiiS5HelHogr81b_MczxXqr-DsE1nvaWkDsZ8CA/s16000/656s56s56s5d65s6.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw3Df5kz2A78n0mKLiab3s3Z22iOkLrF6Vp8NnhE56Po-Qv_vRiOrRWLN8ruW3qN2vg9s5CTcK6GwY6-QmRgaYT_edrueVmuVWtsuRFfugTbAvyeNFBycyqWgneJLm-W0B9llj1Loc8f8dx4bmdIBuy5R2MVfuOSmJ5YmWocGBCfUeoaxsF-xtXJ2810B6/s16000-rw/w3iQw2L.gif
+||esgameservers.com/wp-content/uploads/2024/05/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%94%E0%B8%B4%E0%B8%95%E0%B8%9F%E0%B8%A3%E0%B8%B5-75-768x232.jpg
+||esgameservers.com/wp-content/uploads/2024/05/slotkg-banner-1024x214.jpg
+||movie2uhd.com/wp-content/uploads/2024/05/10-%E0%B8%A7%E0%B8%B4-%E0%B9%81%E0%B8%9A%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87-movie2uhd.gif
+||movie2uhd.com/wp-content/uploads/2023/10/Pl1.jpg
+||movie2uhd.com/wp-content/uploads/2020/10/A5.jpg
+||nung2hdd.com/wp-content/uploads/2024/05/728-x-180-owen-2.gif
+||nung2hdd.com/wp-content/uploads/2024/05/k9800180.gif
+||dooseries4k.com/wp-content/uploads/2024/05/ufathai24-270x540-1.gif
+||dooseries4k.com/wp-content/uploads/2024/05/UFAFC24-270x540-2.gif
+||moviehdfree.com/wp-content/uploads/2024/05/756x240-ufafat.gif
+||moviehdfree.com/wp-content/uploads/2024/05/SA-756x230-1.gif
+||moviehdfree.com/wp-content/uploads/2024/05/756x240-77lotto.gif
+||moviehdfree.com/wp-content/uploads/2024/05/178x510.gif
+||moviehdfree.com/wp-content/uploads/2024/05/178x488.gif
+||anime-masters.com/upload/ole777v10.gif?v=11
+||anime-masters.com/upload/yoda.gif?v=11
+||anime-masters.com/upload/salkgaming.gif?v=11
+||anime-masters.com/upload/y88.gif?v=11
+||anime-masters.com/upload/prayayaak.gif?v=11
+||anime-masters.com/upload/sbfplay728x90v10.gif?v=11
+||anime-masters.com/upload/fafa678x1.gif?v=11
+||anime-masters.com/upload/manga.gif?v=11
+||anime-masters.com/upload/sbobet888z1.gif?v=11
+||anime-masters.com/upload/baccarat888.gif?v=11
+||anime-masters.com/upload/fafa456-90.gif?v=11
+||anime-masters.com/upload/neon24h.gif?v=11
+||anime-masters.com/upload/kod168.gif?v=11
+||anime-masters.com/upload/sagaming.gif?v=11
+||anime-masters.com/upload/camel88.gif?v=11
+||anime-masters.com/upload/8x-betv3.gif?v=11
+||anime-masters.com/upload/w88a1.gif?v=11
+||anime-masters.com/upload/188betvideov3.gif?v=11
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/img05/ufathai.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/THUNDER95-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/GODZILLA88-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/mungkorn89-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/UFABALL88-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/728x160_SLOTS-FreeBet500.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/OLE777-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/FAFA-800x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/K9WIN-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/UFATHAI-728x180-1.gif
+||9nunghd.com/wp-content/uploads/2024/05/UFAFC24-728x180-2.gif
+||9nunghd.com/wp-content/uploads/2024/05/ufathai24-270x540-1.gif
+||9nunghd.com/wp-content/uploads/2024/05/UFAFC24-270x540-2.gif
+||i0.wp.com/anime-hit.com/wp-content/uploads/2024/05/140x250-Lockdown168.gif
+||i0.wp.com/anime-hit.com/wp-content/uploads/2024/05/140x250-brazil999.gif
+||mojianime.com/wp-content/uploads/2024/05/LOTTO432.gif
+||mojianime.com/wp-content/uploads/2024/05/ufazeed.gif
+||mojianime.com/wp-content/uploads/2024/05/ufafat.gif
+||i0.wp.com/anime-hit.com/wp-content/uploads/2024/05/728x200-sexygame1688.gif?fit=728%2C200&ssl=1
+||i0.wp.com/anime-hit.com/wp-content/uploads/2024/05/CPD-728x200-UEFA-EURO-LEO88.gif?fit=728%2C200&ssl=1
+||i0.wp.com/anime-hit.com/wp-content/uploads/2024/05/728x200_PG.gif?fit=728%2C200&ssl=1
+||img.shirokami.me/images/2024/05/06/a60ebe51ae34e1708c475a9281dc1ca3.gif
+||img.shirokami.me/images/2024/05/07/d2cdf3363f39d2f30fe0cdb1e2f6b657.gif
+||img2.pic.in.th/pic/jbo-1000.gif
+||img2.pic.in.th/pic/kapook-728.gif
+||img5.pic.in.th/file/secure-sv1/fun88-7282d8209c7274da4f5.gif
+||fundingchoicesmessages.google.com/i$script
+||fundingchoicesmessages.google.com/f$script
+||fundingchoicesmessages.google.com^$script
+||s10.histats.com/counters/cc_502.js
+||up-manga.com/wp-content/uploads/2024/05/camel88.gif
+||037hdmovie.com/wp-content/uploads/2024/05/728x180_SLOTS-FreeBet500.gif
+||037hdmovie.com/wp-content/uploads/2024/05/UFABULL88-270x540-1.gif
+||037hdmovie.com/wp-content/uploads/2024/05/SBOBET-270x540-1.gif
+||037hdmovie.com/wp-content/uploads/2024/05/270x540_SLOTS-FreeBet500-1.gif
+||037hdmovie.com/wp-content/uploads/2024/06/W88-270x540-3.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXDB8Zqg5MAHeEsr9TCC5-BrTzf_pLHNApnll0rI6PKAaaU3uzRKf_w7l8RNwivqAKBEHICpTJf5-h1Uwr4vmT7Pqi9lVDW2bKYTOZTmS4e2Ls7ic7iiuiBSNloKFdq3AeOMuGRNZHhAWUkMOqTR_Mp-67P3JXY-4s95ew1HQCqFTfyNRR1eVLfjYdvg/s1600/565566566.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKsb0FYQcnKwba_dwXZTOxZz-ew7GUz1IL52JII3kiusQjZAuAXw24gnUdf3uH5NrKta7X7jc06w0p3wxr_XXFTrq5Z0aHa12okmR8dVfd5nA9-RxAiOyEWYFumd9KRT7m2V3G_e5-yv7nYJAXJtkFLpKJxHeCBcdDxagJGeUFEF8JTj4B3Z0WSQ_9vg/s16000/595656562.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0ac7EK0w2MmrR2xYEoukzVbCIxEUtiuxBH-QuzROnaxSXUwLOTV_uyNj7kwYF9ES9RJc6YYcrxqvxTail0dBzWXkXZ6BGFyECQ_axCJv3nXvIf7wn9CMXOoz8Aqt6C21b2JHhxJqbAXTFFVee3EOm3jn1ve4MKMQ18ZhJstWDlpl7y9SyOsj1sGffsQ/s16000/565959441.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVfO7HRM-OJ2KNEqezzx-b7Vko6JpLv8pn4xEwoGaherzJGeivkxGzLNMWPZzHgAFyXP-H5c1LYFvT65x1-vQGZYHB6A35V1PS_F860IdLI-cED_Z32YdlrF587bm7RvlD7kihhHp-hF8wdBEilEDqU-0brRNDM0ImhFqP_3pksTfgO1yNjDbCjxtbyg/s16000/132255956.gif
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyrclYo9oJm6ixywm8RjPRWzcELgPTTgKuxGLmN62dlHX8N2McBJ6GBH26MiBZyphN2JI6g7QSbr67dxrjNb6A3rUhlznOgUJFYZVpEF73Qr0H4tKe2XbebmuhK4EgvMj8BE_pUdenoREoh1TwU3PTgVZGCFHhkx0S0aM5hVqMmRVWiSgDOr6IEJJIjQ/s16000/898956516.gif
+||movie2uhd.tv/wp-content/uploads/2024/04/1714049408093.gif
+||movie2uhd.tv/wp-content/uploads/2021/09/BL1.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/BL2.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/BL3.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/BL4.jpg
+||movie2uhd.tv/wp-content/uploads/2020/10/A2.jpg
+||movie2uhd.tv/wp-content/uploads/2020/10/A3.jpg
+||movie2uhd.tv/wp-content/uploads/2020/10/A4.jpg
+||movie2uhd.tv/wp-content/uploads/2020/10/A5.jpg
+||movie2uhd.tv/wp-content/uploads/2020/10/A6.jpg
+||movie2uhd.tv/wp-content/uploads/2020/10/A8.jpg
+||movie2uhd.tv/wp-content/uploads/2020/10/A7.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/BR1.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/BR2.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/BR4.jpg
+||movie2uhd.tv/wp-content/uploads/2023/04/Gold.gif
+||movie2uhd.tv/wp-content/uploads/2020/10/D9.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DL8.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DL7.jpg
+||movie2uhd.tv/wp-content/uploads/2024/02/778x130-juad.gif
+||movie2uhd.tv/wp-content/uploads/2024/02/778x130-lotto.gif
+||movie2uhd.tv/wp-content/uploads/2023/10/B365-200x290-1.gif
+||movie2uhd.tv/wp-content/uploads/2020/10/A13.jpg
+||movie2uhd.tv/wp-content/uploads/2023/08/772x130.gif
+||movie2uhd.tv/wp-content/uploads/2020/10/A14.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DR6-1.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DR7-1.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DR8-1.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DR9-1.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DR5-1.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DR4-1.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DR3-1.jpg
+||movie2uhd.tv/wp-content/uploads/2024/07/gif.gif
+||movie2uhd.tv/wp-content/uploads/2024/02/778x130-ufazeed.gif
+||movie2uhd.tv/wp-content/uploads/2024/02/778x130-panama.gif
+||movie2uhd.tv/wp-content/uploads/2022/04/200x290-1.gif
+||movie2uhd.tv/wp-content/uploads/2021/09/DR2-1.jpg
+||movie2uhd.tv/wp-content/uploads/2022/03/X05.jpg
+||movie2uhd.tv/wp-content/uploads/2024/06/X06.jpg
+||movie2uhd.tv/wp-content/uploads/2024/06/X07.jpg
+||movie2uhd.tv/wp-content/uploads/2024/06/X08.jpg
+||movie2uhd.tv/wp-content/uploads/2024/06/X09.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DL2.jpg
+||movie2uhd.tv/wp-content/uploads/2022/12/L3.jpeg
+||movie2uhd.tv/wp-content/uploads/2021/09/DL3.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DL4.jpg
+||movie2uhd.tv/wp-content/uploads/2021/09/DL5.jpg
+||movie2uhd.tv/wp-content/uploads/2022/03/X04.jpg
+||movie2uhd.tv/wp-content/uploads/2024/04/806.gif
+||movie2uhd.tv/wp-content/uploads/2022/03/X03.jpg
+||movie2uhd.tv/wp-content/uploads/2022/03/X01.jpg
+||movie2uhd.tv/wp-content/uploads/2024/01/X2.jpg
+||movie2uhd.tv/wp-content/uploads/2023/10/Pl1.jpg
+||movie2uhd.tv/wp-content/uploads/2023/10/Pl2.jpg
+||nung2hdd.com/wp-content/uploads/2024/05/70.gif
+||nung2hdd.com/wp-content/uploads/2024/05/90.gif
+||nung2hdd.com/wp-content/uploads/2024/05/901.gif
+||nung2hdd.com/wp-content/uploads/2024/06/sexybaccarat728x180_1.gif
+||moviehdfree.net/wp-content/uploads/2023/12/bg18-6.gif?x77412
+||moviehdfree.net/wp-content/uploads/2023/12/bg18-5.gif?x77412
+||moviehdfree.net/wp-content/uploads/2024/06/greybetup.gif?x77412
+||moviehdfree.net/wp-content/uploads/2023/12/gb1.gif?x77412
+||moviehdfree.net/wp-content/uploads/2023/12/gb2.gif?x77412
+||moviehdfree.net/wp-content/uploads/2024/07/IMG_1333.gif?x77412
+||moviehdfree.net/wp-content/uploads/2023/12/gb4.gif?x77412
+||moviehdfree.net/wp-content/uploads/2024/07/IMG_1332.gif?x77412
+||moviehdfree.net/wp-content/uploads/2023/12/gb18-2.gif?x77412
+||moviehdfree.net/wp-content/uploads/2023/12/bg18-3.gif?x77412
+||moviehdfree.net/wp-content/uploads/2023/12/bg18-4.gif?x77412
+||anime-masters.com/upload/dodgecoin.gif?v=11
+||anime-masters.com/upload/harem77z1.gif?v=11
+||anime-masters.com/upload/fafa365z1.gif?v=11
+||anime-masters.com/upload/ole777v11.gif?v=11
+||anime-masters.com/upload/pigspina1.gif?v=11
+||anime-masters.com/upload/116lottoa1.gif?v=11
+||anime-masters.com/upload/playsexybacarratlive.jpg?v=11
+||anime-masters.com/upload/mangav2.gif?v=11
+||anime-masters.com/upload/kod88.gif?v=11
+||anime-masters.com/upload/luna999th.gif?v=11
+||anime-masters.com/upload/neon24hz1.gif?v=11
+||anime-masters.com/upload/naga456z1.gif?v=11
+||anime-masters.com/upload/sbfplay728x90v11.gif?v=11
+||anime-masters.com/upload/sym051.gif?v=11
+||anime-masters.com/upload/tengu1.gif?v=11
+||anime-masters.com/upload/genazz1.gif?v=11
+||anime-masters.com/upload/fafa178z1.gif?v=11
+||anime-masters.com/upload/k9winz1.gif?v=11
+||anime-masters.com/upload/pigbet.gif?v=11
+||anime-masters.com/upload/betflik168a1.gif?v=11
+||anime-masters.com/upload/salkgamingz1.gif?v=11
+||anime-masters.com/upload/728x200_EURO.gif?v=11
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/img05/EMPIRE777.gif
+||anime-suba.com/Anime-Suba/Admin/imgAnadvertisement/img05/QQ882.gif
+||1112hd.com/wp-content/uploads/2024/06/SBOBET888-BANNER-GIF-728x200-1.gif
+||1112hd.com/wp-content/uploads/2024/06/BACCARAT888-BANNER-GIF-728x200-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/GODZILLA-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/05/UFABULL-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/06/OLE777-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/06/Imba96-728x180-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/06/Reno88-728x180-2.gif
+||v8movie-hd.com/wp-content/uploads/2024/06/Boots88-728x180-2.gif
+||v8movie-hd.com/wp-content/uploads/2024/06/sagaming135-728x200-1.gif
+||v8movie-hd.com/wp-content/uploads/2024/06/sexybaccarat3-728x180-1.gif
+||mojianime.com/wp-content/uploads/2024/05/lotto77.gif
+||mojianime.com/wp-content/uploads/2024/05/SAGAME66.gif
+||img.shirokami.me/images/2024/06/11/8aa06df93c5b1de664cf2fe7abfbd8bf.gif
+||img.shirokami.me/images/2024/05/31/2c1faa33ab3b8c62b4fd9eccc3431a69.gif
+||img.shirokami.me/images/2024/06/07/af8ec7e3ed1d776980c8a66023cec2ad.gif
+||img.shirokami.me/images/2024/06/07/e4e902140e0d6d74ff70df9f3f47f846.gif
+||img.shirokami.me/images/2024/06/07/c58b1e3f5f8628829e739dee12ce3589.gif
+||img.shirokami.me/images/2024/06/07/6fb050707a4bc3725f1f1ce52b987aae.gif
+||img.shirokami.me/images/2024/06/07/f7b9301477220bc3ed150484bab498f3.gif
+||img.shirokami.me/images/2024/06/07/60e2452db158b81fb9e59489cbda43c7.gif
+||img2.pic.in.th/pic/empire777.gif
+||up-manga.com/wp-content/uploads/2024/06/w88728x90.gif
+movie44.com##.ad-overlay-click
+doomovie-hd.com##IMG[src^="data:image/gif;"]
+##[href="https://lockdown1682.com/"]
+##[href="https://ufanance.co/"]
+##[href="https://hydra888z.com/"]
+##[href="https://kingdom662.com/"]
+##[href="https://juad8883.com"]
+##div.LazyLoad.Anadvertisement0 > [href^="https://www.188league.com/th-th"]
+##[href="https://bit.ly/3eQUrEn"]
+www.anime-suba.com##[href^="https://www.sbfplay99.com/"]
+www.anime-suba.com##[href^="https://www.huc33.com/"]
+www.anime-suba.com##[href="https://bit.ly/3J1akmo"]
+www.anime-suba.com##[href="https://lkk135.com/sa-gaming/"]
+www.anime-suba.com##[href="https://928hd.com/"]
+www.anime-suba.com##[href="https://bit.ly/3DiJ7Ka"]
+www.anime-suba.com##[href="https://www.millenniumvillages.org"]
+www.anime-suba.com##[href^="https://www.xn--m3cd7amyt0n2a.com/"]
+www.anime-suba.com##[href="https://www.hapilabs.com/"]
+www.anime-suba.com##[href="https://clstest.fdot.gov/"]
+www.anime-suba.com##[href="https://u2tbcg.com"]
+www.anime-suba.com##[href^="https://www.kpth168.com/th"]
+www.anime-suba.com##[href="https://www.pgslot9999.co"]
+www.anime-suba.com##[href^="https://play.sexybaccarat.com"]
+www.anime-suba.com##[href="http://juterslot.ramdajs.com/"]
+www.anime-suba.com##[href="https://javaslot.azurefd.net/"]
+www.anime-suba.com##[href^="https://www.gclub-casino.com/daily-reload-bonus5/"]
+www.anime-suba.com##[href="https://brazil999.co/"]
+www.anime-suba.com##[href="https://bit.ly/pgjoker69-anime-suba"]
+www.anime-suba.com##[href="https://bit.ly/sexygame992-anime-suba"]
+www.anime-suba.com##[href="https://ufac42.com/"]
+www.anime-suba.com##[href="https://ufa1913.com/"]
+www.anime-suba.com##[href="https://sagame6661.co/"]
+www.anime-suba.com##[href="https://vip168sa2.com/"]
+www.anime-suba.com##[href="https://sexygame1688s.co/"]
+www.anime-suba.com##[href="https://ssgame6662.com/"]
+www.anime-suba.com##[href^="https://record.mytopaff.com/_1X6kEFMk88QlkhzSQlkHu2Nd7ZgqdRLk/1/"]
+www.anime-suba.com##[href^="https://www.aoxx69.vip/"]
+www.anime-suba.com##.img > [href^="https://www.188league.com/th-th"]
+www.anime-suba.com##[href="https://slotnexobet.com/"]
+www.anime-suba.com##[href="https://bit.ly/Pg-slot-online"]
+www.anime-suba.com##[href^="https://www.lucy555.com/register"]
+www.anime-suba.com##[href="https://seolrea.net/rg6w5"]
+www.anime-suba.com##[href^="https://www.jbo95.com/th/"]
+www.anime-suba.com##[href="https://bit.ly/3PCSonG"]
+www.anime-suba.com##[href="https://bit.ly/3D5R7xP"]
+1112hd.com##[href="https://lotto432s.co/"]
+1112hd.com##[href="https://brazil999.co/"]
+1112hd.com##[href="https://lockdown1682.com"]
+1112hd.com##[href="https://panama888.cc/"]
+1112hd.com##[href="https://ufac42.com"]
+1112hd.com##[href="https://bl88gold.com/"]
+1112hd.com##[href="https://bit.ly/ufasexygame-ufabet-ufa-fifa55-1112"]
+1112hd.com##[href="https://bit.ly/sexygame992-sa-sa1688-pgslot-992"]
+1112hd.com###tc-18 > [href="https://1112hd.com/"]
+1112hd.com##[href="https://bit.ly/newvegas168-1112hd"]
+1112hd.com##[href="https://www.sexygame1688s.co/"]
+1112hd.com##[href="https://16882sagame.com/"]
+baan-series.co##[href="https://ufafat.com/"]
+baan-series.co##[href="https://brazil999.co"]
+baan-series.co##[href="https://lotto432s.co"]
+baan-series.co##[href="https://juad8883.com/"]
+baan-series.co##[href="https://ssgame6662.com"]
+baan-series.co##[href="https://lotto77s.co"]
+baan-series.co##[href="https://kingdom662.com"]
+baan-series.co##[href="https://lockdown1682.com"]
+baan-series.co##[href="https://ufanance.co"]
+baan-series.co##[href="https://vip168sa2.com"]
+baan-series.co##[href="https://ufazeed2.com"]
+baan-series.co##[href="https://panama888.cc/"]
+neko-miku.com###ku960
+neko-miku.com###ku607
+neko-miku.com###ne285
+neko-miku.com###ne805
+neko-miku.com###
+neko-miku.com###ko
+neko-miku.com###ne756
+neko-miku.com###ne
+neko-miku.com###mi832
+www.kurokami.me##[href="https://csbet88.com/"]
+www.kurokami.me##[href="https://goatbet88.com/"]
+www.kurokami.me##[href="https://ggband.gg/referral/shirogg"]
+www.kurokami.me##[href="https://goatbet888.com/"]
+www.kurokami.me##[href="https://ufabet1688.us/"]
+www.kurokami.me##[href="https://www.jinda888.vip"]
+www.kurokami.me##[href="https://sbobet888.win/sport"]
+www.kurokami.me##[href="https://scrt888.com"]
+www.kurokami.me##[href="https://psth888.com"]
+www.kurokami.me##[href="https://www.millenniumvillages.org"]
+www.kurokami.me##[href="https://www.hapilabs.com/"]
+www.kurokami.me##div.banner728x200-div.col-6 > [href="https://e15initiative.org/"]
+www.kurokami.me##[href="//ohiovaxamillion.com/"]
+www.kurokami.me##[href="https://ufamax24.com/"]
+www.kurokami.me##[href="https://spinix188.com/"]
+www.kurokami.me##[href="https://betflix2k.com/"]
+www.kurokami.me##div.banner728x200-div.col-6:nth-of-type(17)
+www.kurokami.me##[href="https://betflixcasino.io/"]
+www.kurokami.me##[href="https://betflix-slot.com/"]
+www.kurokami.me##[href="https://pg888t.com/"]
+www.kurokami.me##[href="https://lcbet88.com/"]
+www.kurokami.me##[href="https://spnx888.com/"]
+www.kurokami.me##[href="https://betplay569.com/"]
+www.kurokami.me##[href="https://lcbetasia.com/"]
+www.kurokami.me##[href="https://pgs88asia.com/"]
+www.kurokami.me##[href="https://pg999st.com/"]
+www.kurokami.me##[href="https://lcbet24hr.com/"]
+www.kurokami.me##[href="https://whanmhoo569.com/"]
+www.kurokami.me##[href="https://www.ufabet168.info"]
+www.kurokami.me##[href="https://www.pgslot9999.co"]
+www.kurokami.me##[href="https://www.ufabet168.bet"]
+spankbang.com###interstitial_div_v3
+www.doomovie-hd.live##div.header-banana_small_tall > div
+www.doomovie-hd.live##div.group_a.floating-banana > div
+www.doomovie-hd.live##div.header-banana_big_tall > div
+www.doomovie-hd.live##.header-banana_container > .header-banana_big_short > div
+www.doomovie-hd.live##div.header-banana_small_short > div
+www.doomovie-hd.live##div.group_a.floating-banana:nth-of-type(2)
+www.doomovie-hd.live##.default-horizontal-bananax2 > div
+www.doomovie-hd.live##div.default-horizontal-banana > div
+www.doomovie-hd.live##div.left-floating-banana > div
+www.doomovie-hd.live##div.right-floating-banana > div
+oremanga.net##.header-ads-section
+moviehdfree.com##.ad
+24-hd.tv##.banner-fast
+24-hd.tv##[href="https://www.ufazeed2.com/"]
+24-hd.tv##[href="https://sexygame6662.com/"]
+24-hd.tv##[href="https://ufafat.com/"]
+24-hd.tv##[href="https://brazil999.co/"]
+24-hd.tv##[href="https://lotto432s.co/"]
+24-hd.tv##[href="https://ufapig.com/"]
+24-hd.tv##[href="https://ufac44.com/"]
+24-hd.tv##[href="https://sagame66s.com/"]
+24-hd.tv##[href="https://www.sexygame1688s.co/"]
+24-hd.tv##[href="https://16883sagame.com/"]
+24-hd.tv##[href="https://bit.ly/i777win"]
+24-hd.tv##[href="https://ufajaz.com/"]
+24-hd.tv##div.banner-fix > div > a[href="https://line.me/R/ti/p/@528sycoa"]
+24-hd.tv##a[href="https://line.me/R/ti/p/@528sycoa"]:nth-of-type(2)
+24-hd.tv##a[href="https://line.me/R/ti/p/@528sycoa"]:nth-of-type(3)
+24-hd.tv##a[href="https://line.me/R/ti/p/@528sycoa"]:nth-of-type(4)
+24-hd.tv##a[href="https://line.me/R/ti/p/@528sycoa"]:nth-of-type(1)
+24-hd.tv##[href="https://sagame66z.com"]
+24-hd.tv##[href="https://lockdown168z.com/"] > .banner_large
+24-hd.tv##[href="https://kingdom66z.com/"] > .banner_large
+24-hd.tv##[href="https://brazil999.cc/"] > .side-fix-banner
+24-hd.tv##[href="https://sexygame666s.com/"] > .side-fix-banner
+24-hd.tv##[href="https://ufafat.bet"] > .bottom-fix-banner
+24-hd.tv##[href="https://cobra88.live/%e0%b8%aa%e0%b8%a5%e0%b9%87%e0%b8%ad%e0%b8%95%e0%b9%80%e0%b8%a7%e0%b9%87%e0%b8%9a%e0%b8%95%e0%b8%a3%e0%b8%87/"]
+esgameservers.com##.elementor-button-wrapper
+www.037hdmovie.com###ads-single
+www.037hdmovie.com###ads-bottom-player
+www.niceoppai.net##[href="https://sexybaccarat.asia"]
+www.niceoppai.net##[href^="https://www.boss45.co/"]
+www.niceoppai.net##[href="https://pretty168.net"]
+movie2uhd.com##.adcen > div.adt > [href^="https://movie2uhd.com/link-to.php"]
+www.nung2hdd.com##[href="https://aff.boss45.cc/aff/hhs8y63kq9"]
+www.nung2hdd.com##[href^="https://m.w88ok.com/"]
+www.nung2hdd.com##[href="https://sexybaccarat.asia"]
+www.dooseries4k.com##[href^="https://www.dooseries4k.com/ads/go.php"]
+www.moviehdfree.net##a[href^="https://www.moviehdfree.net/linknext.php"]:nth-of-type(6)
+www.moviehdfree.net##.side-menu > [href^="https://www.moviehdfree.net/linknext.php"]
+www.moviehdfree.net##.side_nav-type > [href^="https://www.moviehdfree.net/linknext.php"]
+www.moviehdfree.net##a[href^="https://www.moviehdfree.net/linknext.php"]:nth-of-type(7)
+anime-suba.com##[href="https://ufanance.co"]
+anime-suba.com##[href="https://madhattersdemo.com"]
+anime-suba.com##[href="https://rivademo.com/"]
+www.kurokami.me###myTabContent > .row
+www.kurokami.me##div.col-12 > .row
+www.v8movie-hd.com##[href="https://aff.boss45.cc/aff/mpt7ard7hv"]
+www.9nunghd.com##div > [href="https://ufathai24.cc/"]
+www.animehdzeroo.com##.col-lg-12
+www.mee-series.com##[href="https://pg999slot.bet/"]
+www.mee-series.com##[href="https://pg888st.com/"]
+manga168.com##.dessert-frame > center
+manga168.com##[href="https://huaylike.live/"]
+manga-za.net##[href="https://coinbet999.com/lotto/"]
+www.nanamovies.me##[href="https://coinbet999.com/lotto/"]
+seriesday.com##p[style="height:260px;max-height:260px;margin: 0 0 13px;"]
+up-manga.com##a[href^="/link_to.php"]:nth-of-type(1)
+up-manga.com##a[href^="/link_to.php"]:nth-of-type(2)
+24-hd.com##p[style="height:260px;max-height:260px;margin: 0 0 25px;"]
+24-hd.com##.adcen
+24-hd.com##.ad
+24-hd.com##.adl
+24-hd.com##.adhl
+24-hd.com##.mcommanr
+xn--72czp5e5a8b.tv##.adt
+xn--72czp5e5a8b.tv##.adb
+serie-day.com##p[style="height:260px;max-height:260px;margin: 0 0 13px;"]
+serie-day.com##p[style="height:130px;max-height:130px;margin: 0 0 12px;"]
+serie-day.com##.adcen
+serie-day.com##.ad
+serie-day.com##.adhl
+serie-day.com##.adl
+anime-suba.com##.Anadvertisement0.LazyLoad
+doomovie-hd.pro##.header-banana_small_tall
+doomovie-hd.pro##.header-banana_container
+doomovie-hd.pro##.floating-banana.group_a
+928-hd.com##.ds-popup-content
+123-hd.com##p[style="max-height:200px; margin: 0 0 2px;"]
+i-moviehd.com##.entry-header
+9nunghd.com##.banner_left
+9nunghd.com##.banner_right
+9nunghd.com##.banner-top

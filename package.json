@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/PhyschicWinter9/thai-adblock-list#readme",
   "dependencies": {
-    "date-and-time": "^3.1.1"
+    "date-and-time": "^3.4.1"
   }
 }
