@@ -1,7 +1,7 @@
 [Adblock Plus 3.18] 
-! Version: 1.3-02072024
+! Version: 1.3-06082024
 ! Title: THAIADBLOCK LISTS
-! Last modified: 02-07-2024
+! Last modified: 06-08-2024
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
