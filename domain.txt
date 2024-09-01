@@ -1,5 +1,5 @@
 [Domain List]
-! Created: Tu-07-yyyy
+! Created: Su-25-yyyy
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 !
 ! This list contains the unique domains from the EasyList rules.
@@ -115,3 +115,8 @@ up-manga.com
 mojianime.com
 s10.histats.com
 movie2uhd.tv
+imoviehds.com
+928hd.me
+v8-hd.com
+mangaza.net
+animeyuzu.com
