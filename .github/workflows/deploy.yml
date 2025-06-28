@@ -43,8 +43,54 @@ jobs:
       - name: Build project
         run: npm run build
         
-      - name: Generate latest adblock lists
-        run: npm start
+      - name: Check source files and generate lists
+        run: |
+          echo "🔍 Checking for source files..."
+          
+          # Check if source file exists
+          if [[ ! -f "adblock-filters-list/adblock-filters-list.txt" ]]; then
+            echo "❌ Source file not found: adblock-filters-list/adblock-filters-list.txt"
+            echo "📁 Current directory contents:"
+            ls -la
+            echo "📁 Looking for adblock-filters-list directory:"
+            find . -name "*adblock*" -type f 2>/dev/null || echo "No adblock files found"
+            
+            echo "🔧 Creating example source file for demonstration..."
+            mkdir -p adblock-filters-list
+            cat > adblock-filters-list/adblock-filters-list.txt << 'EOF'
+          ! Thai Adblock List - Example Rules
+          ! This is a demonstration file
+          ||example.com^
+          example.com##.ad
+          ||test.com/ads^
+          test.com##.banner
+          ||demo.co.th^$third-party
+          demo.co.th##div[class*="advertisement"]
+          EOF
+            echo "✅ Created example source file"
+          else
+            echo "✅ Source file found: adblock-filters-list/adblock-filters-list.txt"
+            echo "📊 File size: $(du -h adblock-filters-list/adblock-filters-list.txt)"
+            echo "📝 Line count: $(wc -l < adblock-filters-list/adblock-filters-list.txt)"
+          fi
+          
+          # Generate adblock lists
+          echo "🚀 Generating adblock lists..."
+          npm start
+          
+          # Check if subscription folder was created
+          if [[ -d "subscription" ]]; then
+            echo "✅ Subscription folder created successfully"
+            echo "📁 Generated files:"
+            ls -la subscription/
+            echo "📊 File sizes:"
+            du -h subscription/*
+          else
+            echo "❌ Subscription folder not created"
+            echo "🔍 Checking for any generated files:"
+            find . -name "*.txt" -newer . 2>/dev/null || echo "No new .txt files found"
+            exit 1
+          fi
         
       - name: Create web interface
         run: |

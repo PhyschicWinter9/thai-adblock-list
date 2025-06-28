@@ -101,11 +101,12 @@ jobs:
       - name: Build project
         run: npm run build
         
-      - name: Create test rules file
+      - name: Create test rules file and generate lists
         run: |
+          echo "🔧 Creating test source file..."
           mkdir -p adblock-filters-list
           cat > adblock-filters-list/adblock-filters-list.txt << 'EOF'
-          ! Test adblock rules
+          ! Test adblock rules for CI
           ! May 28, 2025 https://example.com
           ||example.com^
           example.com##.ad
@@ -115,10 +116,25 @@ jobs:
           test.com##div[id="banner"]
           ! June 15, 2025 https://test.com
           ||domain.test^$badfilter
+          ! https://just-a-url.com
+          !
           EOF
           
-      - name: Generate adblock lists
-        run: npm start
+          echo "✅ Test source file created"
+          echo "📊 File info:"
+          wc -l adblock-filters-list/adblock-filters-list.txt
+          
+          echo "🚀 Generating adblock lists..."
+          npm start
+          
+          echo "📁 Checking generated files..."
+          if [[ -d "subscription" ]]; then
+            echo "✅ Subscription folder created"
+            ls -la subscription/
+          else
+            echo "❌ Subscription folder not created"
+            exit 1
+          fi
         
       - name: Verify generated files
         run: |

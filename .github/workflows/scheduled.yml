@@ -88,7 +88,20 @@ jobs:
         run: npm run build
         
       - name: Generate adblock lists
-        run: npm start
+        run: |
+          echo "🔍 Checking source file..."
+          if [[ ! -f "adblock-filters-list/adblock-filters-list.txt" ]]; then
+            echo "❌ Source file not found: adblock-filters-list/adblock-filters-list.txt"
+            echo "📁 Available files:"
+            find . -name "*.txt" -type f | head -10
+            exit 1
+          fi
+          
+          echo "✅ Source file found, generating lists..."
+          npm start
+          
+          echo "📊 Generated files:"
+          ls -la subscription/ || echo "❌ No subscription folder created"
         
       - name: Check if lists changed
         id: changes
