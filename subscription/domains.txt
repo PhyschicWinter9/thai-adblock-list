@@ -1,0 +1,39 @@
+[Domain List]
+! Created: 28-06-2025
+! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
+! Total domains: 31
+!
+! This list contains the unique domains from the adblock rules.
+!
+!
+1112hd.com
+928hd-th.com
+anime-hit.com
+anime-suba.co
+cdn.nanamovies.me
+cdn.nanamovies.net
+images.shirokami.me
+kurokami.me
+manga1688.com
+movie2uhd.com
+nanamovies.net
+series-indy.com
+www.037hd-movies.com
+www.123-hdd.com
+www.24-hdd.com
+www.77moviehd.com
+www.anime-masters.com
+www.anime-suba.co
+www.animehdzeroo.com
+www.doomovie-hd.vip
+www.dooseries4k.com
+www.loadgame-pc.com
+www.movie2uhd.tv
+www.niceoppai.net
+www.nung2-hd.com
+www.oremanga.net
+www.serieday-hd.com
+www.up-manga.com
+www.upfastfile.com
+www.upgamepc.com
+www.v8-hd.com
