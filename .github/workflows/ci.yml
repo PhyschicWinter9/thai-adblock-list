@@ -14,7 +14,7 @@ jobs:
     
     strategy:
       matrix:
-        node-version: [16.x, 18.x, 20.x]
+        node-version: [22.x]
     
     steps:
       - name: Checkout repository
@@ -42,7 +42,7 @@ jobs:
         run: npm test
         
       - name: Upload build artifacts
-        if: matrix.node-version == '20.x'
+        if: matrix.node-version == '22.x'
         uses: actions/upload-artifact@v4
         with:
           name: dist-files
@@ -60,7 +60,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
+          node-version: '22.x'
           cache: 'npm'
           
       - name: Install dependencies
@@ -90,7 +90,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
+          node-version: '22.x'
           cache: 'npm'
           
       - name: Install dependencies
