@@ -4,14 +4,37 @@
   "description": "Enhancing the browsing experience for Thai internet users by blocking advertisements and unwanted content on various websites.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "generate": "npm run start",
+    "test": "npm run build && node dist/test/test.js",
+    "test:dev": "ts-node src/test/test.ts",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "clean": "rm -rf dist subscription/*",
+    "watch": "tsc --watch",
+    "type-check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PhyschicWinter9/thai-adblock-list.git"
   },
   "keywords": [
-    "easylist-thai-ads","adblock","adblock-plus","Thailand", "EasyList", "Adblock Plus", "Thai", "EasyList Thailand", "Adblock List", "AdblockPlus", "Adblocker Lists", "Adblock Thai", "Adblock Mobile", "Adblock Lists Mobile"
+    "easylist-thai-ads",
+    "adblock",
+    "adblock-plus",
+    "Thailand",
+    "EasyList",
+    "Adblock Plus",
+    "Thai",
+    "EasyList Thailand",
+    "Adblock List",
+    "AdblockPlus",
+    "Adblocker Lists",
+    "Adblock Thai",
+    "Adblock Mobile",
+    "Adblock Lists Mobile"
   ],
   "author": "PhyschicWinter9",
   "license": "MIT",
@@ -21,5 +44,9 @@
   "homepage": "https://github.com/PhyschicWinter9/thai-adblock-list#readme",
   "dependencies": {
     "date-and-time": "^3.6.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }

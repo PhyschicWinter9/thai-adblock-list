@@ -1,0 +1,200 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., v1.3.0)'
+        required: true
+        default: 'v1.3.0'
+
+jobs:
+  create-release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Build project
+        run: npm run build
+        
+      - name: Run tests
+        run: npm test
+        
+      - name: Generate adblock lists
+        run: npm start
+        env:
+          NODE_ENV: production
+          
+      - name: Create release archives
+        run: |
+          # Create release directory
+          mkdir -p release
+          
+          # Copy generated lists
+          cp subscription/*.txt release/
+          
+          # Create individual archives for each adblock format
+          cd subscription
+          zip -r ../release/thai-adblock-list-ublockorigin.zip thai-adblock-list-ublockorigin.txt
+          zip -r ../release/thai-adblock-list-adblockplus.zip thai-adblock-list-adblockplus.txt
+          zip -r ../release/thai-adblock-list-adguard.zip thai-adblock-list-adguard.txt
+          zip -r ../release/domains.zip domains.txt
+          
+          # Create combined archive
+          zip -r ../release/thai-adblock-lists-all.zip *.txt
+          cd ..
+          
+          # Create source code archive
+          git archive --format=zip --prefix=thai-adblock-list-generator/ HEAD > release/source-code.zip
+          
+      - name: Generate release notes
+        id: release_notes
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/}
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            VERSION="${{ github.event.inputs.version }}"
+          fi
+          
+          # Count rules in each file
+          UBLOCK_RULES=$(grep -v '^!' subscription/thai-adblock-list-ublockorigin.txt | grep -v '^$' | wc -l)
+          ABP_RULES=$(grep -v '^!' subscription/thai-adblock-list-adblockplus.txt | grep -v '^$' | wc -l)
+          ADGUARD_RULES=$(grep -v '^!' subscription/thai-adblock-list-adguard.txt | grep -v '^$' | wc -l)
+          DOMAINS_COUNT=$(grep -v '^!' subscription/domains.txt | grep -v '^$' | wc -l)
+          
+          cat > release_notes.md << EOF
+          # Thai Adblock List ${VERSION}
+          
+          ## 📊 Statistics
+          
+          | Format | Active Rules | File Size |
+          |--------|-------------|-----------|
+          | uBlock Origin | ${UBLOCK_RULES} | $(du -h subscription/thai-adblock-list-ublockorigin.txt | cut -f1) |
+          | Adblock Plus | ${ABP_RULES} | $(du -h subscription/thai-adblock-list-adblockplus.txt | cut -f1) |
+          | AdGuard | ${ADGUARD_RULES} | $(du -h subscription/thai-adblock-list-adguard.txt | cut -f1) |
+          | Domains List | ${DOMAINS_COUNT} | $(du -h subscription/domains.txt | cut -f1) |
+          
+          ## 📥 Download Links
+          
+          ### Individual Formats
+          - **uBlock Origin**: \`thai-adblock-list-ublockorigin.txt\`
+          - **Adblock Plus**: \`thai-adblock-list-adblockplus.txt\`
+          - **AdGuard**: \`thai-adblock-list-adguard.txt\`
+          - **Domains Only**: \`domains.txt\`
+          
+          ### Archives
+          - **All Lists**: \`thai-adblock-lists-all.zip\`
+          - **Individual Zips**: Available for each format
+          
+          ## 🔗 Subscription URLs
+          
+          You can subscribe to these lists directly:
+          
+          \`\`\`
+          https://github.com/${{ github.repository }}/releases/download/${VERSION}/thai-adblock-list-ublockorigin.txt
+          https://github.com/${{ github.repository }}/releases/download/${VERSION}/thai-adblock-list-adblockplus.txt
+          https://github.com/${{ github.repository }}/releases/download/${VERSION}/thai-adblock-list-adguard.txt
+          \`\`\`
+          
+          ## ✨ Features
+          
+          - 🧹 **Smart Comment Filtering**: Removes unnecessary date-URL comments
+          - 🎯 **Format Optimization**: Tailored for each adblock extension
+          - 🌐 **Thai Website Focus**: Specialized for Thai content sites
+          - 📱 **Multi-Platform**: Compatible with desktop and mobile adblockers
+          
+          ## 📝 Generated
+          
+          - **Date**: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          - **Generator**: TypeScript v$(npm list typescript --depth=0 | grep typescript | cut -d@ -f2)
+          - **Node.js**: $(node --version)
+          - **Commit**: ${GITHUB_SHA:0:7}
+          
+          EOF
+          
+          echo "VERSION=${VERSION}" >> $GITHUB_OUTPUT
+          
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.release_notes.outputs.VERSION }}
+          name: Thai Adblock List ${{ steps.release_notes.outputs.VERSION }}
+          body_path: release_notes.md
+          draft: false
+          prerelease: false
+          files: |
+            release/*.txt
+            release/*.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Update subscription URLs
+        run: |
+          # Update README with latest release URLs
+          VERSION=${{ steps.release_notes.outputs.VERSION }}
+          
+          cat > SUBSCRIPTION_URLS.md << EOF
+          # 📥 Subscription URLs
+          
+          ## Latest Release: ${VERSION}
+          
+          ### Direct Subscription Links
+          
+          Copy these URLs into your adblock extension:
+          
+          **uBlock Origin:**
+          \`\`\`
+          https://github.com/${{ github.repository }}/releases/download/${VERSION}/thai-adblock-list-ublockorigin.txt
+          \`\`\`
+          
+          **Adblock Plus:**
+          \`\`\`
+          https://github.com/${{ github.repository }}/releases/download/${VERSION}/thai-adblock-list-adblockplus.txt
+          \`\`\`
+          
+          **AdGuard:**
+          \`\`\`
+          https://github.com/${{ github.repository }}/releases/download/${VERSION}/thai-adblock-list-adguard.txt
+          \`\`\`
+          
+          **Domains List:**
+          \`\`\`
+          https://github.com/${{ github.repository }}/releases/download/${VERSION}/domains.txt
+          \`\`\`
+          
+          ### Raw Links (Always Latest)
+          
+          These links always point to the latest release:
+          
+          - [uBlock Origin](https://github.com/${{ github.repository }}/releases/latest/download/thai-adblock-list-ublockorigin.txt)
+          - [Adblock Plus](https://github.com/${{ github.repository }}/releases/latest/download/thai-adblock-list-adblockplus.txt)
+          - [AdGuard](https://github.com/${{ github.repository }}/releases/latest/download/thai-adblock-list-adguard.txt)
+          - [Domains](https://github.com/${{ github.repository }}/releases/latest/download/domains.txt)
+          
+          ---
+          *Last updated: $(date -u +"%Y-%m-%d %H:%M:%S UTC")*
+          EOF
+          
+      - name: Notify completion
+        run: |
+          echo "✅ Release ${{ steps.release_notes.outputs.VERSION }} created successfully!"
+          echo "📊 Generated lists with optimized rules for all major adblockers"
+          echo "🔗 Subscription URLs are now available"

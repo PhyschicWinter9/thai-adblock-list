@@ -1,0 +1,289 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'subscription/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Release"]
+    types: [completed]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build GitHub Pages
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Build project
+        run: npm run build
+        
+      - name: Generate latest adblock lists
+        run: npm start
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Create web interface
+        run: |
+          mkdir -p docs
+          
+          # Copy generated lists
+          cp subscription/*.txt docs/
+          
+          # Generate statistics
+          UBLOCK_RULES=$(grep -v '^!' subscription/thai-adblock-list-ublockorigin.txt | grep -v '^$' | wc -l)
+          ABP_RULES=$(grep -v '^!' subscription/thai-adblock-list-adblockplus.txt | grep -v '^$' | wc -l)
+          ADGUARD_RULES=$(grep -v '^!' subscription/thai-adblock-list-adguard.txt | grep -v '^$' | wc -l)
+          DOMAINS_COUNT=$(grep -v '^!' subscription/domains.txt | grep -v '^$' | wc -l)
+          
+          UBLOCK_SIZE=$(du -h subscription/thai-adblock-list-ublockorigin.txt | cut -f1)
+          ABP_SIZE=$(du -h subscription/thai-adblock-list-adblockplus.txt | cut -f1)
+          ADGUARD_SIZE=$(du -h subscription/thai-adblock-list-adguard.txt | cut -f1)
+          DOMAINS_SIZE=$(du -h subscription/domains.txt | cut -f1)
+          
+          # Create index.html
+          cat > docs/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Thai Adblock Lists</title>
+              <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+              <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+          </head>
+          <body class="bg-gray-50 min-h-screen">
+              <div class="container mx-auto px-4 py-8">
+                  <header class="text-center mb-12">
+                      <h1 class="text-4xl font-bold text-gray-800 mb-4">
+                          🛡️ Thai Adblock Lists
+                      </h1>
+                      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                          Comprehensive adblock lists specifically designed for Thai websites. 
+                          Clean, optimized, and regularly updated.
+                      </p>
+                  </header>
+          
+                  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          EOF
+          
+          # Add statistics cards
+          cat >> docs/index.html << EOF
+                      <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                          <div class="text-3xl font-bold text-blue-600">${UBLOCK_RULES}</div>
+                          <div class="text-gray-600">uBlock Origin Rules</div>
+                          <div class="text-sm text-gray-500">${UBLOCK_SIZE}</div>
+                      </div>
+                      <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                          <div class="text-3xl font-bold text-green-600">${ABP_RULES}</div>
+                          <div class="text-gray-600">Adblock Plus Rules</div>
+                          <div class="text-sm text-gray-500">${ABP_SIZE}</div>
+                      </div>
+                      <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                          <div class="text-3xl font-bold text-purple-600">${ADGUARD_RULES}</div>
+                          <div class="text-gray-600">AdGuard Rules</div>
+                          <div class="text-sm text-gray-500">${ADGUARD_SIZE}</div>
+                      </div>
+                      <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                          <div class="text-3xl font-bold text-orange-600">${DOMAINS_COUNT}</div>
+                          <div class="text-gray-600">Blocked Domains</div>
+                          <div class="text-sm text-gray-500">${DOMAINS_SIZE}</div>
+                      </div>
+          EOF
+          
+          # Continue with the rest of the HTML
+          cat >> docs/index.html << 'EOF'
+                  </div>
+          
+                  <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+                      <h2 class="text-2xl font-bold text-gray-800 mb-6">📥 Subscription URLs</h2>
+                      <div class="grid md:grid-cols-2 gap-6">
+                          <div class="space-y-4">
+                              <div class="border rounded-lg p-4">
+                                  <h3 class="font-semibold text-blue-600 mb-2">🔷 uBlock Origin</h3>
+                                  <p class="text-sm text-gray-600 mb-2">Full-featured list with advanced syntax</p>
+                                  <div class="bg-gray-100 p-2 rounded text-sm font-mono break-all">
+                                      https://physchicwinter9.github.io/thai-adblock-list/thai-adblock-list-ublockorigin.txt
+                                  </div>
+                                  <button onclick="copyToClipboard('ublock')" class="mt-2 px-3 py-1 bg-blue-500 text-white rounded text-sm hover:bg-blue-600">
+                                      Copy URL
+                                  </button>
+                              </div>
+                              
+                              <div class="border rounded-lg p-4">
+                                  <h3 class="font-semibold text-green-600 mb-2">🟢 Adblock Plus</h3>
+                                  <p class="text-sm text-gray-600 mb-2">Compatible with Adblock Plus syntax</p>
+                                  <div class="bg-gray-100 p-2 rounded text-sm font-mono break-all">
+                                      https://physchicwinter9.github.io/thai-adblock-list/thai-adblock-list-adblockplus.txt
+                                  </div>
+                                  <button onclick="copyToClipboard('abp')" class="mt-2 px-3 py-1 bg-green-500 text-white rounded text-sm hover:bg-green-600">
+                                      Copy URL
+                                  </button>
+                              </div>
+                          </div>
+                          
+                          <div class="space-y-4">
+                              <div class="border rounded-lg p-4">
+                                  <h3 class="font-semibold text-purple-600 mb-2">🟣 AdGuard</h3>
+                                  <p class="text-sm text-gray-600 mb-2">Optimized for AdGuard products</p>
+                                  <div class="bg-gray-100 p-2 rounded text-sm font-mono break-all">
+                                      https://physchicwinter9.github.io/thai-adblock-list/thai-adblock-list-adguard.txt
+                                  </div>
+                                  <button onclick="copyToClipboard('adguard')" class="mt-2 px-3 py-1 bg-purple-500 text-white rounded text-sm hover:bg-purple-600">
+                                      Copy URL
+                                  </button>
+                              </div>
+                              
+                              <div class="border rounded-lg p-4">
+                                  <h3 class="font-semibold text-orange-600 mb-2">🌐 Domains Only</h3>
+                                  <p class="text-sm text-gray-600 mb-2">Just the blocked domains list</p>
+                                  <div class="bg-gray-100 p-2 rounded text-sm font-mono break-all">
+                                      https://physchicwinter9.github.io/thai-adblock-list/domains.txt
+                                  </div>
+                                  <button onclick="copyToClipboard('domains')" class="mt-2 px-3 py-1 bg-orange-500 text-white rounded text-sm hover:bg-orange-600">
+                                      Copy URL
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+                      <h2 class="text-2xl font-bold text-gray-800 mb-6">📖 How to Use</h2>
+                      <div class="grid md:grid-cols-3 gap-6">
+                          <div class="text-center">
+                              <div class="text-4xl mb-4">📋</div>
+                              <h3 class="font-semibold mb-2">1. Copy URL</h3>
+                              <p class="text-gray-600 text-sm">Choose your adblock extension and copy the subscription URL</p>
+                          </div>
+                          <div class="text-center">
+                              <div class="text-4xl mb-4">⚙️</div>
+                              <h3 class="font-semibold mb-2">2. Add to Extension</h3>
+                              <p class="text-gray-600 text-sm">Go to your extension's filter lists and add the URL</p>
+                          </div>
+                          <div class="text-center">
+                              <div class="text-4xl mb-4">🎉</div>
+                              <h3 class="font-semibold mb-2">3. Enjoy Clean Browsing</h3>
+                              <p class="text-gray-600 text-sm">The list updates automatically and blocks Thai website ads</p>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+                      <h2 class="text-2xl font-bold text-gray-800 mb-6">✨ Features</h2>
+                      <div class="grid md:grid-cols-2 gap-6">
+                          <ul class="space-y-2">
+                              <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Smart comment filtering</li>
+                              <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Format-specific optimization</li>
+                              <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Regular automatic updates</li>
+                              <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Thai website specialization</li>
+                          </ul>
+                          <ul class="space-y-2">
+                              <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> TypeScript powered generation</li>
+                              <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Multi-platform compatibility</li>
+                              <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Open source and transparent</li>
+                              <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Community driven</li>
+                          </ul>
+                      </div>
+                  </div>
+          
+                  <footer class="text-center text-gray-600">
+                      <p>Last updated: <span id="lastUpdated"></span></p>
+                      <p class="mt-2">
+                          <a href="https://github.com/PhyschicWinter9/thai-adblock-list" class="text-blue-600 hover:underline">
+                              📂 Source Code on GitHub
+                          </a>
+                      </p>
+                  </footer>
+              </div>
+          
+              <script>
+                  // Set last updated time
+                  document.getElementById('lastUpdated').textContent = new Date().toLocaleString();
+                  
+                  // Copy to clipboard functionality
+                  const urls = {
+                      ublock: 'https://physchicwinter9.github.io/thai-adblock-list/thai-adblock-list-ublockorigin.txt',
+                      abp: 'https://physchicwinter9.github.io/thai-adblock-list/thai-adblock-list-adblockplus.txt',
+                      adguard: 'https://physchicwinter9.github.io/thai-adblock-list/thai-adblock-list-adguard.txt',
+                      domains: 'https://physchicwinter9.github.io/thai-adblock-list/domains.txt'
+                  };
+                  
+                  function copyToClipboard(type) {
+                      const url = urls[type];
+                      navigator.clipboard.writeText(url).then(() => {
+                          // Show success message
+                          const button = event.target;
+                          const originalText = button.textContent;
+                          button.textContent = '✓ Copied!';
+                          button.classList.add('bg-green-500');
+                          
+                          setTimeout(() => {
+                              button.textContent = originalText;
+                              button.classList.remove('bg-green-500');
+                          }, 2000);
+                      }).catch(err => {
+                          console.error('Failed to copy: ', err);
+                          alert('Failed to copy URL. Please copy manually.');
+                      });
+                  }
+              </script>
+          </body>
+          </html>
+          EOF
+          
+          echo "✅ Web interface created successfully"
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+  deploy:
+    name: Deploy to Pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        
+      - name: Verify deployment
+        run: |
+          echo "🚀 Deployment completed successfully!"
+          echo "📄 Website URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "📊 Lists are now available at:"
+          echo "  - uBlock Origin: ${{ steps.deployment.outputs.page_url }}thai-adblock-list-ublockorigin.txt"
+          echo "  - Adblock Plus: ${{ steps.deployment.outputs.page_url }}thai-adblock-list-adblockplus.txt"
+          echo "  - AdGuard: ${{ steps.deployment.outputs.page_url }}thai-adblock-list-adguard.txt"
+          echo "  - Domains: ${{ steps.deployment.outputs.page_url }}domains.txt"
