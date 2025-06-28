@@ -91,6 +91,27 @@ jobs:
             find . -name "*.txt" -newer . 2>/dev/null || echo "No new .txt files found"
             exit 1
           fi
+          
+      - name: Commit generated files to repository
+        run: |
+          echo "📝 Committing generated files to repository..."
+          
+          # Configure git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add generated files
+          git add subscription/
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            echo "✅ Changes detected, committing..."
+            git commit -m "🤖 Auto-update adblock lists - $(date +'%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "🚀 Files committed and pushed to repository"
+          fi
         
       - name: Create web interface
         run: |
