@@ -1,0 +1,151 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test on Node.js ${{ matrix.node-version }}
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x, 20.x]
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Run type checking
+        run: npm run type-check
+        
+      - name: Run linting
+        run: npm run lint
+        
+      - name: Build project
+        run: npm run build
+        
+      - name: Run tests
+        run: npm test
+        
+      - name: Upload build artifacts
+        if: matrix.node-version == '20.x'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-files
+          path: dist/
+          retention-days: 7
+
+  code-quality:
+    name: Code Quality Checks
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Run ESLint with annotations
+        run: npx eslint src/**/*.ts --format=github
+        
+      - name: Check TypeScript compilation
+        run: npx tsc --noEmit --pretty
+        
+      - name: Check for security vulnerabilities
+        run: npm audit --audit-level=moderate
+        
+      - name: Check package dependencies
+        run: npm outdated || true
+
+  build-test:
+    name: Build and Test Generation
+    runs-on: ubuntu-latest
+    needs: [test]
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Build project
+        run: npm run build
+        
+      - name: Create test rules file
+        run: |
+          mkdir -p adblock-filters-list
+          cat > adblock-filters-list/adblock-filters-list.txt << 'EOF'
+          ! Test adblock rules
+          ! May 28, 2025 https://example.com
+          ||example.com^
+          example.com##.ad
+          @@||example.com/allowed^
+          ! Important: Test comment
+          ||test.com/path$script,third-party
+          test.com##div[id="banner"]
+          ! June 15, 2025 https://test.com
+          ||domain.test^$badfilter
+          EOF
+          
+      - name: Generate adblock lists
+        run: npm start
+        
+      - name: Verify generated files
+        run: |
+          echo "Checking generated files..."
+          ls -la subscription/
+          
+          # Check if files were created
+          test -f subscription/thai-adblock-list-ublockorigin.txt || (echo "uBlock Origin file not created" && exit 1)
+          test -f subscription/thai-adblock-list-adblockplus.txt || (echo "Adblock Plus file not created" && exit 1)
+          test -f subscription/thai-adblock-list-adguard.txt || (echo "AdGuard file not created" && exit 1)
+          test -f subscription/domains.txt || (echo "Domains file not created" && exit 1)
+          
+          # Check file contents
+          echo "uBlock Origin file size: $(wc -l < subscription/thai-adblock-list-ublockorigin.txt) lines"
+          echo "Adblock Plus file size: $(wc -l < subscription/thai-adblock-list-adblockplus.txt) lines"
+          echo "AdGuard file size: $(wc -l < subscription/thai-adblock-list-adguard.txt) lines"
+          echo "Domains file size: $(wc -l < subscription/domains.txt) lines"
+          
+          # Verify date-URL comments are removed
+          if grep -q "May 28, 2025 https://" subscription/thai-adblock-list-*.txt; then
+            echo "ERROR: Date-URL comments were not filtered out!"
+            exit 1
+          fi
+          
+          echo "✅ All tests passed!"
+          
+      - name: Upload generated lists
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-adblock-lists
+          path: subscription/
+          retention-days: 30
