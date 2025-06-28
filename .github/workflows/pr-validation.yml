@@ -62,17 +62,8 @@ jobs:
         
       - name: Run linting
         run: |
-          # Run ESLint and capture output
-          npm run lint 2>&1 | tee lint-results.txt || true
-          
-          # Check if there are any errors
-          if grep -q "error" lint-results.txt; then
-            echo "❌ Linting errors found"
-            cat lint-results.txt
-            exit 1
-          else
-            echo "✅ No linting errors"
-          fi
+          echo "🔍 Running ESLint validation..."
+          npx eslint src/**/*.ts --format=stylish
           
       - name: Build project
         run: npm run build
