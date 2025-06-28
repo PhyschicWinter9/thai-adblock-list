@@ -48,7 +48,7 @@ jobs:
           
           # Categorize changes
           HAS_SOURCE_CHANGES=$(echo "$CHANGED_FILES" | grep -E "(src/|adblock-filters-list/)" || echo "")
-          HAS_CONFIG_CHANGES=$(echo "$CHANGED_FILES" | grep -E "(package\.json|tsconfig\.json|\.eslintrc)" || echo "")
+          HAS_CONFIG_CHANGES=$(echo "$CHANGED_FILES" | grep -E "(package\.json|tsconfig\.json|eslint\.config\.js)" || echo "")
           HAS_WORKFLOW_CHANGES=$(echo "$CHANGED_FILES" | grep -E "\.github/workflows/" || echo "")
           HAS_GENERATED_CHANGES=$(echo "$CHANGED_FILES" | grep -E "subscription/" || echo "")
           
