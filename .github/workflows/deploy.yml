@@ -46,9 +46,6 @@ jobs:
       - name: Generate latest adblock lists
         run: npm start
         
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        
       - name: Create web interface
         run: |
           mkdir -p docs
@@ -57,10 +54,10 @@ jobs:
           cp subscription/*.txt docs/
           
           # Generate statistics
-          UBLOCK_RULES=$(grep -v '^!' subscription/thai-adblock-list-ublockorigin.txt | grep -v '^$' | wc -l)
-          ABP_RULES=$(grep -v '^!' subscription/thai-adblock-list-adblockplus.txt | grep -v '^$' | wc -l)
-          ADGUARD_RULES=$(grep -v '^!' subscription/thai-adblock-list-adguard.txt | grep -v '^$' | wc -l)
-          DOMAINS_COUNT=$(grep -v '^!' subscription/domains.txt | grep -v '^$' | wc -l)
+          UBLOCK_RULES=$(grep -v '^!' subscription/thai-adblock-list-ublockorigin.txt | grep -v '^ | wc -l)
+          ABP_RULES=$(grep -v '^!' subscription/thai-adblock-list-adblockplus.txt | grep -v '^ | wc -l)
+          ADGUARD_RULES=$(grep -v '^!' subscription/thai-adblock-list-adguard.txt | grep -v '^ | wc -l)
+          DOMAINS_COUNT=$(grep -v '^!' subscription/domains.txt | grep -v '^ | wc -l)
           
           UBLOCK_SIZE=$(du -h subscription/thai-adblock-list-ublockorigin.txt | cut -f1)
           ABP_SIZE=$(du -h subscription/thai-adblock-list-adblockplus.txt | cut -f1)
@@ -85,8 +82,7 @@ jobs:
                           🛡️ Thai Adblock Lists
                       </h1>
                       <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                          Comprehensive adblock lists specifically designed for Thai websites. 
-                          Clean, optimized, and regularly updated.
+                          Enhancing the browsing experience for Thai internet users by blocking advertisements and unwanted content on various websites with full mobile support.
                       </p>
                   </header>
           
@@ -207,7 +203,7 @@ jobs:
                           <ul class="space-y-2">
                               <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> TypeScript powered generation</li>
                               <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Multi-platform compatibility</li>
-                              <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Open source and transparent</li>
+                              <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Full mobile support</li>
                               <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Community driven</li>
                           </ul>
                       </div>
@@ -274,6 +270,11 @@ jobs:
     needs: build
     
     steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        with:
+          enablement: true
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
@@ -286,4 +287,4 @@ jobs:
           echo "  - uBlock Origin: ${{ steps.deployment.outputs.page_url }}thai-adblock-list-ublockorigin.txt"
           echo "  - Adblock Plus: ${{ steps.deployment.outputs.page_url }}thai-adblock-list-adblockplus.txt"
           echo "  - AdGuard: ${{ steps.deployment.outputs.page_url }}thai-adblock-list-adguard.txt"
-          echo "  - Domains: ${{ steps.deployment.outputs.page_url }}domains.txt"s
+          echo "  - Domains: ${{ steps.deployment.outputs.page_url }}domains.txt"
