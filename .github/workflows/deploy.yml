@@ -34,7 +34,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
+          node-version: '22.x'
           cache: 'npm'
           
       - name: Install dependencies
@@ -286,4 +286,4 @@ jobs:
           echo "  - uBlock Origin: ${{ steps.deployment.outputs.page_url }}thai-adblock-list-ublockorigin.txt"
           echo "  - Adblock Plus: ${{ steps.deployment.outputs.page_url }}thai-adblock-list-adblockplus.txt"
           echo "  - AdGuard: ${{ steps.deployment.outputs.page_url }}thai-adblock-list-adguard.txt"
-          echo "  - Domains: ${{ steps.deployment.outputs.page_url }}domains.txt"
+          echo "  - Domains: ${{ steps.deployment.outputs.page_url }}domains.txt"s
