@@ -327,7 +327,7 @@ export async function runTests(): Promise<void> {
   if (failedTests.length > 0) {
     console.log('\n💥 Failed Tests:');
     for (const test of failedTests) {
-      console.log(`❌ ${test.name}: ${test.error || 'Unknown error'}`);
+      console.log(`❌ ${test.name}: ${test.error ?? 'Unknown error'}`);
     }
     console.log('\n💥 Some tests failed!');
     process.exit(1);

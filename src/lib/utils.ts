@@ -34,7 +34,6 @@ export function extractDomains(
   options: DomainExtractionOptions = {}
 ): string[] {
   const {
-    includeSubdomains = true,
     excludeWildcards = true,
     excludeExceptions = false
   } = options;
@@ -54,7 +53,7 @@ export function extractDomains(
     
     // Extract domains from network filter rules (||domain.com)
     if (rule.startsWith('||')) {
-      const domainMatch = rule.match(/^\|\|([^\/\$\^]+)/);
+      const domainMatch = rule.match(/^\|\|([^/$^]+)/);
       if (domainMatch?.[1]) {
         const domain = domainMatch[1];
         if (shouldIncludeDomain(domain, excludeWildcards)) {
@@ -306,15 +305,19 @@ export function getTimestamp(): string {
 /**
  * Create a safe logger function
  */
-export function createLogger(prefix: string) {
+export function createLogger(prefix: string): {
+  info: (message: string, ...args: unknown[]) => void;
+  warn: (message: string, ...args: unknown[]) => void;
+  error: (message: string, ...args: unknown[]) => void;
+} {
   return {
-    info: (message: string, ...args: unknown[]) => {
+    info: (message: string, ...args: unknown[]): void => {
       console.log(`[${getTimestamp()}] ${prefix} INFO: ${message}`, ...args);
     },
-    warn: (message: string, ...args: unknown[]) => {
+    warn: (message: string, ...args: unknown[]): void => {
       console.warn(`[${getTimestamp()}] ${prefix} WARN: ${message}`, ...args);
     },
-    error: (message: string, ...args: unknown[]) => {
+    error: (message: string, ...args: unknown[]): void => {
       console.error(`[${getTimestamp()}] ${prefix} ERROR: ${message}`, ...args);
     }
   };

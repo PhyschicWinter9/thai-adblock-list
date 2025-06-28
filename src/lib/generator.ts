@@ -1,22 +1,22 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import {
-    AdblockConfig,
-    AdblockGeneratorError,
-    DateFormat,
-    GenerationResult,
-    GeneratorConfig,
-    RuleStatistics,
-    RuleType
+  GeneratorConfig,
+  AdblockConfig,
+  RuleStatistics,
+  GenerationResult,
+  DateFormat,
+  AdblockGeneratorError,
+  RuleType,
 } from '../types/index.js';
 import {
-    createLogger,
-    extractDomains,
-    formatDate,
-    getRuleType,
-    removeDuplicates,
-    validateFilePath,
-    validateRules,
+  formatDate,
+  extractDomains,
+  validateRules,
+  validateFilePath,
+  removeDuplicates,
+  createLogger,
+  getRuleType,
 } from './utils.js';
 
 export class AdblockGenerator {
@@ -140,7 +140,7 @@ export class AdblockGenerator {
 ! This list is maintained by PhyschicWinter9.
 ! Please report unblocked adservers or other issues here: ${this.config.homepage}/issues
 !
-${adblockConfig.additionalHeader || ''}
+${adblockConfig.additionalHeader ?? ''}
 !
 `;
     return header;
@@ -163,6 +163,7 @@ ${adblockConfig.additionalHeader || ''}
               return transformation(rule);
             } catch (error) {
               this.logger.warn(`Transformation failed for rule: ${rule}`);
+              this.logger.error("Error details:", error);
               return rule;
             }
           })
@@ -179,6 +180,7 @@ ${adblockConfig.additionalHeader || ''}
             return filter(rule);
           } catch (error) {
             this.logger.warn(`Filter failed for rule: ${rule}`);
+            this.logger.error("Error details:", error);
             return true; // Keep rule if filter fails
           }
         });
@@ -261,7 +263,7 @@ ${adblockConfig.additionalHeader || ''}
       const header = this.generateHeader(adblockConfig);
       
       // Combine header and rules
-      const content = header + processedRules.join('\n') + '\n';
+      const content = `${header + processedRules.join('\n')  }\n`;
       
       // Write to file
       fs.writeFileSync(outputPath, content, 'utf8');
@@ -311,7 +313,7 @@ ${adblockConfig.additionalHeader || ''}
 !
 `;
       
-      const content = header + domains.join('\n') + '\n';
+      const content = `${header + domains.join('\n')  }\n`;
       
       // Ensure output directory exists
       const outputDir = path.dirname(outputPath);
@@ -330,16 +332,16 @@ ${adblockConfig.additionalHeader || ''}
         statistics: this.getStatistics(rules)
       };
       
-    } catch (error) {
-      if (error instanceof AdblockGeneratorError) {
-        throw error;
+    } catch (err) {
+      if (err instanceof AdblockGeneratorError) {
+        throw err;
       }
       
-      const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+      const errorMessage = err instanceof Error ? err.message : 'Unknown error';
       throw new AdblockGeneratorError(
         `Failed to generate domain list: ${errorMessage}`,
         'DOMAIN_GENERATION_FAILED',
-        { originalError: error, outputPath }
+        { originalError: err, outputPath }
       );
     }
   }
