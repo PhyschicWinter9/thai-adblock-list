@@ -18,8 +18,8 @@
 ! Compatible with AdGuard Browser Extension, AdGuard for Windows/Mac/Android/iOS
 !
 ||cdn.nanamovies.me/*.gif$image
-||cdn.nanamovies.net/300x300.jpeg$image
 ||cdn.nanamovies.net/*.gif$image
+||cdn.nanamovies.net/300x300.jpeg$image
 ||images.shirokami.me/i/OiCz3241.gif$image
 ||movie2uhd.com/wp-content/uploads/2024/09/*-banner*.jpg$image
 ||movie2uhd.com/wp-content/uploads/2024/09/JL3*.jpg$image
@@ -34,10 +34,10 @@ anime-hit.com##div.watch-bnn:nth-of-type(3)
 anime-suba.co##.figure02
 anime-suba.co###light
 kurokami.me##div.banner728x200-div.col-6
-manga1688.com##center
 manga1688.com##[href="https://t.ly/brazil999"]
 manga1688.com##[href="https://t.ly/ufazeed"]
 manga1688.com##[href="https://xn--72c5a8att3k1b.com/"]
+manga1688.com##center
 movie2uhd.com##.ads-float
 movie2uhd.com##.columns > aside
 movie2uhd.com###custom_html-41 > .custom-html-widget.textwidget > [href]
@@ -72,47 +72,47 @@ www.77moviehd.com##.e-child.e-con.e-flex.e-con-full.elementor-element-5988d0e.el
 www.77moviehd.com##.e-child.e-con.e-flex.e-con-full.elementor-element-d6540bd.elementor-element
 www.77moviehd.com##.e-child.e-con.e-flex.elementor-hidden-mobile.elementor-hidden-tablet.e-con-full.elementor-element-cdcec88.elementor-element
 www.77moviehd.com##.elementor-widget-image.elementor-widget.elementor-element-4a076d8.elementor-element
+www.anime-masters.com##.col-md-12 > center > p
+www.anime-masters.com##div#slider-b.banner-close
+www.anime-masters.com##p.center_lnwphp:nth-of-type(2)
+www.anime-suba.co##[href="https://pgk44.net/"]
 www.animehdzeroo.com##.cb-header
 www.animehdzeroo.com##.floating-ads-r
 www.animehdzeroo.com##[href^="//7893234.com/Register"]
 www.animehdzeroo.com##[href^="https://www.8878588.com/"]
 www.animehdzeroo.com##[href="https://www.3ut.co/THB/5267249/3/AnimeHD"]
 www.animehdzeroo.com##[href="https://www.lnw-anime.com/"]
-www.anime-masters.com##.col-md-12 > center > p
-www.anime-masters.com##div#slider-b.banner-close
-www.anime-masters.com##p.center_lnwphp:nth-of-type(2)
-www.anime-suba.co##[href="https://pgk44.net/"]
+www.doomovie-hd.vip##[href="https://line.me/ti/p/@647tfkhg"]
 www.doomovie-hd.vip##div.default-horizontal-banana:nth-of-type(11)
 www.doomovie-hd.vip##div.default-horizontal-banana:nth-of-type(12)
-www.doomovie-hd.vip##[href="https://line.me/ti/p/@647tfkhg"]
 www.dooseries4k.com##.banner-movie
 www.dooseries4k.com##[href="https://ufafc24.com/"] > .img-responsive.ad-left
 www.dooseries4k.com##[href="https://ufathai24s.net/"] > .img-responsive.ad-left
-www.loadgame-pc.com##div:nth-of-type(7)
 www.loadgame-pc.com##[href="https://www.โหลดเกม.com/"]
+www.loadgame-pc.com##div:nth-of-type(7)
 www.movie2uhd.tv##.ad
 www.movie2uhd.tv##.adbr
 www.movie2uhd.tv##.adplayer
+www.movie2uhd.tv##.movie > aside.adcen
+www.movie2uhd.tv##[href^="https://movie2uhd.com/link-to.php"]
 www.movie2uhd.tv##div.adcen:nth-of-type(2)
 www.movie2uhd.tv##div.adhl > [href^="https://movie2uhd.tv/link-to.php"]
 www.movie2uhd.tv##div.adhl:nth-of-type(4)
 www.movie2uhd.tv##div.adhl:nth-of-type(6)
 www.movie2uhd.tv##div.adhl:nth-of-type(7)
 www.movie2uhd.tv##div.adhl:nth-of-type(8)
-www.movie2uhd.tv##[href^="https://movie2uhd.com/link-to.php"]
-www.movie2uhd.tv##.movie > aside.adcen
 www.niceoppai.net##[href="https://lionth.org/baccarat/"]
 www.niceoppai.net##[href="https://nationalpunctuationday.com/"]
 www.niceoppai.net##[href="https://t.ly/lalikabet66"]
 www.niceoppai.net##[href="https://topantivirussoftware.org/"]
 www.niceoppai.net###sct_top_banner
 www.niceoppai.net###text-6
-www.nung2-hd.com##div.rIdV-mid
-www.nung2-hd.com##div.rIdV-top
 www.nung2-hd.com##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.fb-comments > span
-www.nung2-hd.com##[href="https://t.ly/ufanance"]
 www.nung2-hd.com##.rIdV-mid-end
 www.nung2-hd.com##.rIdV-top-end
+www.nung2-hd.com##[href="https://t.ly/ufanance"]
+www.nung2-hd.com##div.rIdV-mid
+www.nung2-hd.com##div.rIdV-top
 www.oremanga.net##.header-ads-section
 www.serieday-hd.com##.ad
 www.serieday-hd.com##.adl
@@ -120,10 +120,10 @@ www.serieday-hd.com##.adlf > .adhl
 www.serieday-hd.com##.content-col2 > .adcen
 www.serieday-hd.com##.mcommanr
 www.serieday-hd.com##.right-menu > .adhl
-www.upgamepc.com##.row.container
 www.up-manga.com##a[href^="/link_to.php"]
 www.up-manga.com##div.center_upmanga
 www.up-manga.com##div.center_upmanga3
 www.up-manga.com##div.center_upmangaza
+www.upgamepc.com##.row.container
 www.v8-hd.com##div.clearfix.page_margin_top.page_layout > .row
 www.v8-hd.com##div.page_margin_top.row-kodsana
