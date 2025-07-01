@@ -1,0 +1,129 @@
+[uBlock Origin]
+! Version: 1.3-28062025
+! Title: Thai Adblock List for uBlock Origin
+! Last modified: 28-06-2025
+! Expires: 1 day (update frequency)
+! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
+! Description: Comprehensive adblock list for Thai websites optimized for uBlock Origin
+!
+! This is a list of adservers and trackers that are blocked by default.
+! You can add your own filters here. Just make sure to use the $badfilter
+! option, otherwise your filter will be ignored.
+!
+! This list is maintained by PhyschicWinter9.
+! Please report unblocked adservers or other issues here: https://github.com/PhyschicWinter9/thai-adblock-list/issues
+!
+! This list is optimized for uBlock Origin
+! uBlock Origin supports advanced syntax and network filtering
+! For best results, use with uBlock Origin v1.40.0 or later
+!
+||cdn.nanamovies.me/*.gif$image
+||cdn.nanamovies.net/300x300.jpeg$image
+||cdn.nanamovies.net/*.gif$image
+||images.shirokami.me/i/OiCz3241.gif$image
+||movie2uhd.com/wp-content/uploads/2024/09/*-banner*.jpg$image
+||movie2uhd.com/wp-content/uploads/2024/09/JL3*.jpg$image
+||movie2uhd.com/wp-content/uploads/2024/09/JR2*.jpg$image
+||movie2uhd.com/wp-content/uploads/2024/09/JR3*.jpg$image
+||www.anime-suba.co/Anime-Suba/Admin/imgAnadvertisement/img05/*.gif$image
+||www.anime-suba.co/Anime-Suba/Admin/imgAnadvertisement/img06/*.gif$image
+||www.upfastfile.com/upload/ufathai24-1.mp4$media
+1112hd.com##.mobile-1.tablet-2.pc-2.tt_banner_above_vdo_player
+928hd-th.com##.ads-above-single-player
+anime-hit.com##div.watch-bnn:nth-of-type(3)
+anime-suba.co##.figure02
+anime-suba.co###light
+kurokami.me##div.banner728x200-div.col-6
+manga1688.com##center
+manga1688.com##[href="https://t.ly/brazil999"]
+manga1688.com##[href="https://t.ly/ufazeed"]
+manga1688.com##[href="https://xn--72c5a8att3k1b.com/"]
+movie2uhd.com##.ads-float
+movie2uhd.com##.columns > aside
+movie2uhd.com###custom_html-41 > .custom-html-widget.textwidget > [href]
+movie2uhd.com###custom_html-43 > .custom-html-widget.textwidget > [href]
+movie2uhd.com###custom_html-44 > .custom-html-widget.textwidget > [href]
+movie2uhd.com###custom_html-54 > .custom-html-widget.textwidget > [href]
+movie2uhd.com###custom_html-55 > .custom-html-widget.textwidget > [href]
+movie2uhd.com###custom_html-56 > .custom-html-widget.textwidget > [href]
+nanamovies.net##[href^="https://www.7893230.com/Register"]
+nanamovies.net##[href="https://t.ly/999game"]
+nanamovies.net##[href="https://t.ly/baccarat350"]
+nanamovies.net##[href="https://t.ly/ssgames350"]
+nanamovies.net##[href="https://www.ufa350a.net"]
+series-indy.com##.pmloaded.entered.perfmatters-lazy.img-fluid
+www.037hd-movies.com###ads-bottom-player
+www.037hd-movies.com###ads-index
+www.037hd-movies.com###ads-popup
+www.037hd-movies.com###ads-sidebar
+www.037hd-movies.com###ads-sidebar-single-bottom
+www.037hd-movies.com###ads-sidebar-single-top
+www.037hd-movies.com###ads-single
+www.123-hdd.com###banner_top
+www.24-hdd.com##.ad
+www.24-hdd.com##.adb
+www.24-hdd.com##.adl
+www.24-hdd.com##.adlf > .adhl
+www.24-hdd.com##.mcommanr
+www.24-hdd.com##.right-menu > .adhl
+www.77moviehd.com##.e-child.e-con.e-flex.e-con-full.elementor-element-086b9cf.elementor-element
+www.77moviehd.com##.e-child.e-con.e-flex.e-con-full.elementor-element-43685d4.elementor-element
+www.77moviehd.com##.e-child.e-con.e-flex.e-con-full.elementor-element-5988d0e.elementor-element
+www.77moviehd.com##.e-child.e-con.e-flex.e-con-full.elementor-element-d6540bd.elementor-element
+www.77moviehd.com##.e-child.e-con.e-flex.elementor-hidden-mobile.elementor-hidden-tablet.e-con-full.elementor-element-cdcec88.elementor-element
+www.77moviehd.com##.elementor-widget-image.elementor-widget.elementor-element-4a076d8.elementor-element
+www.animehdzeroo.com##.cb-header
+www.animehdzeroo.com##.floating-ads-r
+www.animehdzeroo.com##[href^="//7893234.com/Register"]
+www.animehdzeroo.com##[href^="https://www.8878588.com/"]
+www.animehdzeroo.com##[href="https://www.3ut.co/THB/5267249/3/AnimeHD"]
+www.animehdzeroo.com##[href="https://www.lnw-anime.com/"]
+www.anime-masters.com##.col-md-12 > center > p
+www.anime-masters.com##div#slider-b.banner-close
+www.anime-masters.com##p.center_lnwphp:nth-of-type(2)
+www.anime-suba.co##[href="https://pgk44.net/"]
+www.doomovie-hd.vip##div.default-horizontal-banana:nth-of-type(11)
+www.doomovie-hd.vip##div.default-horizontal-banana:nth-of-type(12)
+www.doomovie-hd.vip##[href="https://line.me/ti/p/@647tfkhg"]
+www.dooseries4k.com##.banner-movie
+www.dooseries4k.com##[href="https://ufafc24.com/"] > .img-responsive.ad-left
+www.dooseries4k.com##[href="https://ufathai24s.net/"] > .img-responsive.ad-left
+www.loadgame-pc.com##div:nth-of-type(7)
+www.loadgame-pc.com##[href="https://www.โหลดเกม.com/"]
+www.movie2uhd.tv##.ad
+www.movie2uhd.tv##.adbr
+www.movie2uhd.tv##.adplayer
+www.movie2uhd.tv##div.adcen:nth-of-type(2)
+www.movie2uhd.tv##div.adhl > [href^="https://movie2uhd.tv/link-to.php"]
+www.movie2uhd.tv##div.adhl:nth-of-type(4)
+www.movie2uhd.tv##div.adhl:nth-of-type(6)
+www.movie2uhd.tv##div.adhl:nth-of-type(7)
+www.movie2uhd.tv##div.adhl:nth-of-type(8)
+www.movie2uhd.tv##[href^="https://movie2uhd.com/link-to.php"]
+www.movie2uhd.tv##.movie > aside.adcen
+www.niceoppai.net##[href="https://lionth.org/baccarat/"]
+www.niceoppai.net##[href="https://nationalpunctuationday.com/"]
+www.niceoppai.net##[href="https://t.ly/lalikabet66"]
+www.niceoppai.net##[href="https://topantivirussoftware.org/"]
+www.niceoppai.net###sct_top_banner
+www.niceoppai.net###text-6
+www.nung2-hd.com##div.rIdV-mid
+www.nung2-hd.com##div.rIdV-top
+www.nung2-hd.com##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.fb-comments > span
+www.nung2-hd.com##[href="https://t.ly/ufanance"]
+www.nung2-hd.com##.rIdV-mid-end
+www.nung2-hd.com##.rIdV-top-end
+www.oremanga.net##.header-ads-section
+www.serieday-hd.com##.ad
+www.serieday-hd.com##.adl
+www.serieday-hd.com##.adlf > .adhl
+www.serieday-hd.com##.content-col2 > .adcen
+www.serieday-hd.com##.mcommanr
+www.serieday-hd.com##.right-menu > .adhl
+www.upgamepc.com##.row.container
+www.up-manga.com##a[href^="/link_to.php"]
+www.up-manga.com##div.center_upmanga
+www.up-manga.com##div.center_upmanga3
+www.up-manga.com##div.center_upmangaza
+www.v8-hd.com##div.clearfix.page_margin_top.page_layout > .row
+www.v8-hd.com##div.page_margin_top.row-kodsana
