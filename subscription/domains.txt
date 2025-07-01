@@ -1,5 +1,5 @@
 [Domain List]
-! Created: 28-06-2025
+! Created: 01-07-2025
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 ! Total domains: 31
 !

@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 1.3-28062025
+! Version: 1.3-01072025
 ! Title: Thai Adblock List for uBlock Origin
-! Last modified: 28-06-2025
+! Last modified: 01-07-2025
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 ! Description: Comprehensive adblock list for Thai websites optimized for uBlock Origin
