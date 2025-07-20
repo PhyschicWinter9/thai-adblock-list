@@ -1,0 +1,23 @@
+{
+  "@eslint/js": {
+    "current": "9.30.0",
+    "wanted": "9.31.0",
+    "latest": "9.31.0",
+    "dependent": "thai-adblock-list",
+    "location": "/home/runner/work/thai-adblock-list/thai-adblock-list/node_modules/@eslint/js"
+  },
+  "eslint": {
+    "current": "9.30.0",
+    "wanted": "9.31.0",
+    "latest": "9.31.0",
+    "dependent": "thai-adblock-list",
+    "location": "/home/runner/work/thai-adblock-list/thai-adblock-list/node_modules/eslint"
+  },
+  "typescript-eslint": {
+    "current": "8.35.0",
+    "wanted": "8.37.0",
+    "latest": "8.37.0",
+    "dependent": "thai-adblock-list",
+    "location": "/home/runner/work/thai-adblock-list/thai-adblock-list/node_modules/typescript-eslint"
+  }
+}
