@@ -1,0 +1,86 @@
+name: Auto-Generate Lists
+
+# รันเมื่อมีการ push ไฟล์ adblock-filters-list.txt
+on:
+  push:
+    paths:
+      - "adblock-filters-list/adblock-filters-list.txt"
+    branches: [main, develop]
+  workflow_dispatch: # สำหรับรันด้วยตนเอง
+
+jobs:
+  generate:
+    name: Generate Subscription Files
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.x"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Generate subscription files
+        run: npm run generate
+
+      - name: Check if files changed
+        id: check
+        run: |
+          if git diff --quiet subscription/; then
+            echo "files_changed=false" >> $GITHUB_OUTPUT
+            echo "ไม่มีการเปลี่ยนแปลงในไฟล์ที่ generate"
+          else
+            echo "files_changed=true" >> $GITHUB_OUTPUT
+            echo "มีการเปลี่ยนแปลงในไฟล์ที่ generate"
+            
+            # แสดงสถิติ
+            echo "📊 สถิติไฟล์ที่ generate:"
+            echo "- uBlock Origin: $(grep -v '^!' subscription/thai-adblock-list-ublockorigin.txt | grep -v '^$' | wc -l) rules"
+            echo "- Adblock Plus: $(grep -v '^!' subscription/thai-adblock-list-adblockplus.txt | grep -v '^$' | wc -l) rules"
+            echo "- AdGuard: $(grep -v '^!' subscription/thai-adblock-list-adguard.txt | grep -v '^$' | wc -l) rules"
+            echo "- Domains: $(grep -v '^!' subscription/domains.txt | grep -v '^$' | wc -l) domains"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check.outputs.files_changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add subscription/
+          git commit -m "🤖 Auto-generate subscription files
+
+          📊 Updated:
+          - uBlock Origin: $(grep -v '^!' subscription/thai-adblock-list-ublockorigin.txt | grep -v '^$' | wc -l) rules
+          - Adblock Plus: $(grep -v '^!' subscription/thai-adblock-list-adblockplus.txt | grep -v '^$' | wc -l) rules  
+          - AdGuard: $(grep -v '^!' subscription/thai-adblock-list-adguard.txt | grep -v '^$' | wc -l) rules
+          - Domains: $(grep -v '^!' subscription/domains.txt | grep -v '^$' | wc -l) domains
+
+          Generated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+
+          git push
+
+      - name: Show result
+        run: |
+          if [[ "${{ steps.check.outputs.files_changed }}" == "true" ]]; then
+            echo "✅ สำเร็จ! ไฟล์ subscription ถูก generate และ commit แล้ว"
+            echo "📁 ไฟล์ที่อัพเดท:"
+            ls -la subscription/
+          else
+            echo "ℹ️ ไม่มีการเปลี่ยนแปลงในไฟล์ subscription"
+          fi
