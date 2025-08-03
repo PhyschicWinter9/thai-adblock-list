@@ -1,39 +1,52 @@
 [Domain List]
-! Created: 01-07-2025
+! Created: 03-08-2025
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
-! Total domains: 31
+! Total domains: 44
 !
 ! This list contains the unique domains from the adblock rules.
 !
 !
-1112hd.com
+1112hdd.com
+1991482557.rsc.cdn77.org
+2499hd.com
+2umax.com
 928hd-th.com
+928hdnew.com
 anime-hit.com
 anime-suba.co
-cdn.nanamovies.me
-cdn.nanamovies.net
-images.shirokami.me
+animemoji.tv
+cdend.com
+customer-du9ot36buolllm9o.cloudflarestream.com
+dev-tools.shirokami.me
+embed.nana2play.com
+giscus.app
+googleads.g.doubleclick.net
+googles.video
+goovdo.org
 kurokami.me
+m4-txt-2.xdomovie247.com
+m5-txt-2.xdomovie247.com
 manga1688.com
-movie2uhd.com
-nanamovies.net
+movieded.domovie247.com
+nanamovies.org
 series-indy.com
-www.037hd-movies.com
+www.037hdd-movie.com
 www.123-hdd.com
-www.24-hdd.com
-www.77moviehd.com
+www.24hd-movie.com
+www.9nung.com
 www.anime-masters.com
 www.anime-suba.co
+www.anime-sugoi.com
+www.anime-yuzu.com
 www.animehdzeroo.com
-www.doomovie-hd.vip
-www.dooseries4k.com
-www.loadgame-pc.com
-www.movie2uhd.tv
+www.baan-series.org
+www.facebook.com
+www.img02.xyz
+www.moviehdfree77.net
 www.niceoppai.net
-www.nung2-hd.com
 www.oremanga.net
 www.serieday-hd.com
 www.up-manga.com
-www.upfastfile.com
 www.upgamepc.com
 www.v8-hd.com
+www.zerogameth.com
