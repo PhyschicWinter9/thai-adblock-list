@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/PhyschicWinter9/thai-adblock-list#readme",
   "dependencies": {
-    "date-and-time": "^3.6.0"
+    "date-and-time": "^4.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
