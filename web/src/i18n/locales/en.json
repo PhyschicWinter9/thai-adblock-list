@@ -1,0 +1,208 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "contribute": "Contribute",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Thai Adblock List",
+    "subtitle": "Clean browsing for Thai websites",
+    "description": "Block ads, trackers, and annoying content on Thai websites with our community-maintained filter list. Optimized for uBlock Origin, Adblock Plus, and all major ad blockers.",
+    "getStarted": "Get Started",
+    "viewGitHub": "View on GitHub",
+    "features": {
+      "title": "Why Choose Thai Adblock List?",
+      "community": {
+        "title": "Community Powered",
+        "desc": "Built by Thai users, for Thai users"
+      },
+      "updated": {
+        "title": "Always Fresh",
+        "desc": "New filters added weekly from community reports"
+      },
+      "compatible": {
+        "title": "Universal Support",
+        "desc": "Works seamlessly with all popular ad blockers"
+      }
+    }
+  },
+  "features": {
+    "badge": "Technical Information",
+    "title": "How It Works",
+    "description": "Thai Adblock List provides filter rules that instruct ad blocking software to block specific advertising elements on Thai websites.",
+    "technical": {
+      "filterFormat": {
+        "title": "Filter Format",
+        "description": "Uses standard Adblock Plus filter syntax for maximum compatibility across different ad blocking software.",
+        "details": "EasyList format"
+      },
+      "targetWebsites": {
+        "title": "Target Websites",
+        "description": "Focuses on Thai websites and advertising networks commonly used in Thailand.",
+        "details": "30+ domains covered"
+      },
+      "updateFrequency": {
+        "title": "Update Frequency",
+        "description": "Filters are reviewed and updated based on user reports and regular monitoring of Thai websites.",
+        "details": "Monthly updates"
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Maintained by volunteers who actively browse Thai websites and identify new advertising patterns.",
+        "details": "Community driven"
+      }
+    },
+    "compatibility": {
+      "title": "Compatibility",
+      "description": "Thai Adblock List works with most popular ad blocking software that supports the EasyList filter format.",
+      "ublock": {
+        "description": "Full compatibility with all filter rules",
+        "status": "Fully Supported"
+      },
+      "adblockplus": {
+        "description": "Compatible with standard filter syntax",
+        "status": "Fully Supported"
+      },
+      "adguard": {
+        "description": "Works with desktop and browser extensions",
+        "status": "Fully Supported"
+      },
+      "others": {
+        "name": "Other Ad Blockers",
+        "description": "Most ad blockers using EasyList format",
+        "status": "Generally Compatible"
+      },
+      "status": {
+        "fullSupport": "Fully Supported",
+        "generalSupport": "Generally Compatible"
+      }
+    }
+  },
+  "contribute": {
+    "title": "Join Our Community",
+    "description": "Help make the Thai web cleaner by contributing filters or reporting problematic sites.",
+    "request": {
+      "title": "Report Annoying Ads",
+      "desc": "Found a Thai site with intrusive ads? Let us know!",
+      "action": "Submit Report"
+    },
+    "pr": {
+      "title": "Contribute Code",
+      "desc": "Know filter syntax? Help us improve directly!",
+      "action": "Create PR"
+    },
+    "issue": {
+      "title": "Report Problems",
+      "desc": "Something not working right?",
+      "action": "Report Issue"
+    }
+  },
+  "community": {
+    "title": "Join Our Community",
+    "description": "Every contribution helps make the Thai internet a better place. Whether you're reporting a new site or fixing existing filters, your help is appreciated.",
+    "badges": {
+      "fastResponse": "Fast Response",
+      "friendlyCommunity": "Friendly Community",
+      "learningWelcome": "Learning Welcome"
+    }
+  },
+  "download": {
+    "badgeTitle": "Multiple Extension Provider Support",
+    "title": "Get Thai Adblock List",
+    "description": "Choose your preferred ad blocker and subscribe to the Thai Adblock List with one click, or copy the raw URL for manual setup.",
+    "version": "Version",
+    "size": "Size",
+    "rawFilter": "Raw Filter URL",
+    "rawFilterDesc": "Copy the URL below for manual installation or custom setups.",
+    "lastUpdate": "Last Updated",
+    "copy": "Copy URL",
+    "copied": "Copied!",
+    "checksum": "SHA256 Checksum",
+    "instructions": {
+      "title": "Setup Instructions",
+      "desc": "Choose your ad blocker for step-by-step installation guide"
+    }
+  },
+  "adblockProvider": {
+    "adblock-plus": {
+      "name": "Adblock Plus",
+      "description": "Most popular ad blocker with easy one-click subscription",
+      "oneClick": {
+        "title": "One-Click Subscription",
+        "desc": "Automatically add the filter list to your Adblock Plus installation.",
+        "btn-text": "Subscribe to Adblock Plus"
+      }
+    },
+    "ublock-origin": {
+      "name": "uBlock Origin",
+      "description": "Advanced ad blocker with powerful filtering capabilities",
+      "oneClick": {
+        "title": "One-Click Subscription",
+        "desc": "Automatically add the filter list to your uBlock Origin installation.",
+        "btn-text": "Subscribe to uBlock Origin"
+      }
+    },
+    "adguard": {
+      "name": "AdGuard",
+      "description": "Support both AdGuard Browser Extension and AdGuard Desktop.",
+      "oneClick": {
+        "title": "One-Click Subscription",
+        "desc": "Automatically add the filter list to your AdGuard installation.",
+        "btn-text": "Subscribe to AdGuard"
+      }
+    },
+    "others": {
+      "moreProviders": "For other extensions",
+      "description": "We're working on adding support for more ad-blocking services. Have a specific provider in mind? Let us know on GitHub!"
+    }
+  },
+  "instructions": {
+    "manual": {
+      "title": "Manual Installation Guide",
+      "description": "If one-click subscription doesn't work, follow these manual steps"
+    },
+    "adblock-plus": {
+      "title": "สำหรับ Adblock Plus",
+      "steps": [
+        "Click on the ABP extension icon on your browser and choose 'Options'",
+        "Under the 'Advanced' tab, click 'Add a new filter list'",
+        "Enter the URL of the list you want to subscribe to",
+        "Give it a name (e.g., 'Thai Adblock List')",
+        "Click the 'Add a filter list' button"
+      ]
+    },
+    "ublock-origin": {
+      "title": "สำหรับ uBlock Origin",
+      "steps": [
+        "Click on the uBlock Origin icon in your browser's toolbar",
+        "Click the 'Open the dashboard' button (gear icon)",
+        "Go to the 'Filter lists' tab in the dashboard",
+        "Scroll down to the 'Custom' section and check the 'Import' box",
+        "Paste the filter list URL in the text area that appears",
+        "Click 'Apply changes' to save the settings"
+      ]
+    },
+    "adguard": {
+      "title": "สำหรับ AdGuard",
+      "steps": [
+        "Navigate to Settings > Ad blocker > Filters (Windows) or click '+' in Filters section (Mac)",
+        "For mobile: Go to Settings > DNS Filtering > DNS requests filtering > DNS filters",
+        "Click the 'Add filter' or '+' button",
+        "Paste the filter list URL or select 'Import from file'",
+        "Confirm the addition and ensure the filter is enabled",
+        "Update filters if prompted"
+      ]
+    }
+  },
+  "footer": {
+    "description": "Community-driven ad blocking for Thai websites",
+    "links": "Quick Links",
+    "community": "Community",
+    "github": "GitHub Repository",
+    "issues": "Report Issues",
+    "contribute": "Contribute",
+    "license": "Licensed under MIT License",
+    "madeWith": "Made with ❤️ by RELAXLIKES"
+  }
+}

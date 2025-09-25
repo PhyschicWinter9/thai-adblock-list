@@ -1,0 +1,209 @@
+{
+  "nav": {
+    "home": "หน้าหลัก",
+    "features": "ฟีเจอร์",
+    "contribute": "ร่วมพัฒนา",
+    "download": "ดาวน์โหลด"
+  },
+  "hero": {
+    "title": "Thai Adblock List",
+    "subtitle": "บล็อกโฆษณาเว็บไทยแบบครบครัน",
+    "description": "กำจัดโฆษณาและเนื้อหาที่รบกวนบนเว็บไซต์ไทยด้วยฟิลเตอร์ที่อัปเดตสม่ำเสมอ รองรับ uBlock Origin, Adblock Plus และตัวบล็อกโฆษณายอดนิยมอื่นๆ",
+    "getStarted": "เริ่มใช้งาน",
+    "viewGitHub": "ดูใน GitHub",
+    "features": {
+      "title": "ทำไมถึงต้อง Thai Adblock List?",
+      "community": {
+        "title": "พัฒนาโดยชุมชน",
+        "desc": "สร้างและดูแลโดยคนไทย เพื่อคนไทย"
+      },
+      "updated": {
+        "title": "อัปเดตทันสมัย",
+        "desc": "เพิ่มฟิลเตอร์ใหม่ทุกสัปดาห์จากรายงานผู้ใช้"
+      },
+      "compatible": {
+        "title": "ใช้ได้ทุกที่",
+        "desc": "รองรับ uBlock Origin, Adblock Plus และ ad blocker อื่นๆ"
+      }
+    }
+  },
+  "features": {
+    "badge": "รายละเอียดเทคนิค",
+    "title": "มันทำงานอย่างไร?",
+    "description": "Thai Adblock List ให้รายการตัวกรองที่ช่วยบล็อกโฆษณาบนเว็บไซต์ของไทย โดยจะทำงานร่วมกับซอฟต์แวร์บล็อกโฆษณาเพื่อบล็อกองค์ประกอบโฆษณาต่าง ๆ",
+    "technical": {
+      "filterFormat": {
+        "title": "รูปแบบฟิลเตอร์",
+        "description": "ใช้รูปแบบมาตรฐาน Adblock Plus ทำให้ใช้ได้กับโปรแกรมบล็อกโฆษณาแทบทุกตัว",
+        "details": "รูปแบบ EasyList"
+      },
+      "targetWebsites": {
+        "title": "เว็บไซต์เป้าหมาย",
+        "description": "เน้นเว็บไซต์นิยมในไทยและเครือข่ายโฆษณาที่มักพบในไทย เช่นเว็บพนันออนไลน์และเว็บข่าว",
+        "details": "ครอบคลุมกว่า 30+ โดเมน"
+      },
+      "updateFrequency": {
+        "title": "การอัปเดต",
+        "description": "ตรวจสอบและเพิ่มฟิลเตอร์ใหม่จากผู้ใช้ที่แจ้งปัญหาและการตรวจสอบเว็บไซต์ไทยเป็นประจำ",
+        "details": "อัปเดตทุกเดือน"
+      },
+      "maintenance": {
+        "title": "การดูแล",
+        "description": "ดูแลโดยอาสาสมัครที่ใช้เว็บไซต์ไทยเป็นประจำและตรวจจับโฆษณาแบบใหม่ๆ",
+        "details": "ดูแลโดยชุมชน"
+      }
+    },
+    "compatibility": {
+      "title": "ใช้ได้กับโปรแกรมไหนบ้าง",
+      "description": "Thai Adblock List สามารถใช้งานร่วมกับซอฟต์แวร์บล็อกโฆษณายอดนิยมส่วนใหญ่ที่รองรับรูปแบบตัวกรอง EasyList ได้",
+      "ublock": {
+        "description": "ใช้ได้ครบทุกฟิลเตอร์",
+        "status": "ใช้งานได้เต็มรูปแบบ"
+      },
+      "adblockplus": {
+        "description": "ใช้ได้กับฟิลเตอร์มาตรฐาน",
+        "status": "ใช้งานได้เต็มรูปแบบ"
+      },
+      "adguard": {
+        "description": "ใช้ได้ทั้งเวอร์ชันคอมฯ และ extension",
+        "status": "ใช้งานได้เต็มรูปแบบ"
+      },
+      "others": {
+        "name": "โปรแกรมบล็อกโฆษณาอื่นๆ",
+        "description": "โปรแกรมส่วนใหญ่ที่รองรับ EasyList",
+        "status": "สามารถใช้งานร่วมกันได้"
+      },
+      "status": {
+        "fullSupport": "ใช้งานได้เต็มรูปแบบ",
+        "generalSupport": "สามารถใช้งานร่วมกันได้"
+      }
+    }
+  },
+  "contribute": {
+    "title": "ร่วมพัฒนากับเรา",
+    "description": "ช่วยปรับปรุง Thai Adblock List ด้วยการเพิ่มฟิลเตอร์ใหม่หรือแจ้งปัญหา",
+    "request": {
+      "title": "แจ้งเว็บไซต์ใหม่",
+      "desc": "เจอเว็บไทยที่โฆษณาเยอะ? แจ้งมาได้เลย!",
+      "action": "แจ้งเว็บไซต์"
+    },
+    "pr": {
+      "title": "ส่ง Pull Request",
+      "desc": "เขียนฟิลเตอร์เป็น? มาช่วยพัฒนาตรงๆ!",
+      "action": "สร้าง PR"
+    },
+    "issue": {
+      "title": "รายงานปัญหา",
+      "desc": "ฟิลเตอร์ที่มีใช้งานไม่ได้?",
+      "action": "แจ้งปัญหา"
+    }
+  },
+  "community": {
+    "title": "เข้าร่วมชุมชนของเรา",
+    "description": "ทุกการสนับสนุนช่วยทำให้อินเทอร์เน็ตไทยน่าใช้งานยิ่งขึ้น ไม่ว่าจะเป็นการแจ้งเว็บไซต์ใหม่หรือแก้ไขตัวกรองที่มีอยู่ การช่วยเหลือของคุณล้วนมีคุณค่าและได้รับการขอบคุณอย่างยิ่ง",
+    "badges": {
+      "fastResponse": "ตอบเร็ว",
+      "friendlyCommunity": "ชุมชนดีๆ",
+      "learningWelcome": "เปิดรับการเรียนรู้ใหม่ๆ"
+    }
+  },
+
+  "download": {
+    "badgeTitle": "รองรับ Extension หลายตัว",
+    "title": "รับ Thai Adblock List",
+    "description": "เลือกซอฟต์แวร์บล็อกโฆษณาที่คุณชอบ และสมัครใช้งาน Thai Adblock List ได้ด้วยคลิกเดียว หรือคัดลอก URL เพื่อติดตั้งด้วยตนเอง",
+    "version": "เวอร์ชัน",
+    "size": "ขนาด",
+    "rawFilter": "ลิงก์ตัวกรอง",
+    "rawFilterDesc": "คัดลอก URL ด้านล่างเพื่อติดตั้งด้วยตนเองหรือการตั้งค่าแบบกำหนดเอง",
+    "lastUpdate": "อัปเดตล่าสุด",
+    "copy": "คัดลอก URL",
+    "copied": "คัดลอกแล้ว!",
+    "checksum": "SHA256 Checksum",
+    "instructions": {
+      "title": "วิธีติดตั้ง",
+      "desc": "เลือกวิธีที่คุณต้องการติดตั้ง Thai Adblock List"
+    }
+  },
+  "adblockProvider": {
+    "adblock-plus": {
+      "name": "Adblock Plus",
+      "description": "บล็อกโฆษณายอดนิยม ใช้งานง่ายด้วยการ Subscribe เพียงคลิกเดียว",
+      "oneClick": {
+        "title": "คลิกเดียวเพื่อ Subscribe",
+        "desc": "เพิ่มฟิลเตอร์นี้ไปยัง Adblock Plus ของคุณโดยอัตโนมัติ",
+        "btn-text": "Subscribe สำหรับ Adblock Plus"
+      }
+    },
+    "ublock-origin": {
+      "name": "uBlock Origin",
+      "description": "รองรับฟิลเตอร์ทั้งหมด ใช้งานได้เต็มประสิทธิภาพ",
+      "oneClick": {
+        "title": "คลิกเดียวเพื่อ Subscribe",
+        "desc": "เพิ่มฟิลเตอร์นี้ไปยัง uBlock Origin ของคุณโดยอัตโนมัติ",
+        "btn-text": "Subscribe สำหรับ uBlock Origin"
+      }
+    },
+    "adguard": {
+      "name": "AdGuard",
+      "description": "รองรับทั้ง AdGuard Browser Extension และ AdGuard Desktop",
+      "oneClick": {
+        "title": "คลิกเดียวเพื่อ Subscribe",
+        "desc": "เพิ่มฟิลเตอร์นี้ไปยัง AdGuard ของคุณโดยอัตโนมัติ",
+        "btn-text": "Subscribe สำหรับ AdGuard"
+      }
+    },
+    "others" :{
+      "moreProviders": "สำหรับ Extension อื่นๆ",
+      "description": "เรากำลังทำงานเพื่อเพิ่มการรองรับสำหรับบริการบล็อกโฆษณาอื่นๆ หากคุณมีโปรแกรมที่ต้องการให้รองรับ แจ้งเราได้ที่ GitHub!"
+    }
+  },
+  "instructions" :{
+    "manual": {
+      "title": "คู่มือการติดตั้งด้วยตนเอง",
+      "description": "หากการ Subscribe ด้วยคลิกเดียวไม่ทำงาน ให้ทำตามขั้นตอนด้านล่าง"
+    },
+     "adblock-plus": {
+      "title": "สำหรับ Adblock Plus",
+      "steps": [
+        "คลิกที่ไอคอน Adblock Plus บนเบราว์เซอร์ของคุณและเลือก 'Options'",
+        "ในแท็บ 'Advanced' คลิก 'Add a new filter list'",
+        "วาง URL ของรายการที่คุณต้องการสมัครใช้งาน",
+        "ตั้งชื่อ (เช่น 'Thai Adblock List')",
+        "คลิกปุ่ม 'Add a filter list'"
+      ]
+    },
+    "ublock-origin": {
+      "title": "สำหรับ uBlock Origin",
+      "steps": [
+        "คลิกที่ไอคอน uBlock Origin ในแถบเครื่องมือของเบราว์เซอร์",
+        "คลิกปุ่ม 'Open the dashboard' (ไอคอนเกียร์)",
+        "ไปที่แท็บ 'Filter lists' ในแดชบอร์ด",
+        "เลื่อนลงไปที่ส่วน 'Custom' และทำเครื่องหมายที่ช่อง 'Import'",
+        "วาง URL ของรายการฟิลเตอร์ในพื้นที่ข้อความที่ปรากฏขึ้น",
+        "คลิก 'Apply changes' เพื่อบันทึกการตั้งค่า"
+      ]
+    },
+    "adguard": {
+      "title": "สำหรับ AdGuard",
+      "steps": [
+        "ไปที่ Settings > Ad blocker > Filters (Windows) หรือคลิก '+' ในส่วน Filters (Mac)",
+        "สำหรับมือถือ: ไปที่ Settings > DNS Filtering > DNS requests filtering > DNS filters",
+        "คลิกปุ่ม 'Add filter' หรือ '+'",
+        "วาง URL ของรายการฟิลเตอร์หรือเลือก 'Import from file'",
+        "ยืนยันการเพิ่มและตรวจสอบให้แน่ใจว่าฟิลเตอร์เปิดใช้งาน",
+        "อัปเดตฟิลเตอร์หากมีการแจ้งเตือน"
+      ]
+    }
+  },
+  "footer": {
+    "description": "บล็อกโฆษณาเว็บไทยด้วย Thai Adblock List เพื่อประสบการณ์การท่องเว็บที่ดียิ่งขึ้น",
+    "links": "ลิงก์ด่วน",
+    "community": "ชุมชน",
+    "github": "GitHub Repository",
+    "issues": "แจ้งปัญหา",
+    "contribute": "ร่วมพัฒนา",
+    "license": "เผยแพร่ภายใต้ใบอนุญาต MIT",
+    "madeWith": "สร้างด้วย ❤️ โดย RELAXLIKES"
+  }
+}

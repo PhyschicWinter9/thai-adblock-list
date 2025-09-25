@@ -46,10 +46,10 @@
     "date-and-time": "^3.6.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.30.0",
-    "eslint": "^9.30.0",
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.35.0"
+    "typescript-eslint": "^8.38.0"
   }
 }
