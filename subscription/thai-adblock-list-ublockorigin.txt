@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 1.3-03082025
+! Version: 1.3-25092025
 ! Title: Thai Adblock List for uBlock Origin
-! Last modified: 03-08-2025
+! Last modified: 25-09-2025
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 ! Description: Comprehensive adblock list for Thai websites optimized for uBlock Origin
@@ -21,8 +21,8 @@
 ! Aug 3, 2025 https://2umax.com
 ! Aug 3, 2025 https://928hdnew.com
 ! Aug 3, 2025 https://anime-hit.com
-! Aug 3, 2025 https://anime-suba.co
 ! Aug 3, 2025 https://animemoji.tv
+! Aug 3, 2025 https://anime-suba.co
 ! Aug 3, 2025 https://kurokami.me
 ! Aug 3, 2025 https://manga1688.com
 ! Aug 3, 2025 https://movieded.domovie247.com
@@ -33,11 +33,11 @@
 ! Aug 3, 2025 https://www.123-hdd.com
 ! Aug 3, 2025 https://www.24hd-movie.com
 ! Aug 3, 2025 https://www.9nung.com
+! Aug 3, 2025 https://www.animehdzeroo.com
 ! Aug 3, 2025 https://www.anime-masters.com
 ! Aug 3, 2025 https://www.anime-suba.co
 ! Aug 3, 2025 https://www.anime-sugoi.com
 ! Aug 3, 2025 https://www.anime-yuzu.com
-! Aug 3, 2025 https://www.animehdzeroo.com
 ! Aug 3, 2025 https://www.baan-series.org
 ! Aug 3, 2025 https://www.doomovie-hd.vip
 ! Aug 3, 2025 https://www.leoplayer7.com
@@ -45,8 +45,8 @@
 ! Aug 3, 2025 https://www.niceoppai.net
 ! Aug 3, 2025 https://www.oremanga.net
 ! Aug 3, 2025 https://www.serieday-hd.com
-! Aug 3, 2025 https://www.up-manga.com
 ! Aug 3, 2025 https://www.upgamepc.com
+! Aug 3, 2025 https://www.up-manga.com
 ! Aug 3, 2025 https://www.v8-hd.com
 ! Aug 3, 2025 https://www.zerogameth.com
 ||1991482557.rsc.cdn77.org/videos/ads-037hdmovie.mp4$media
@@ -78,20 +78,18 @@
 2umax.com##.side-right.grid-banner-item
 928hdnew.com##.ads-above-single-player
 anime-hit.com##.ads-img
-anime-hit.com##.px-0.ad_head.pp.m-0.row
 anime-hit.com##div.watch-bnn:nth-of-type(3)
+anime-hit.com##.px-0.ad_head.pp.m-0.row
+animemoji.tv##.p-0.ads-zone.col-sm-12
 anime-suba.co##.figure02
 anime-suba.co###light
-animemoji.tv##.p-0.ads-zone.col-sm-12
-kurokami.me###myTabContent > .row
 kurokami.me##div.col-12 > .row
+kurokami.me###myTabContent > .row
+manga1688.com##center
 manga1688.com##.l.slider-ads
 manga1688.com##.r.slider-ads
 manga1688.com##.w-bnn-bottom.wbnn
-manga1688.com##center
 movieded.domovie247.com##.ad-overlay-click
-nanamovies.org##.size-large.alignnone
-nanamovies.org##.yan-sag.yan-rek
 nanamovies.org##[href="https://baccarat888v.com/"]
 nanamovies.org##[href="https://df011.com/gjduue"]
 nanamovies.org##[href="https://pigpg-game.com/"]
@@ -100,6 +98,8 @@ nanamovies.org##[href="https://ufanice.com/"]
 nanamovies.org##[href="https://www.sagame350.win/"]
 nanamovies.org##[href="https://www.ssgames350.win/"]
 nanamovies.org##[href="https://www.ufa350s.club/"]
+nanamovies.org##.size-large.alignnone
+nanamovies.org##.yan-sag.yan-rek
 series-indy.com##.pmloaded.entered.perfmatters-lazy.img-fluid
 www.037hdd-movie.com###ads-bottom
 www.037hdd-movie.com###ads-bottom-player
@@ -117,23 +117,6 @@ www.24hd-movie.com##.adlf > .adhl
 www.24hd-movie.com##.mcommanr
 www.24hd-movie.com##.right-menu > .adhl
 www.9nung.com##center
-www.anime-masters.com##.col-md-12 > center > p
-www.anime-masters.com##div#slider-b.banner-close > p
-www.anime-masters.com##p.center_lnwphp:nth-of-type(2)
-www.anime-suba.co##.img01 > [href="https://t.ly/SUBA1"]
-www.anime-suba.co##[href^="https://www.huc66.pro/signUp"]
-www.anime-suba.co##[href="https://gizmodo.uol.com.br/สล็อตแตก-2025/"]
-www.anime-suba.co##[href="https://nexobet44.com/"]
-www.anime-suba.co##[href="https://pgk44.bio"]
-www.anime-suba.co##[href="https://web.nexobet.pro"]
-www.anime-suba.co##[href="https://www.333ut.vip/THB/5049823/3/Newonlineslots"]
-www.anime-suba.co###idc-container-parent
-www.anime-sugoi.com##.panel-body > center
-www.anime-sugoi.com##div.container > .row > .center_lnwphp
-www.anime-yuzu.com##.code-block-1.code-block
-www.anime-yuzu.com##.code-block-2.code-block
-www.anime-yuzu.com##.code-block-3.code-block
-www.anime-yuzu.com##.code-block-4.code-block
 www.animehdzeroo.com##.cb-header > .row
 www.animehdzeroo.com##.floating-ads-b
 www.animehdzeroo.com##.floating-ads-l
@@ -142,8 +125,25 @@ www.animehdzeroo.com##[href^="//7893234.com/Register"]
 www.animehdzeroo.com##[href^="https://www.8878588.com/"]
 www.animehdzeroo.com##[href^="https://www.mk88110.com/"]
 www.animehdzeroo.com##[href="https://www.333ut.vip/THB/5049823/3/Newonlineslots"]
-www.baan-series.org##.tt_fxli > .custom-html-widget.textwidget
+www.anime-masters.com##.col-md-12 > center > p
+www.anime-masters.com##div#slider-b.banner-close > p
+www.anime-masters.com##p.center_lnwphp:nth-of-type(2)
+www.anime-suba.co##[href^="https://www.huc66.pro/signUp"]
+www.anime-suba.co##[href="https://gizmodo.uol.com.br/สล็อตแตก-2025/"]
+www.anime-suba.co##[href="https://nexobet44.com/"]
+www.anime-suba.co##[href="https://pgk44.bio"]
+www.anime-suba.co##[href="https://web.nexobet.pro"]
+www.anime-suba.co##[href="https://www.333ut.vip/THB/5049823/3/Newonlineslots"]
+www.anime-suba.co###idc-container-parent
+www.anime-suba.co##.img01 > [href="https://t.ly/SUBA1"]
+www.anime-sugoi.com##div.container > .row > .center_lnwphp
+www.anime-sugoi.com##.panel-body > center
+www.anime-yuzu.com##.code-block-1.code-block
+www.anime-yuzu.com##.code-block-2.code-block
+www.anime-yuzu.com##.code-block-3.code-block
+www.anime-yuzu.com##.code-block-4.code-block
 www.baan-series.org###ads728x90top
+www.baan-series.org##.tt_fxli > .custom-html-widget.textwidget
 www.moviehdfree77.net##.e-child.e-con.e-flex.e-con-full.elementor-element-37f77f0.elementor-element
 www.moviehdfree77.net##.e-child.e-con.e-flex.e-con-full.elementor-element-57e52d4.elementor-element
 www.moviehdfree77.net##.e-child.e-con.e-flex.elementor-hidden-mobile.elementor-hidden-tablet.e-con-full.elementor-element-123caaa.elementor-element
@@ -151,10 +151,10 @@ www.moviehdfree77.net##.e-child.e-con.e-flex.elementor-hidden-mobile.elementor-h
 www.moviehdfree77.net##.e-child.e-con.e-flex.elementor-hidden-mobile.elementor-hidden-tablet.e-con-full.elementor-element-a172f5a.elementor-element
 www.moviehdfree77.net##.e-child.e-con.e-flex.elementor-hidden-mobile.elementor-hidden-tablet.e-con-full.elementor-element-b569684.elementor-element
 www.niceoppai.net##.mng_rdr.wpm_pag > center
-www.niceoppai.net##.textwidget > center
-www.niceoppai.net##.widget_text.top_page
 www.niceoppai.net###sct_content > .fb-comment-box
 www.niceoppai.net###text-6
+www.niceoppai.net##.textwidget > center
+www.niceoppai.net##.widget_text.top_page
 www.oremanga.net##.header-ads-section
 www.serieday-hd.com##.ad
 www.serieday-hd.com##.adb
@@ -162,25 +162,25 @@ www.serieday-hd.com##.adcen > .adt
 www.serieday-hd.com##.adl
 www.serieday-hd.com##.adlf > .adhl
 www.serieday-hd.com##.right-menu > .adhl
-www.up-manga.com##.sticky-bottom-inside
-www.up-manga.com###sticky-bottom2
-www.up-manga.com###sticky-bottom3
+www.upgamepc.com###ad-wrapper > .section
+www.upgamepc.com###google-anno-sa
+www.upgamepc.com##.google-auto-placed
+www.upgamepc.com##.hentry.bar.post > .adsbygoogle
+www.upgamepc.com##ins.adsbygoogle-noablate.adsbygoogle:nth-of-type(2)
 www.up-manga.com##a[href^="/link_to.php"]:nth-of-type(1)
 www.up-manga.com##a[href^="/link_to.php"]:nth-of-type(2)
-www.up-manga.com##div.center_upmanga:nth-of-type(18)
-www.up-manga.com##div.center_upmanga:nth-of-type(5)
-www.up-manga.com##div.center_upmanga:nth-of-type(8)
 www.up-manga.com##div.center_upmanga3:nth-of-type(18)
 www.up-manga.com##div.center_upmanga3:nth-of-type(5)
 www.up-manga.com##div.center_upmanga3:nth-of-type(8)
+www.up-manga.com##div.center_upmanga:nth-of-type(18)
+www.up-manga.com##div.center_upmanga:nth-of-type(5)
+www.up-manga.com##div.center_upmanga:nth-of-type(8)
 www.up-manga.com##div.center_upmangaza:nth-of-type(1)
 www.up-manga.com##div.center_upmangaza:nth-of-type(2)
 www.up-manga.com##div.center_upmangaza:nth-of-type(3)
-www.upgamepc.com##.google-auto-placed
-www.upgamepc.com##.hentry.bar.post > .adsbygoogle
-www.upgamepc.com###ad-wrapper > .section
-www.upgamepc.com###google-anno-sa
-www.upgamepc.com##ins.adsbygoogle-noablate.adsbygoogle:nth-of-type(2)
+www.up-manga.com###sticky-bottom2
+www.up-manga.com###sticky-bottom3
+www.up-manga.com##.sticky-bottom-inside
 www.v8-hd.com##div.clearfix.page_margin_top.page_layout > .row
 www.v8-hd.com##div.page_margin_top.row-kodsana:nth-of-type(1)
 www.v8-hd.com##div.page_margin_top.row-kodsana:nth-of-type(2)
