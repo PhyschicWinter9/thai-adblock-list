@@ -44,7 +44,7 @@
   "homepage": "https://github.com/PhyschicWinter9/thai-adblock-list#readme",
   "dependencies": {
     "date-and-time": "^4.0.5",
-    "npm-check-updates": "^18.3.0"
+    "npm-check-updates": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
