@@ -321,3 +321,37 @@ series-indy.com##.kosana.sdtrue
 www.up-manga.com##div.center_upmanga
 www.up-manga.com##div.center_upmanga3
 
+! Oct 9, 2025 https://www.037-hddmovie.com
+www.037-hddmovie.com###ads-index
+www.037-hddmovie.com###ads-sidebar
+www.037-hddmovie.com###ads-single
+www.037-hddmovie.com###ads-popup
+www.037-hddmovie.com###ads-sidebar-single-top
+www.037-hddmovie.com###ads-bottom-player
+
+! Oct 9, 2025 https://www.24-hdmovie.com
+www.24-hdmovie.com##.adlf > .adhl
+www.24-hdmovie.com##.adb
+www.24-hdmovie.com##.adl
+www.24-hdmovie.com##.mcommanr
+www.24-hdmovie.com##.right-menu > .adhl
+www.24-hdmovie.com##.adcen > .adt
+www.24-hdmovie.com##.ad > .adlf
+www.24-hdmovie.com##.ad
+
+! Oct 9, 2025 https://madaboutmoviez.com
+madaboutmoviez.com##.elementor-widget-image.elementor-widget.elementor-element-ce43ea8.elementor-element > .elementor-widget-container
+
+! Oct 9, 2025 https://www.9nung.com
+www.9nung.com##p:nth-of-type(2)
+www.9nung.com##p:nth-of-type(3)
+
+! Oct 9, 2025 https://animehdzerooo.com
+animehdzerooo.com##.cb-header > .row
+animehdzerooo.com##.floating-ads-r
+animehdzerooo.com##.floating-ads-l-img
+animehdzerooo.com##[href^="//7893234.com/Register"]
+animehdzerooo.com##[href^="https://www.mk81122.com/"]
+animehdzerooo.com##[href^="https://www.8878588.com/"]
+animehdzerooo.com##[href="https://www.333ut.vip/THB/5267249/3/AnimeHD"]
+
