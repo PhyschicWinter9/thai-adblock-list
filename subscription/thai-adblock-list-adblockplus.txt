@@ -1,7 +1,7 @@
 [Adblock Plus 3.18]
-! Version: 1.3-25092025
+! Version: 1.3-09102025
 ! Title: Thai Adblock List for Adblock Plus
-! Last modified: 25-09-2025
+! Last modified: 09-10-2025
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 ! Description: Comprehensive adblock list for Thai websites compatible with Adblock Plus
@@ -49,6 +49,11 @@
 ! Aug 3, 2025 https://www.upgamepc.com
 ! Aug 3, 2025 https://www.v8-hd.com
 ! Aug 3, 2025 https://www.zerogameth.com
+! Oct 9, 2025 https://animehdzerooo.com
+! Oct 9, 2025 https://madaboutmoviez.com
+! Oct 9, 2025 https://www.037-hddmovie.com
+! Oct 9, 2025 https://www.24-hdmovie.com
+! Oct 9, 2025 https://www.9nung.com
 ! Sep 25, 2025 https://1112hd2.com
 ! Sep 25, 2025 https://2umax.com
 ! Sep 25, 2025 https://hit.team-indy.net
@@ -119,10 +124,18 @@ anime-hit.com##.px-0.ad_head.pp.m-0.row
 anime-hit.com##div.watch-bnn:nth-of-type(3)
 anime-suba.co##.figure02
 anime-suba.co###light
+animehdzerooo.com##.cb-header > .row
+animehdzerooo.com##.floating-ads-l-img
+animehdzerooo.com##.floating-ads-r
+animehdzerooo.com##[href^="//7893234.com/Register"]
+animehdzerooo.com##[href^="https://www.8878588.com/"]
+animehdzerooo.com##[href^="https://www.mk81122.com/"]
+animehdzerooo.com##[href="https://www.333ut.vip/THB/5267249/3/AnimeHD"]
 animemoji.tv##.p-0.ads-zone.col-sm-12
 hit.team-indy.net###overlay
 kurokami.me###myTabContent > .row
 kurokami.me##div.col-12 > .row
+madaboutmoviez.com##.elementor-widget-image.elementor-widget.elementor-element-ce43ea8.elementor-element > .elementor-widget-container
 manga1688.com##.l.slider-ads
 manga1688.com##.r.slider-ads
 manga1688.com##.w-bnn-bottom.wbnn
@@ -150,6 +163,12 @@ nanamovies.org##[href="https://www.ssgames350.win/"]
 nanamovies.org##[href="https://www.ufa350s.club/"]
 series-indy.com##.kosana.sdtrue
 series-indy.com##.pmloaded.entered.perfmatters-lazy.img-fluid
+www.037-hddmovie.com###ads-bottom-player
+www.037-hddmovie.com###ads-index
+www.037-hddmovie.com###ads-popup
+www.037-hddmovie.com###ads-sidebar
+www.037-hddmovie.com###ads-sidebar-single-top
+www.037-hddmovie.com###ads-single
 www.037hdd-movie.com###ads-bottom
 www.037hdd-movie.com###ads-bottom-player
 www.037hdd-movie.com###ads-index
@@ -164,6 +183,14 @@ www.123hdtv.com##.wrap-content.clearfix > .clearfix.htmlwrap
 www.123hdtv.com###banner_plow
 www.123hdtv.com###banner_pmid
 www.123hdtv.com###banner_top
+www.24-hdmovie.com##.ad
+www.24-hdmovie.com##.ad > .adlf
+www.24-hdmovie.com##.adb
+www.24-hdmovie.com##.adcen > .adt
+www.24-hdmovie.com##.adl
+www.24-hdmovie.com##.adlf > .adhl
+www.24-hdmovie.com##.mcommanr
+www.24-hdmovie.com##.right-menu > .adhl
 www.24hd-movie.com##.ad
 www.24hd-movie.com##.adb
 www.24hd-movie.com##.adl
@@ -180,6 +207,8 @@ www.9nung.com##[href="https://ibit.ly/sagame1688"]
 www.9nung.com##[href="https://ibit.ly/sexygame1688"]
 www.9nung.com##[href="https://ibit.ly/sexygame66"]
 www.9nung.com##center
+www.9nung.com##p:nth-of-type(2)
+www.9nung.com##p:nth-of-type(3)
 www.anime-masters.com##.col-md-12 > center > p
 www.anime-masters.com##div#slider-b.banner-close > p
 www.anime-masters.com##p.center_lnwphp:nth-of-type(2)

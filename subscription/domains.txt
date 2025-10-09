@@ -1,7 +1,7 @@
 [Domain List]
-! Created: 25-09-2025
+! Created: 09-10-2025
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
-! Total domains: 60
+! Total domains: 64
 !
 ! This list contains the unique domains from the adblock rules.
 !
@@ -16,6 +16,7 @@
 analytics.chaophrayahd.com
 anime-hit.com
 anime-suba.co
+animehdzerooo.com
 animemoji.tv
 cdend.com
 customer-du9ot36buolllm9o.cloudflarestream.com
@@ -29,15 +30,18 @@ hit.team-indy.net
 kurokami.me
 m4-txt-2.xdomovie247.com
 m5-txt-2.xdomovie247.com
+madaboutmoviez.com
 manga1688.com
 mawtoload.com
 movie44.com
 movieded.domovie247.com
 nanamovies.org
 series-indy.com
+www.037-hddmovie.com
 www.037hdd-movie.com
 www.123-hdd.com
 www.123hdtv.com
+www.24-hdmovie.com
 www.24hd-movie.com
 www.77hdfree.com
 www.9nung.com
