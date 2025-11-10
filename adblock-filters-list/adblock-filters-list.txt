@@ -355,3 +355,8 @@ animehdzerooo.com##[href^="https://www.mk81122.com/"]
 animehdzerooo.com##[href^="https://www.8878588.com/"]
 animehdzerooo.com##[href="https://www.333ut.vip/THB/5267249/3/AnimeHD"]
 
+! Nov 9, 2025 https://www.4khd.com
+www.4khd.com##.popup-iframe
+
+! Nov 10, 2025 https://www.leoplayer7.com
+||www.upfastfile88.com/upload/BJ88THB8.mp4$media
