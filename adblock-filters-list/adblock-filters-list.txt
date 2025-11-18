@@ -78,11 +78,6 @@ www.moviehdfree77.net##.e-child.e-con.e-flex.e-con-full.elementor-element-57e52d
 www.moviehdfree77.net##.e-child.e-con.e-flex.elementor-hidden-mobile.elementor-hidden-tablet.e-con-full.elementor-element-a172f5a.elementor-element
 www.moviehdfree77.net##.e-child.e-con.e-flex.e-con-full.elementor-element-37f77f0.elementor-element
 
-! Aug 3, 2025 https://www.anime-masters.com
-www.anime-masters.com##p.center_lnwphp:nth-of-type(2)
-www.anime-masters.com##div#slider-b.banner-close > p
-www.anime-masters.com##.col-md-12 > center > p
-
 ! Aug 3, 2025 https://anime-suba.co
 anime-suba.co##.figure02
 anime-suba.co###light
@@ -294,10 +289,6 @@ www.baan-series.online##div.custom-html-widget.textwidget
 ! Sep 25, 2025 https://player.enjoy24cdn.com
 ||analytics.chaophrayahd.com/stream/*.mp4$media
 
-! Sep 25, 2025 https://www.v8-hdd.com
-www.v8-hdd.com##div.clearfix.page_margin_top.page_layout:nth-of-type(1)
-www.v8-hdd.com##div.page_margin_top.row-kodsana
-
 ! Sep 25, 2025 https://www.9nung.com
 www.9nung.com##[href="https://ibit.ly/sexygame1688"]
 www.9nung.com##[href="https://ibit.ly/sagame1688"]
@@ -360,3 +351,70 @@ www.4khd.com##.popup-iframe
 
 ! Nov 10, 2025 https://www.leoplayer7.com
 ||www.upfastfile88.com/upload/BJ88THB8.mp4$media
+
+! Nov 18, 2025 https://www.anime-seven.com
+www.anime-seven.com##div.container > .row > .center_lnwphp
+www.anime-seven.com##.panel-body > center
+
+! Nov 18, 2025 https://movies-today.com
+movies-today.com##.ad
+
+! Nov 18, 2025 https://movie2uhd.domovie247.com
+movie2uhd.domovie247.com##.ad-overlay-click
+
+! Nov 18, 2025 https://movies-today.com
+movies-today.com##div.adcen > div.adb
+movies-today.com##.movie > aside.adcen
+movies-today.com##.banner-left.widget-banner
+movies-today.com##.banner-right.widget-banner.adbr
+||m5-txt-2.xdomovie247.com/playlist2/detail/f284f93emnjTw/720/hls/index.m3u8
+||m4-txt-2.xdomovie247.com/playlist2/detail/7ef16c08v2aLW/720/hls/index.m3u8
+||m4-txt-2.xdomovie247.com/playlist2/detail/377e360atJ0h2/720/hls/index.m3u8
+movies-today.com##.adplayer
+
+! Nov 18, 2025 https://www.series-days.com
+www.series-days.com##.ad
+www.series-days.com##.adlf > .adhl
+www.series-days.com##.content-col2 > .adcen
+www.series-days.com##.adl
+www.series-days.com##.right-menu > .adhl
+
+! Nov 18, 2025 https://www.stream1689.com
+||www.upfastfile88.com/upload/ufathai24-1.mp4$media
+
+! Nov 18, 2025 https://www.anime-masterx.com
+www.anime-masterx.com##p.center_lnwphp:nth-of-type(2)
+www.anime-masterx.com##div#slider-b.banner-close:nth-of-type(4)
+www.anime-masterx.com##div#slider-b.banner-close > p
+www.anime-masterx.com##em > center > p
+www.anime-masterx.com##.col-md-12 > center > p
+
+! Nov 18, 2025 https://www.animesusu.com
+www.animesusu.com##.figure02
+www.animesusu.com###light
+www.animesusu.com##.img01 > a
+||animesusu.com/Anime-Suba/Admin/imgAnadvertisement
+
+! Nov 18, 2025 https://www.baan-series.org
+www.baan-series.org###after-player-ads .custom-html-widget.textwidget
+
+! Nov 18, 2025 https://1112hd3.com
+1112hd3.com##div.bg-\[var\(--color-background\)\].p-4.max-lg\:px-2.mx-auto.max-w-8xl:nth-of-type(1)
+
+! Nov 18, 2025 https://www.v8-hdd.com
+www.v8-hdd.com##div.clearfix.page_margin_top.page_layout > .row
+www.v8-hdd.com##div.page_margin_top.row-kodsana
+
+! Nov 18, 2025 https://9nung.com
+9nung.com##center
+9nung.com##p:nth-of-type(2)
+9nung.com##p:nth-of-type(3)
+
+! Nov 18, 2025 https://animehdzerooo.com
+animehdzerooo.com##[href^="https://78900112.vip/Register"]
+animehdzerooo.com##[href^="https://jun880.cc/"]
+
+! Nov 18, 2025 https://backup.mee-series.com
+backup.mee-series.com##div.img-fluid-div.col-6
+backup.mee-series.com##[href="https://www.santeedriveintheatre.com/"]
+
