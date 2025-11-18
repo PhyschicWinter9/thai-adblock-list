@@ -24,10 +24,11 @@ const DownloadSubscribe: React.FC = () => {
   const rawListUrlAdGuard =
     "https://raw.githubusercontent.com/PhyschicWinter9/thai-adblock-list/main/subscription/thai-adblock-list-adguard.txt";
   const title = "Thai-Adblock-List";
-  
-  const templateSubscribeUrl = (link: string, title: string) =>
-    `https://subscribe.adblockplus.org/?location=${encodeURIComponent(link)}&title=${encodeURIComponent(title)}`;
 
+  const templateSubscribeUrl = (link: string, title: string) =>
+    `https://subscribe.adblockplus.org/?location=${encodeURIComponent(
+      link
+    )}&title=${encodeURIComponent(title)}`;
 
   const [providers, setProviders] = useState<FilterProvider[]>([
     {
@@ -272,22 +273,24 @@ const DownloadSubscribe: React.FC = () => {
                 className="group bg-white dark:bg-gray-800 rounded-3xl shadow-lg hover:shadow-2xl dark:shadow-gray-900/20 transition-all duration-500 border border-gray-200 dark:border-gray-700 overflow-hidden"
               >
                 {/* Header */}
-                <div className={`bg-gradient-to-r ${provider.gradient} p-6`}>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-sm">
-                        <Icon className="h-6 w-6 text-white" />
+                <div
+                  className={`bg-gradient-to-r ${provider.gradient} p-4 sm:p-6`}
+                >
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                    <div className="flex items-center space-x-3 sm:space-x-4 w-full sm:w-auto">
+                      <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-sm flex-shrink-0">
+                        <Icon className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
                       </div>
-                      <div>
-                        <h3 className="text-2xl font-bold text-white">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-xl sm:text-2xl font-bold text-white">
                           {provider.name}
                         </h3>
-                        <p className="text-white/80">
+                        <p className="text-sm sm:text-base text-white/80 line-clamp-2">
                           {t("adblockProvider." + provider.id + ".description")}
                         </p>
                       </div>
                     </div>
-                    <div className="text-right text-white/80">
+                    <div className="text-left sm:text-right text-white/80 w-full sm:w-auto flex-shrink-0">
                       {provider.loading ? (
                         <div className="flex items-center space-x-2">
                           <Loader2 className="h-4 w-4 animate-spin" />
@@ -312,14 +315,14 @@ const DownloadSubscribe: React.FC = () => {
                 </div>
 
                 {/* Content */}
-                <div className="p-8">
-                  <div className="grid lg:grid-cols-2 gap-8">
+                <div className="p-4 sm:p-6 lg:p-8">
+                  <div className="grid lg:grid-cols-2 gap-6 lg:gap-8">
                     {/* Subscription Section */}
-                    <div className="space-y-6">
+                    <div className="space-y-4 sm:space-y-6">
                       <div>
-                        <h4 className="text-lg font-bold text-gray-900 dark:text-white mb-3 flex items-center space-x-2">
-                          <Zap className="h-5 w-5 text-orange-500" />
-                          <span>
+                        <h4 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white mb-3 flex items-center space-x-2">
+                          <Zap className="h-4 w-4 sm:h-5 sm:w-5 text-orange-500 flex-shrink-0" />
+                          <span className="line-clamp-2">
                             {t(
                               "adblockProvider." +
                                 provider.id +
@@ -327,7 +330,7 @@ const DownloadSubscribe: React.FC = () => {
                             )}
                           </span>
                         </h4>
-                        <p className="text-gray-600 dark:text-gray-400 mb-4">
+                        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">
                           {t(
                             "adblockProvider." + provider.id + ".oneClick.desc"
                           )}
@@ -335,10 +338,10 @@ const DownloadSubscribe: React.FC = () => {
                         <a
                           href={provider.subscribeUrl}
                           rel="nofollow"
-                          className={`w-full bg-gradient-to-r ${provider.gradient} text-white px-6 py-4 rounded-2xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 no-underline`}
+                          className={`w-full bg-gradient-to-r ${provider.gradient} text-white px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl text-sm sm:text-base font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 active:scale-95 flex items-center justify-center space-x-2 no-underline`}
                         >
-                          <ExternalLink className="h-5 w-5" />
-                          <span>
+                          <ExternalLink className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
+                          <span className="truncate">
                             {t(
                               "adblockProvider." +
                                 provider.id +
@@ -349,15 +352,15 @@ const DownloadSubscribe: React.FC = () => {
                       </div>
 
                       {/* Stats */}
-                      <div className="grid grid-cols-2 gap-4">
-                        <div className="bg-gray-50 dark:bg-gray-900 p-4 rounded-2xl border border-gray-200 dark:border-gray-700">
-                          <div className="flex items-center space-x-2 mb-2">
-                            <Hash className="h-4 w-4 text-gray-500" />
-                            <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                      <div className="grid grid-cols-2 gap-3 sm:gap-4">
+                        <div className="bg-gray-50 dark:bg-gray-900 p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-gray-200 dark:border-gray-700">
+                          <div className="flex items-center space-x-2 mb-1 sm:mb-2">
+                            <Hash className="h-3 w-3 sm:h-4 sm:w-4 text-gray-500 flex-shrink-0" />
+                            <span className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300">
                               Rules
                             </span>
                           </div>
-                          <div className="text-2xl font-bold text-gray-900 dark:text-white">
+                          <div className="text-lg sm:text-2xl font-bold text-gray-900 dark:text-white">
                             {provider.loading ? (
                               <Loader2 className="h-6 w-6 animate-spin" />
                             ) : provider.error ? (
@@ -371,14 +374,14 @@ const DownloadSubscribe: React.FC = () => {
                             )}
                           </div>
                         </div>
-                        <div className="bg-gray-50 dark:bg-gray-900 p-4 rounded-2xl border border-gray-200 dark:border-gray-700">
-                          <div className="flex items-center space-x-2 mb-2">
-                            <FileText className="h-4 w-4 text-gray-500" />
-                            <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                        <div className="bg-gray-50 dark:bg-gray-900 p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-gray-200 dark:border-gray-700">
+                          <div className="flex items-center space-x-2 mb-1 sm:mb-2">
+                            <FileText className="h-3 w-3 sm:h-4 sm:w-4 text-gray-500 flex-shrink-0" />
+                            <span className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300">
                               {t("download.size")}
                             </span>
                           </div>
-                          <div className="text-2xl font-bold text-gray-900 dark:text-white">
+                          <div className="text-lg sm:text-2xl font-bold text-gray-900 dark:text-white">
                             {provider.loading ? (
                               <Loader2 className="h-6 w-6 animate-spin" />
                             ) : provider.error ? (
@@ -396,39 +399,39 @@ const DownloadSubscribe: React.FC = () => {
                     </div>
 
                     {/* Raw URL Section */}
-                    <div className="space-y-6">
+                    <div className="space-y-4 sm:space-y-6">
                       <div>
-                        <h4 className="text-lg font-bold text-gray-900 dark:text-white mb-3 flex items-center space-x-2">
-                          <FileText className="h-5 w-5 text-blue-500" />
+                        <h4 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white mb-3 flex items-center space-x-2">
+                          <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-blue-500 flex-shrink-0" />
                           <span>{t("download.rawFilter")}</span>
                         </h4>
-                        <p className="text-gray-600 dark:text-gray-400 mb-4">
+                        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4">
                           {t("download.rawFilterDesc")}
                         </p>
 
                         {/* URL Display */}
-                        <div className="bg-gray-50 dark:bg-gray-900 p-4 rounded-2xl border border-gray-200 dark:border-gray-700 mb-4">
-                          <div className="flex items-center justify-between">
-                            <code className="text-sm text-gray-700 dark:text-gray-300 truncate flex-1 mr-3 font-mono">
+                        <div className="bg-gray-50 dark:bg-gray-900 p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-gray-200 dark:border-gray-700 mb-4">
+                          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
+                            <code className="text-xs sm:text-sm text-gray-700 dark:text-gray-300 break-all sm:truncate flex-1 font-mono">
                               {provider.rawUrl}
                             </code>
                             <button
                               onClick={() =>
                                 handleCopyUrl(provider.rawUrl, provider.id)
                               }
-                              className="flex items-center space-x-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 px-3 py-2 rounded-xl transition-all duration-300 hover:scale-105 flex-shrink-0"
+                              className="flex items-center space-x-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 px-3 py-2 rounded-lg sm:rounded-xl transition-all duration-300 hover:scale-105 active:scale-95 flex-shrink-0 w-full sm:w-auto justify-center"
                             >
                               {isCopied ? (
                                 <>
                                   <Check className="h-4 w-4 text-emerald-600 dark:text-emerald-400" />
-                                  <span className="text-sm text-emerald-600 dark:text-emerald-400 font-medium">
+                                  <span className="text-xs sm:text-sm text-emerald-600 dark:text-emerald-400 font-medium">
                                     {t("download.copied")}
                                   </span>
                                 </>
                               ) : (
                                 <>
                                   <Copy className="h-4 w-4 text-gray-600 dark:text-gray-400" />
-                                  <span className="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                                  <span className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 font-medium">
                                     {t("download.copy")}
                                   </span>
                                 </>
@@ -438,8 +441,8 @@ const DownloadSubscribe: React.FC = () => {
                         </div>
 
                         {/* Last Updated */}
-                        <div className="flex items-center space-x-2 text-sm text-gray-500 dark:text-gray-500">
-                          <Calendar className="h-4 w-4" />
+                        <div className="flex items-center space-x-2 text-xs sm:text-sm text-gray-500 dark:text-gray-500">
+                          <Calendar className="h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0" />
                           <span>
                             {t("download.lastUpdate")}:{" "}
                             {provider.loading
@@ -461,25 +464,25 @@ const DownloadSubscribe: React.FC = () => {
         </div>
 
         {/* Future Providers Notice */}
-        <div className="mt-16 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/30 dark:to-pink-950/30 rounded-3xl p-8 border border-purple-200 dark:border-purple-800">
+        <div className="mt-8 sm:mt-12 lg:mt-16 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/30 dark:to-pink-950/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-purple-200 dark:border-purple-800">
           <div className="text-center">
-            <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
-              <Shield className="h-8 w-8 text-white" />
+            <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+              <Shield className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-4">
               {t("adblockProvider.others.moreProviders")}
             </h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-2xl mx-auto">
+            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-6 max-w-2xl mx-auto">
               {t("adblockProvider.others.description")}
             </p>
-            <div className="flex flex-wrap justify-center gap-3">
-              <span className="bg-white dark:bg-gray-800 px-4 py-2 rounded-full text-sm font-medium text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700">
+            <div className="flex flex-wrap justify-center gap-2 sm:gap-3">
+              <span className="bg-white dark:bg-gray-800 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700">
                 🔜 Brave Browser
               </span>
-              <span className="bg-white dark:bg-gray-800 px-4 py-2 rounded-full text-sm font-medium text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700">
+              <span className="bg-white dark:bg-gray-800 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700">
                 🔜 Pi-hole
               </span>
-              <span className="bg-white dark:bg-gray-800 px-4 py-2 rounded-full text-sm font-medium text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700">
+              <span className="bg-white dark:bg-gray-800 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700">
                 🔜 AdAway
               </span>
             </div>
@@ -487,38 +490,41 @@ const DownloadSubscribe: React.FC = () => {
         </div>
 
         {/* Installation Instructions */}
-        <div className="mt-16 bg-white dark:bg-gray-800 rounded-3xl shadow-lg p-8 border border-gray-200 dark:border-gray-700">
-          <div className="text-center mb-8">
-            <div className="bg-gradient-to-r from-orange-500 to-orange-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
-              <FileText className="h-8 w-8 text-white" />
+        <div className="mt-8 sm:mt-12 lg:mt-16 bg-white dark:bg-gray-800 rounded-2xl sm:rounded-3xl shadow-lg p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
+          <div className="text-center mb-6 sm:mb-8">
+            <div className="bg-gradient-to-r from-orange-500 to-orange-600 w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+              <FileText className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-2">
               {t("instructions.manual.title")}
             </h3>
-            <p className="text-gray-600 dark:text-gray-400">
+            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
               {t("instructions.manual.description")}
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {providers.map((provider) => (
               <div
                 key={provider.id}
-                className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 hover:shadow-lg transition-all duration-300"
+                className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl sm:rounded-2xl p-4 sm:p-6 hover:shadow-lg transition-all duration-300"
               >
-                <h4 className="text-lg font-bold text-gray-900 dark:text-white mb-4 flex items-center space-x-2">
+                <h4 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white mb-3 sm:mb-4 flex items-center space-x-2">
                   <div
-                    className={`w-8 h-8 bg-gradient-to-r ${provider.gradient} rounded-lg flex items-center justify-center`}
+                    className={`w-7 h-7 sm:w-8 sm:h-8 bg-gradient-to-r ${provider.gradient} rounded-lg flex items-center justify-center flex-shrink-0`}
                   >
-                    <provider.icon className="h-4 w-4 text-white" />
+                    <provider.icon className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-white" />
                   </div>
-                  <span>{provider.name}</span>
+                  <span className="truncate">{provider.name}</span>
                 </h4>
-                <ol className="text-sm text-gray-600 dark:text-gray-400 space-y-3">
+                <ol className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 space-y-2 sm:space-y-3">
                   {provider.instructions.map((instruction, index) => (
-                    <li key={index} className="flex items-start space-x-3">
+                    <li
+                      key={index}
+                      className="flex items-start space-x-2 sm:space-x-3"
+                    >
                       <span
-                        className={`bg-gradient-to-r ${provider.gradient} text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold mt-0.5 flex-shrink-0`}
+                        className={`bg-gradient-to-r ${provider.gradient} text-white rounded-full w-5 h-5 sm:w-6 sm:h-6 flex items-center justify-center text-xs font-bold mt-0.5 flex-shrink-0`}
                       >
                         {index + 1}
                       </span>
