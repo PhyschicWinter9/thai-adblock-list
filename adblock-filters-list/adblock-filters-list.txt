@@ -418,3 +418,63 @@ animehdzerooo.com##[href^="https://jun880.cc/"]
 backup.mee-series.com##div.img-fluid-div.col-6
 backup.mee-series.com##[href="https://www.santeedriveintheatre.com/"]
 
+@@||*$xhr,domain=sharedwebs.com
+
+! Jan 12, 2026 https://ecommerceportal.dhl.com
+ecommerceportal.dhl.com##app-cookie-model
+
+! Feb 8, 2026 https://www.037hddmovie.com
+www.037hddmovie.com###ads-index
+www.037hddmovie.com###ads-sidebar
+www.037hddmovie.com###ads-popup
+www.037hddmovie.com###ads-single
+www.037hddmovie.com###ads-bottom-player
+www.037hddmovie.com###ads-sidebar-single-top
+www.037hddmovie.com###ads-sidebar-single-bottom
+
+! Feb 8, 2026 https://www.88-hd.com
+www.88-hd.com##[href="https://line.me/ti/p/@647tfkhg"]
+
+! Feb 8, 2026 https://www.esgameservers.com
+www.esgameservers.com##.elementor-location-footer.elementor-18.elementor
+
+! Feb 8, 2026 https://24tvhd.domovie247.com
+24tvhd.domovie247.com##.ad-overlay-click
+24tvhd.domovie247.com##.btn-ad-link.btn
+||m5-txt-2.xdomovie247.com/playlist2/detail/a4ba7e71s9PmN/720/hls/index.m3u8
+
+! Feb 8, 2026 https://www.animesusu.com
+||suba.biz/st1/pl-1.1/Ads_Video/Ufa11k.m4v$media
+
+! Feb 8, 2026 https://www.baan-series.org
+www.baan-series.org###before-player-ads
+
+! Feb 8, 2026 https://1112hdo.com
+1112hdo.com##.vipx--l-static.vipx--g-b.vipx-grid
+1112hdo.com##.vipx--l-fixed-left.vipx--g-d.vipx-grid
+1112hdo.com##.vipx--l-fixed-right.vipx--g-d.vipx-grid
+1112hdo.com##div.bg-\[var\(--color-background\)\].p-4.max-lg\:px-2.mx-auto.max-w-8xl:nth-of-type(1)
+1112hdo.com##.vipx--l-fixed-bottom.vipx--g-d.vipx-grid
+1112hdo.com##.vipx--l-absolute.vipx--g-e.vipx-grid
+
+! Feb 8, 2026 https://madaboutmoviez.com
+madaboutmoviez.com##.ads-above-single-player
+
+! Feb 8, 2026 https://player.enjoy24cdn.com
+||madaboutmoviez.com/wp-content/uploads/Promo.mp4$media
+
+! Feb 8, 2026 https://9nung.com
+9nung.com###contenedor > div > p
+
+! Feb 8, 2026 https://animehdzerooo.com
+animehdzerooo.com##.card-body > a[href^="https://pokbet.in/"]
+animehdzerooo.com##[href^="https://jun8889.com/"]
+
+! Feb 8, 2026 https://nanamovies.org
+nanamovies.org##.yan-sol.yan-rek
+nanamovies.org##[href="https://cutt.ly/Ufanice"]
+nanamovies.org##[href="https://Cutt.ly/Bcr888"]
+nanamovies.org##[href="https://www.ssgame350m.com/"]
+nanamovies.org##[href="https://www.ufa350m.com/"]
+nanamovies.org##[href="https://www.sagame350m.com/"]
+
