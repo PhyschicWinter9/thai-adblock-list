@@ -43,14 +43,15 @@
   },
   "homepage": "https://github.com/PhyschicWinter9/thai-adblock-list#readme",
   "dependencies": {
-    "date-and-time": "^4.3.1",
-    "npm-check-updates": "^19.6.5"
+    "date-and-time": "^4.4.0",
+    "npm-check-updates": "^22.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.1.0",
+    "@types/node": "^25.6.0",
+    "eslint": "^10.3.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.57.1"
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.1"
   }
 }
