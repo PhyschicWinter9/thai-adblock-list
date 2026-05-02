@@ -1,4 +1,5 @@
-import { ArrowRight, Github, RefreshCw, Sparkles, Users, Zap } from 'lucide-react';
+import { SiGithub } from '@icons-pack/react-simple-icons';
+import { ArrowRight, RefreshCw, Sparkles, Users, Zap } from 'lucide-react';
 import React from 'react';
 import { useI18n } from '../hooks/useI18n';
 
@@ -60,7 +61,7 @@ const Hero: React.FC = () => {
               rel="noopener noreferrer"
               className="group bg-gray-800 dark:bg-gray-700 text-white px-8 py-4 rounded-2xl font-semibold hover:bg-gray-900 dark:hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl dark:shadow-gray-700/25 flex items-center justify-center space-x-2"
             >
-              <Github className="h-5 w-5 group-hover:rotate-12 transition-transform duration-300" />
+              <SiGithub className="h-5 w-5 group-hover:rotate-12 transition-transform duration-300" />
               <span>{t('hero.viewGitHub')}</span>
             </a>
           </div>
