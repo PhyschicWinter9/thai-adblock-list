@@ -1,7 +1,7 @@
 [Adblock Plus 3.18]
-! Version: 1.3-27042026
+! Version: 1.3-19072026
 ! Title: Thai Adblock List for Adblock Plus
-! Last modified: 27-04-2026
+! Last modified: 19-07-2026
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
 ! Description: Comprehensive adblock list for Thai websites compatible with Adblock Plus
@@ -27,14 +27,13 @@
 ! Apr 25, 2026 https://movie2ufree.com
 ! Apr 25, 2026 https://movie44.com
 ! Apr 25, 2026 https://player.enjoy24cdn.com
-! Apr 25, 2026 https://www.037hddmovie.com
+! Apr 25, 2026 https://www.037hddmovies.com
 ! Apr 25, 2026 https://www.123-hds.com
 ! Apr 25, 2026 https://www.24-hds.com
 ! Apr 25, 2026 https://www.24hd.net
 ! Apr 25, 2026 https://www.anime-masterx.com
 ! Apr 25, 2026 https://www.anime-seven.com
 ! Apr 25, 2026 https://www.anime-zuzu.com
-! Apr 25, 2026 https://www.animesusu.com
 ! Apr 25, 2026 https://www.baan-series.org
 ! Apr 25, 2026 https://www.esgameservers.com
 ! Apr 25, 2026 https://www.leoplayer7.com
@@ -44,6 +43,7 @@
 ! Apr 25, 2026 https://www.oremanga.net
 ! Apr 25, 2026 https://www.serie-days.com
 ! Apr 25, 2026 https://www.stream1689.com
+! Apr 25, 2026 https://www.suba-anime.com
 ! Apr 25, 2026 https://www.v8-hdd.com
 ! Apr 25, 2026 https://www.xn--12c1b0bn3a2kk.com
 ! Apr 25, 2026 https://www.zerogameth.com
@@ -51,17 +51,27 @@
 ! Apr 27, 2026 https://abysscdn.com
 ! Apr 27, 2026 https://anime-hdzero.com
 ! Apr 27, 2026 https://anime-hit.com
-! Apr 27, 2026 https://animemeiji.com
+! Apr 27, 2026 https://anime57.com
 ! Apr 27, 2026 https://es6-features.org
 ! Apr 27, 2026 https://hit.team-indy.net
 ! Apr 27, 2026 https://meseries.co
 ! Apr 27, 2026 https://nanamovies.org
-! Apr 27, 2026 https://series-indy.com
+! Apr 27, 2026 https://seriesindy.com
 ! Apr 27, 2026 https://www.animewaku.com
 ! Apr 27, 2026 https://www.up-manga.com
 ! Apr 27, 2026 https://www.upgamepc.com
 ! Blocks the redirect and casino domains
 ! Generic - znid ad network overlay (cross-domain)
+! Jul 19, 2026 https://9.9nung.com
+! Jul 19, 2026 https://de88-hd.com
+! Jul 19, 2026 https://manga168x.com
+! Jul 19, 2026 https://player.enjoy24cdn.com
+! Jul 19, 2026 https://suba-anime.com
+! Jul 19, 2026 https://www.24hd.vip
+! Jul 19, 2026 https://www.baan-series.org
+! Jul 19, 2026 https://www.dooseries4k.com
+! Jul 19, 2026 https://www.loadgame-pc.com
+! Jul 19, 2026 https://www.niceoppai.net
 ! mawtoload.com - clickjack overlay (dontfoid / znid ad network)
 ||123wows.com^$media
 ||2499hd.com^$media
@@ -80,25 +90,38 @@
 ||income88.com^
 ||joker123zone.com^
 ||kpth168.com^
+||madaboutmoviez.com/wp-content/uploads/adspromo.mp4$media
 ||madaboutmoviez.com/wp-content/uploads/Promo.mp4$media
+||madaboutmoviez.com/wp-content/uploads/pt.mp4$media
+||madaboutmoviez.com/wp-content/uploads/uprettypart2.mp4$media
 ||n2j9y0x0.bxcdn.net^$media
 ||sbobetone.co^
 ||shorturl.asia^
+||suba-anime.com/Anime-Suba/Admin/imgAnadvertisement/img05/*.gif$image
+||suba-anime.com/Anime-Suba/Admin/imgAnadvertisement/img06/*.gif$image
 ||upfastfile88.com^$media
 ||www.24hd.net/wp-content/uploads/2025/06/*.gif$image
 ||www.24hd.net/wp-content/uploads/2025/06/W200-x-H270.jp*$image
 ||www.24hd.net/wp-content/uploads/2025/06/W200-X-H580*$image
 ||www.24hd.net/wp-content/uploads/2025/06/W772-x-H200*$image
+||www.24hd.vip/wp-content/uploads/2025/06/727200*.jpg.webp$image
 koyso.com^$popup
-1112hdm.com##.vipx--l-static.vipx--g-a.vipx-grid
-1112hdm.com##.vipx-item--floating.vipx-item
-1112hdm.com##.vipx-link
+1112hdss.com##.vipx--l-static.vipx--g-a.vipx-grid
+1112hdss.com##.vipx-item--floating.vipx-item
+1112hdss.com##.vipx-link
+24hd.vip##.after-player.grid-banner-item
+24hd.vip##.before-player.grid-banner-item
+24hd.vip##.side-left.grid-banner-item
+24hd.vip##.side-right.grid-banner-item
 2umax.com##.after-player.grid-banner-item
 2umax.com##.before-player.grid-banner-item
 2umax.com##.side-left.grid-banner-item
 2umax.com##.side-right.grid-banner-item
-9nung.com##.adsnon-zone
-9nung.com##div.p1lop8hd969xh:nth-of-type(5)
+9.9nung.com.com##.adsnon-zone
+9.9nung.com.com##div.p1lop8hd969xh:nth-of-type(5)
+9.9nung.com##.nx-col-main > .adsnon-zone
+9.9nung.com##.nx-story-text > aside.adsnon-zone
+9.9nung.com###contenedor > .adsnon-zone
 abysscdn.com###overlay
 anime-hdzero.com##.ads-banner
 anime-hdzero.com##.floating-ads
@@ -109,9 +132,14 @@ anime-hit.com##.vertical-cente.ez-border.ez-container.content-area
 anime-hit.com##.widget_facebook_likebox.bg-gradiant-re.card.widget
 anime-hit.com###randBads
 anime-hit.com##div.watch-bnn:nth-of-type(3)
-animemeiji.com##.m-0.row
-animemeiji.com##.text-center.watch-bnn
-animemeiji.com##div.container:nth-of-type(2)
+anime57.com##.m-0.row
+anime57.com##.text-center.watch-bnn
+anime57.com##div.container:nth-of-type(2)
+de88-hd.com###banner_popup
+de88-hd.com###ui-xfooter
+de88-hd.com##div.de88-panel:nth-of-type(1)
+de88-hd.com##div.de88-panel:nth-of-type(2)
+de88-hd.com##div.de88-panel:nth-of-type(3)
 dooseries2uhd.com##.ad-left
 dooseries2uhd.com##.ad-right
 dooseries2uhd.com##.banner-top
@@ -122,6 +150,8 @@ koyso.com##.notranslate > iframe
 koyso.com##html > div
 kurokamii.com##.sm\:gap-3.gap-2.grid-cols-2.grid
 madaboutmoviez.com##.elementor-element-e10852b.elementor-element.elementor-top-column.elementor-col-100.elementor-column > .elementor-element-populated.elementor-widget-wrap
+manga168x.com##.md\:py-4.py-3.px-4.mx-auto.container
+manga168x.com##.md\:py-6.py-4.gap-4.justify-center.flex-wrap.flex
 meseries.co##.fb_iframe_widget.fb-page
 meseries.co##.notice
 meseries.co##div.sidebar:nth-of-type(3)
@@ -143,29 +173,53 @@ nanamovies.org##[href="https://df-play.com/gjdvws"]
 nanamovies.org##[href="https://discord.gg/XG6D82APUJ"]
 nanamovies.org##[href="https://record.income88.com/_U5U-RXZ9Q6stlCf1B-F0h2Nd7ZgqdRLk/1/"]
 nanamovies.org##a[rel="sponsored nofollow"]
-series-indy.com##.img-responsive
-series-indy.com##.kosana.sdtrue
-www.037hddmovie.com###ads-bottom-player
-www.037hddmovie.com###ads-index
-www.037hddmovie.com###ads-popup
-www.037hddmovie.com###ads-sidebar
-www.037hddmovie.com###ads-sidebar-single-bottom
-www.037hddmovie.com###ads-sidebar-single-top
-www.037hddmovie.com###ads-single
-www.123-hds.com##.wrap-content.clearfix > .clearfix.htmlwrap
-www.123-hds.com###banner_plow
-www.123-hds.com###banner_pmid
-www.123-hds.com###banner_top
-www.24-hds.com##.ad
-www.24-hds.com##.adb
-www.24-hds.com##.adl
-www.24-hds.com##.adlf > .adhl
-www.24-hds.com##.mcommanr
-www.24-hds.com##.right-menu > .adhl
+seriesindy.com##.img-responsive
+seriesindy.com##.kosana.sdtrue
+suba-anime.com##.figure02
+suba-anime.com##.white_content2
+suba-anime.com##.white_content3
+suba-anime.com###overlay-3
+www.037hddmovies.com###ads-bottom-player
+www.037hddmovies.com###ads-index
+www.037hddmovies.com###ads-popup
+www.037hddmovies.com###ads-sidebar
+www.037hddmovies.com###ads-sidebar-single-bottom
+www.037hddmovies.com###ads-sidebar-single-top
+www.037hddmovies.com###ads-single
+www.123-hdx.com##.wrap-content.clearfix > .clearfix.htmlwrap
+www.123-hdx.com###banner_plow
+www.123-hdx.com###banner_pmid
+www.123-hdx.com###banner_top
+www.24-hdx.com##.ad
+www.24-hdx.com##.adb
+www.24-hdx.com##.adl
+www.24-hdx.com##.adlf > .adhl
+www.24-hdx.com##.mcommanr
+www.24-hdx.com##.right-menu > .adhl
 www.24hd.net##.e-child.e-con.e-flex.e-con-full.elementor-element-ba0eb35.elementor-element
 www.24hd.net##.elementor-widget-image.elementor-widget.elementor-element-21c1940.elementor-element > .elementor-widget-container > [href]
 www.24hd.net##.elementor-widget-image.elementor-widget.elementor-element-905ff1d.elementor-element > .elementor-widget-container > [href]
 www.24hd.net##.elementor-widget-image.elementor-widget.elementor-element-981eb22.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-0a3c3ef.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-1cecad4.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-21c1940.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-359533c.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-4d77d0b.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-981eb22.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-98507fc.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-c361175.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-d9c24ec.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-dfaa5bc.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-f51255d.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-element-ff72d53.elementor-element > .elementor-widget-container > [href]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-hidden-mobile.elementor-element-2a87bd5.elementor-element > .elementor-widget-container > [href="https://login1.sbo999.me/register"]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-hidden-mobile.elementor-element-3105536.elementor-element > .elementor-widget-container > [href="https://login1.sbo999.me/register"]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-hidden-mobile.elementor-element-49b60c4.elementor-element > .elementor-widget-container > [href="https://login1.sbo999.me/register"]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-hidden-mobile.elementor-element-6bcce7f.elementor-element > .elementor-widget-container > [href="https://login1.sbo999.me/register"]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-hidden-mobile.elementor-element-9f6c405.elementor-element > .elementor-widget-container > [href="https://login1.sbo999.me/register"]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-hidden-mobile.elementor-element-cbf820e.elementor-element > .elementor-widget-container > [href="https://login1.sbo999.me/register"]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-hidden-mobile.elementor-element-d1f6d38.elementor-element > .elementor-widget-container > [href="https://login1.sbo999.me/register"]
+www.24hd.vip##.elementor-widget-image.elementor-widget.elementor-hidden-mobile.elementor-element-ef45380.elementor-element > .elementor-widget-container > [href="https://login1.sbo999.me/register"]
 www.anime-masterx.com##.col-md-12 > center > p
 www.anime-masterx.com##div#slider-b.banner-close > p
 www.anime-masterx.com##p.center_lnwphp:nth-of-type(2)
@@ -179,8 +233,6 @@ www.anime-zuzu.com##.img01 > [href="https://t.ly/SUBA1"]
 www.anime-zuzu.com##.img03
 www.anime-zuzu.com##[href^="https://www.huc66.loan/signUp"]
 www.anime-zuzu.com###light
-www.animesusu.com##.figure02
-www.animesusu.com###light
 www.animewaku.com##.code-block-1.code-block
 www.animewaku.com##.code-block-2.code-block
 www.animewaku.com##.code-block-4.code-block
@@ -188,9 +240,13 @@ www.animewaku.com##[href="https://ibit.ly/lotto432"] > .animekimi-banner
 www.baan-series.org##.tt_bfxb
 www.baan-series.org###ads728x90top
 www.baan-series.org###after-player-ads
+www.baan-series.org###before-player-ads > center > .custom-html-widget.textwidget
+www.dooseries4k.com##.banner-movie
+www.dooseries4k.com##.img-responsive.ad-left
 www.esgameservers.com##.elementor-location-footer.elementor-18.elementor
 www.esgameservers.com##.elementor-section-height-default.elementor-section-boxed.elementor-element-4129fada.elementor-element.elementor-top-section.elementor-section
 www.esgameservers.com##.elementor-widget-image.elementor-widget.elementor-element-eed4639.elementor-element > .elementor-widget-container
+www.loadgame-pc.com##[href^="https://spx168-th.me/register"]
 www.loadgame-pc.com###chat-box
 www.loadgame-pc.com###HTML12
 www.loadgame-pc.com##div:nth-of-type(19)
@@ -198,19 +254,22 @@ www.niceoppai.net##.mng_rdr.wpm_pag > .fb-comment-box
 www.niceoppai.net##.mng_rdr.wpm_pag > center
 www.niceoppai.net##.textwidget > center
 www.niceoppai.net##.widget_text.top_page
+www.niceoppai.net###stage > center
 www.niceoppai.net###text-6
 www.nung2-hdd.com##.rIdV-mid
 www.nung2-hdd.com##.rIdV-mid-end
 www.nung2-hdd.com##.rIdV-top-end
 www.nung2-hdd.com##.yazitip
 www.oremanga.net##.header-ads-section
-www.serie-days.com##.ad
-www.serie-days.com##.adl
-www.serie-days.com##.adlf > .adhl
-www.serie-days.com##.content-col2 > .adcen
-www.serie-days.com##.right-menu > .adhl
-www.serie-days.com##div.adt:nth-of-type(2)
+www.seriedays.com##.ad
+www.seriedays.com##.adl
+www.seriedays.com##.adlf > .adhl
+www.seriedays.com##.content-col2 > .adcen
+www.seriedays.com##.right-menu > .adhl
+www.seriedays.com##div.adt:nth-of-type(2)
 www.stream1689.com###adPopup
+www.suba-anime.com##.figure02
+www.suba-anime.com###light
 www.up-manga.com##.center_upmangasolo
 www.up-manga.com###sticky-bottom
 www.up-manga.com###sticky-bottom2
@@ -227,12 +286,12 @@ www.upgamepc.com##.widget-content .adsbygoogle
 www.upgamepc.com###google-anno-sa
 www.upgamepc.com###HTML68 > .widget-content > div
 www.upgamepc.com##ins.adsbygoogle-noablate.adsbygoogle:nth-of-type(2)
-www.v8-hdd.com##.ad-bottom
-www.v8-hdd.com##.ad-left.ad-side
-www.v8-hdd.com##.ad-right.ad-side
-www.v8-hdd.com##div.clearfix.page_margin_top.page_layout > .row
-www.v8-hdd.com##div.page_margin_top.row-kodsana:nth-of-type(1)
-www.v8-hdd.com##div.page_margin_top.row-kodsana:nth-of-type(2)
+www.v8hdmovie.com##.ad-bottom
+www.v8hdmovie.com##.ad-left.ad-side
+www.v8hdmovie.com##.ad-right.ad-side
+www.v8hdmovie.com##div.clearfix.page_margin_top.page_layout > .row
+www.v8hdmovie.com##div.page_margin_top.row-kodsana:nth-of-type(1)
+www.v8hdmovie.com##div.page_margin_top.row-kodsana:nth-of-type(2)
 www.xn--12c1b0bn3a2kk.com##.modal-content
 www.xn--12c1b0bn3a2kk.com###myModal
 www.xn--12c1b0bn3a2kk.com##center > .adsbygoogle

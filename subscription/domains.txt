@@ -1,25 +1,28 @@
 [Domain List]
-! Created: 27-04-2026
+! Created: 19-07-2026
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
-! Total domains: 58
+! Total domains: 65
 !
 ! This list contains the unique domains from the adblock rules.
 !
 !
-1112hdm.com
+1112hdss.com
 123wows.com
 2499hd.com
+24hd.vip
 2umax.com
-9nung.com
+9.9nung.com
+9.9nung.com.com
 abysscdn.com
 anime-hdzero.com
 anime-hit.com
-animemeiji.com
+anime57.com
 bbaann.com
 cdend.com
 cdn.nanamovies.org
 customer-du9ot36buolllm9o.cloudflarestream.com
 cutt.ly
+de88-hd.com
 df-play.com
 dooseries2uhd.com
 es6-features.org
@@ -32,6 +35,7 @@ koyso.com
 kpth168.com
 kurokamii.com
 madaboutmoviez.com
+manga168x.com
 mawtoload.com
 meseries.co
 movie2ufree.com
@@ -39,28 +43,31 @@ movie44.com
 n2j9y0x0.bxcdn.net
 nanamovies.org
 sbobetone.co
-series-indy.com
+seriesindy.com
 shorturl.asia
+suba-anime.com
 upfastfile88.com
-www.037hddmovie.com
-www.123-hds.com
-www.24-hds.com
+www.037hddmovies.com
+www.123-hdx.com
+www.24-hdx.com
 www.24hd.net
+www.24hd.vip
 www.anime-masterx.com
 www.anime-seven.com
 www.anime-zuzu.com
-www.animesusu.com
 www.animewaku.com
 www.baan-series.org
+www.dooseries4k.com
 www.esgameservers.com
 www.loadgame-pc.com
 www.niceoppai.net
 www.nung2-hdd.com
 www.oremanga.net
-www.serie-days.com
+www.seriedays.com
 www.stream1689.com
+www.suba-anime.com
 www.up-manga.com
 www.upgamepc.com
-www.v8-hdd.com
+www.v8hdmovie.com
 www.xn--12c1b0bn3a2kk.com
 www.zerogameth.com
