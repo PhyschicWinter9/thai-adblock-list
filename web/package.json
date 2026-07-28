@@ -14,28 +14,28 @@
   },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^13.13.0",
-    "@tailwindcss/vite": "^4.2.4",
-    "i18next": "^26.0.8",
-    "lucide-react": "^1.14.0",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "react-i18next": "^17.0.6",
-    "simple-icons": "^16.18.0",
-    "tailwindcss": "^4.2.4"
+    "@tailwindcss/vite": "^4.3.3",
+    "i18next": "^26.3.6",
+    "lucide-react": "^1.27.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-i18next": "^17.0.11",
+    "simple-icons": "^16.27.1",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@types/node": "^25.6.0",
-    "@types/react": "^19.2.14",
+    "@types/node": "^26.1.2",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react-swc": "^4.3.0",
-    "eslint": "^10.3.0",
+    "@vitejs/plugin-react-swc": "^4.3.2",
+    "eslint": "^10.8.0",
     "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
+    "eslint-plugin-react-refresh": "^0.5.3",
     "gh-pages": "^6.3.0",
-    "globals": "^17.6.0",
+    "globals": "^17.8.0",
     "typescript": "~6.0.3",
-    "typescript-eslint": "^8.59.1",
-    "vite": "^8.0.10"
+    "typescript-eslint": "^8.65.0",
+    "vite": "^8.1.5"
   }
 }
