@@ -1,11 +1,12 @@
 [Domain List]
-! Created: 19-07-2026
+! Created: 04-10-2026
 ! Homepage: https://github.com/PhyschicWinter9/thai-adblock-list
-! Total domains: 65
+! Total domains: 73
 !
 ! This list contains the unique domains from the adblock rules.
 !
 !
+1112hdc.com
 1112hdss.com
 123wows.com
 2499hd.com
@@ -14,20 +15,23 @@
 9.9nung.com
 9.9nung.com.com
 abysscdn.com
-anime-hdzero.com
+ahdzero.com
 anime-hit.com
+anime-waku.com
 anime57.com
+animemaji.com
 bbaann.com
 cdend.com
-cdn.nanamovies.org
 customer-du9ot36buolllm9o.cloudflarestream.com
 cutt.ly
 de88-hd.com
 df-play.com
 dooseries2uhd.com
 es6-features.org
+esgameservers.com
 googles.video
 googleusercontent.com
+hit-anime.com
 hit.team-indy.net
 income88.com
 joker123zone.com
@@ -41,21 +45,24 @@ meseries.co
 movie2ufree.com
 movie44.com
 n2j9y0x0.bxcdn.net
-nanamovies.org
+nanamovies.co
+playlist.streamhls1688.com
 sbobetone.co
 seriesindy.com
 shorturl.asia
 suba-anime.com
+sv1.cdnbm168.xyz
 upfastfile88.com
-www.037hddmovies.com
-www.123-hdx.com
-www.24-hdx.com
-www.24hd.net
+www.037hd-movie.com
+www.037hd-movie.com.com
+www.123-hda.com
+www.24-hda.com
+www.24hd.media
+www.24hd.mediat
 www.24hd.vip
 www.anime-masterx.com
 www.anime-seven.com
 www.anime-zuzu.com
-www.animewaku.com
 www.baan-series.org
 www.dooseries4k.com
 www.esgameservers.com
@@ -64,10 +71,11 @@ www.niceoppai.net
 www.nung2-hdd.com
 www.oremanga.net
 www.seriedays.com
+www.seriedayz.com
 www.stream1689.com
 www.suba-anime.com
 www.up-manga.com
 www.upgamepc.com
-www.v8hdmovie.com
+www.v8-hdmovie.com
 www.xn--12c1b0bn3a2kk.com
 www.zerogameth.com
