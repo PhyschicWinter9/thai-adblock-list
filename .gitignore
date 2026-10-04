@@ -72,3 +72,8 @@ eslint.config.*.js.map
 # Test files
 test/test-rules.txt
 test/output/
+
+# Agent Skills
+
+web/skills-lock.json
+web/design-system
